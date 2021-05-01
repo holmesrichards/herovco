@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ao_symbols)(type Legacy)(uri ${KIPRJMOD}/ao_symbols.lib)(options "")(descr ""))
+  (lib (name 3340vco)(type Legacy)(uri "/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/3340 VCO/Hardware/PCB/3340vco/3340vco.lib")(options "")(descr ""))
+)

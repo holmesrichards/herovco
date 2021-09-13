@@ -14,7 +14,7 @@ Comment3 "Based mainly on Kassutronics VCO 3340"
 Comment4 ""
 $EndDescr
 $Comp
-L 3340vco:AS3340 U2
+L ao_symbols:AS3340 U2
 U 1 1 5F150DCD
 P 3100 1700
 F 0 "U2" H 3100 2315 50  0000 C CNN

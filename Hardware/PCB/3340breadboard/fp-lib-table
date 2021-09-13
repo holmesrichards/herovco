@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name ao_tht)(type KiCad)(uri ${KIPRJMOD}/ao_tht.pretty)(options "")(descr ""))
-)

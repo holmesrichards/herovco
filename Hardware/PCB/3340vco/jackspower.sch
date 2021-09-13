@@ -848,7 +848,7 @@ Text GLabel 2250 7150 2    50   Output ~ 0
 Wire Wire Line
 	2250 7150 1900 7150
 $Comp
-L 3340vco:Synth_power_2x5 J4
+L ao_symbols:Synth_power_2x5 J4
 U 1 1 5F682BB2
 P 2725 5500
 F 0 "J4" H 2725 5947 60  0000 C CNN

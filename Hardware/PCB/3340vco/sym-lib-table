@@ -1,4 +1,2 @@
 (sym_lib_table
-  (lib (name 3340vco)(type Legacy)(uri ${KIPRJMOD}/3340vco.lib)(options "")(descr ""))
-  (lib (name ao_symbols)(type Legacy)(uri ${KIPRJMOD}/ao_symbols.lib)(options "")(descr ""))
 )

@@ -184,7 +184,7 @@ $EndComp
 Wire Wire Line
 	9050 3200 9100 3200
 Wire Wire Line
-	9100 3200 9100 3650
+	9100 3200 9100 3550
 Wire Wire Line
 	9100 4000 8900 4000
 Wire Wire Line
@@ -773,23 +773,113 @@ Wire Wire Line
 	3950 2100 3950 2250
 Wire Wire Line
 	3950 2250 4300 2250
-Text Notes 2350 3050 0    50   ~ 0
-A question to ask is, is it worth providing \nsin output? Or should that be left to \nexternal tri-sin modules as needed?\nSin is definitely good for FM, ring mod,\nwavefolding...
 $Comp
 L Amplifier_Operational:TL074 U?
 U 5 1 60B407D1
-P 2150 3750
+P 2900 3800
 AR Path="/5F447D4B/60B407D1" Ref="U?"  Part="5" 
 AR Path="/62F85310/60B407D1" Ref="U6"  Part="5" 
-F 0 "U6" H 2108 3796 50  0000 L CNN
-F 1 "TL074" H 2108 3705 50  0000 L CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 2100 3850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2200 3950 50  0001 C CNN
-	5    2150 3750
+F 0 "U6" H 2858 3846 50  0000 L CNN
+F 1 "TL074" H 2858 3755 50  0000 L CNN
+F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 2850 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2950 4000 50  0001 C CNN
+	5    2900 3800
 	1    0    0    -1  
 $EndComp
-Text GLabel 9350 5000 2    50   Output ~ 0
-PULSE_LINK
+$Comp
+L ao_symbols:C C?
+U 1 1 61606306
+P 3200 3650
+AR Path="/61606306" Ref="C?"  Part="1" 
+AR Path="/62F85310/61606306" Ref="C16"  Part="1" 
+F 0 "C16" H 3315 3696 50  0000 L CNN
+F 1 "100nF" H 3315 3605 50  0000 L CNN
+F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3238 3500 50  0001 C CNN
+F 3 "" H 3200 3650 50  0001 C CNN
+F 4 "Tayda" H 3200 3650 50  0001 C CNN "Vendor"
+	1    3200 3650
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	9350 5000 9100 5000
+	2800 3500 3200 3500
+Wire Wire Line
+	2800 4100 3200 4100
+$Comp
+L power:+12V #PWR?
+U 1 1 6160630E
+P 2800 3500
+AR Path="/6160630E" Ref="#PWR?"  Part="1" 
+AR Path="/62F85310/6160630E" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 2800 3350 50  0001 C CNN
+F 1 "+12V" H 2815 3673 50  0000 C CNN
+F 2 "" H 2800 3500 50  0001 C CNN
+F 3 "" H 2800 3500 50  0001 C CNN
+	1    2800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 61606315
+P 2800 4100
+AR Path="/61606315" Ref="#PWR?"  Part="1" 
+AR Path="/62F85310/61606315" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 2800 4200 50  0001 C CNN
+F 1 "-12V" H 2815 4273 50  0000 C CNN
+F 2 "" H 2800 4100 50  0001 C CNN
+F 3 "" H 2800 4100 50  0001 C CNN
+	1    2800 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L ao_symbols:C C?
+U 1 1 6160631D
+P 3200 3950
+AR Path="/6160631D" Ref="C?"  Part="1" 
+AR Path="/62F85310/6160631D" Ref="C17"  Part="1" 
+F 0 "C17" H 3315 3996 50  0000 L CNN
+F 1 "100nF" H 3315 3905 50  0000 L CNN
+F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3238 3800 50  0001 C CNN
+F 3 "" H 3200 3950 50  0001 C CNN
+F 4 "Tayda" H 3200 3950 50  0001 C CNN "Vendor"
+	1    3200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61606323
+P 3650 3800
+AR Path="/61606323" Ref="#PWR?"  Part="1" 
+AR Path="/62F85310/61606323" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 3650 3550 50  0001 C CNN
+F 1 "GND" H 3655 3627 50  0000 C CNN
+F 2 "" H 3650 3800 50  0001 C CNN
+F 3 "" H 3650 3800 50  0001 C CNN
+	1    3650 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3800 3200 3800
+Connection ~ 3200 3800
+Connection ~ 2800 4100
+Connection ~ 2800 3500
+Text GLabel 9600 3550 2    50   Output ~ 0
+LINK_OUT_SAW
+$Comp
+L Device:R R58
+U 1 1 617A509E
+P 9350 3550
+F 0 "R58" V 9143 3550 50  0000 C CNN
+F 1 "1k" V 9234 3550 50  0000 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9280 3550 50  0001 C CNN
+F 3 "~" H 9350 3550 50  0001 C CNN
+	1    9350 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 3550 9500 3550
+Wire Wire Line
+	9200 3550 9100 3550
+Connection ~ 9100 3550
+Wire Wire Line
+	9100 3550 9100 3650
 $EndSCHEMATC

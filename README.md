@@ -2,9 +2,11 @@
 
 **Untested hardware and software — Do not assume anything works!**
 
-For the most part this draws on two other designs. Mainly it's taken from the [Kassutronics VCO 3340](https://kassu2000.blogspot.com/2018/06/vco-3340.html) , which among other nice features has gain stages to give uniform output amplitudes for the various wave shapes, and has a tri to sin shaper for a sin wave output.
+For the most part this draws on two other designs. Mainly it's taken from the [Kassutronics VCO 3340](https://kassu2000.blogspot.com/2018/06/vco-3340.html), which among other nice features has gain stages to give uniform output amplitudes for the various wave shapes, and has a tri to sin shaper for a sin wave output.
 
 However the inputs and controls are based more or less on the [LMNC 1222](https://www.lookmumnocomputer.com/1222-performance-vco). The octave switch is expanded to 9 positions. (11 positions is tempting but tuning may require intentionally setting the reference voltage to a slightly different value, and using a trimmer to voltage divide a 10 V reference down to ~8 V seemed easiest.) The pulse wave knob range is expanded.
+
+The design specifies and assumes the AS3340A, an improvement to the AS3340.
 
 ## Modifications from Kassutronics:
 
@@ -19,14 +21,14 @@ Some things need to be checked out on a breadboard:
 
 * The CEM3340 datasheet specifies a 10k resistor from pin 4 to ground; for the AS3340, 51k is specified. The Kassutronics design has a 280k path to ground! I don't know why this resistance was increased or what its effect is. This is a pull down resistor that determines the lower voltage level of the pulse shape. It seems unlikely a higher value than spec would pose a problem.
 
-* There are several reported problems with the 3340 pulse wave: The frequency/PWM correlation mentioned above, oscillations on falling edge, and bad pulse shape at high frequency. To address the first of these:
+* There are several reported problems with the 3340 pulse wave: The frequency/PWM correlation mentioned above, oscillations on falling edge, and bad pulse shape at high frequency. The AS3340A may fix some or all of these. See if so, and if not, see if they can be remedied. To address the first of these:
 
     * Trumac22 [recommends](https://lookmumnocomputer.discourse.group/t/as3340-vco-w-hard-soft-sync-fm-modulation/249/30) 
 
         * 100nf ceramic cap from pin 4 to ground
         * 100nf cap from pin 14 to ground - don’t ask me why.
     
-    * From Kassutronics, the -5 V regulator connected to pin 3 instead of using the internal Zener has been suggested as helpful in controlling the frequency/PWM problem.
+    * From Kassutronics, the -5 V regulator connected to pin 3 instead of using the internal Zener has been suggested as helpful in controlling the frequency/PWM problem. Even if the AS3340A does not have such a problem, it is recommended in the datasheet: "To minimize self-heating and improve thermo-stability it is recommended to keep VEE = -5V (external power supply)."
 
     * Alfa has a [recommended fix](http://www.alfarzpp.lv/eng/sc/AS3340%20tip%20VCO%20_%20PWM%20.pdf). 
 

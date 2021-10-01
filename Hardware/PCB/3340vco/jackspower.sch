@@ -8,9 +8,9 @@ Title "3340 VCO"
 Date "2020-07-19"
 Rev ""
 Comp "Rich Holmes / Analog Output"
-Comment1 "PW handling from T. Henry VCO Maximus"
-Comment2 "CVs and voltage reference based on LMNC 1222"
-Comment3 "Based mainly on Kassutronics VCO 3340"
+Comment1 "CVs and voltage reference based on LMNC 1222"
+Comment2 "Based mainly on Kassutronics VCO 3340"
+Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp

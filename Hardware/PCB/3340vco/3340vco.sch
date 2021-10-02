@@ -1490,8 +1490,6 @@ Wire Wire Line
 	8900 4800 9050 4800
 Wire Wire Line
 	9500 5200 9500 5250
-Wire Wire Line
-	9650 5050 9700 5050
 $Comp
 L Diode:1N47xxA D?
 U 1 1 616604B5
@@ -1597,7 +1595,7 @@ Wire Wire Line
 	9350 4450 9500 4450
 Connection ~ 9500 4800
 Text Notes 5750 6600 0    50   ~ 0
-For VCC=12V, PWM_IN value for 100% PW is typically 4.0 V, maximum 4.3 V.\nWith PWMIN=0, PULSE_WIDTH ±12 V becomes ∓5 V at op amp output.\nWith PULSE_WIDTH=0, PWM_IN ±5 V becomes ∓5 V at op amp output.\nEither way LINK_OUT_PW becomes ±5 V.\nWith trimmer set for 18k, PWM_IN becomes 4 to 0 V. \nAdjust trimmer to get correct upper limit.\nZener clamps to 4.7 to 0 V.
+For VCC=12V, PWM_IN value for 100% PW is typically 4.0 V, maximum 4.3 V.\nWith PWMIN=0, PULSE_WIDTH ±12 V becomes ∓5 V at op amp output.\nWith PULSE_WIDTH=0, PWM_IN ±5 V becomes ∓5 V at op amp output.\nEither way LINK_OUT_PW becomes ±5 V.\nAt top of trimmer V is 5.5 to 0 V. Adjust trimmer to get correct upper limit.\nZener clamps to 4.7 to 0 V.
 Wire Wire Line
 	8850 6250 9050 6250
 Wire Wire Line
@@ -1627,10 +1625,5 @@ $EndComp
 Text Notes 2350 2500 0    50   ~ 0
 AS3340A shows no sign of PWM\nfrequency shift the AS3340 is known\nfor, so that is what is specified.
 Wire Wire Line
-	9700 5050 9700 4800
-Wire Wire Line
-	9700 4800 9500 4800
-Connection ~ 9700 5050
-Wire Wire Line
-	9700 5050 9850 5050
+	9650 5050 9850 5050
 $EndSCHEMATC

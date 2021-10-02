@@ -409,7 +409,7 @@ Wire Notes Line
 Text Notes 4625 1350 2    100  ~ 0
 Jacks board components
 $Comp
-L Device:CP C?
+L ao_symbols:CP C?
 U 1 1 5F5271A5
 P 5375 5350
 AR Path="/5F447D4B/5F523F39/5F5271A5" Ref="C?"  Part="1" 
@@ -418,11 +418,12 @@ F 0 "C11" H 5493 5396 50  0000 L CNN
 F 1 "10uF" H 5493 5305 50  0000 L CNN
 F 2 "ao_tht:CP_Radial_D5.0mm_P2.00mm" H 5413 5200 50  0001 C CNN
 F 3 "~" H 5375 5350 50  0001 C CNN
+F 4 "Tayda" H 5375 5350 50  0001 C CNN "Vendor"
 	1    5375 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L ao_symbols:CP C?
 U 1 1 5F5271AB
 P 5375 5650
 AR Path="/5F447D4B/5F523F39/5F5271AB" Ref="C?"  Part="1" 
@@ -431,6 +432,7 @@ F 0 "C12" H 5493 5696 50  0000 L CNN
 F 1 "10uF" H 5493 5605 50  0000 L CNN
 F 2 "ao_tht:CP_Radial_D5.0mm_P2.00mm" H 5413 5500 50  0001 C CNN
 F 3 "~" H 5375 5650 50  0001 C CNN
+F 4 "Tayda" H 5375 5650 50  0001 C CNN "Vendor"
 	1    5375 5650
 	1    0    0    -1  
 $EndComp
@@ -631,7 +633,7 @@ F 3 "" H 5675 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D?
+L ao_symbols:1N4148 D?
 U 1 1 5F57D5FF
 P 5300 6600
 AR Path="/5F57D5FF" Ref="D?"  Part="1" 
@@ -640,6 +642,8 @@ F 0 "D3" V 5346 6680 50  0000 L CNN
 F 1 "1N4148" V 5255 6680 50  0000 L CNN
 F 2 "ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal" H 5300 6425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5300 6600 50  0001 C CNN
+F 4 "A-157" H 5300 6600 50  0001 C CNN "SKU"
+F 5 "Tayda" H 5300 6600 50  0001 C CNN "Vendor"
 	1    5300 6600
 	-1   0    0    -1  
 $EndComp
@@ -656,7 +660,7 @@ Wire Wire Line
 	5675 7050 5600 7050
 Connection ~ 5675 6600
 $Comp
-L Device:CP C?
+L ao_symbols:CP C?
 U 1 1 5F582748
 P 5675 7200
 AR Path="/5F447D4B/5F523F39/5F582748" Ref="C?"  Part="1" 
@@ -665,6 +669,7 @@ F 0 "C13" H 5793 7246 50  0000 L CNN
 F 1 "1uF" H 5793 7155 50  0000 L CNN
 F 2 "ao_tht:CP_Radial_D5.0mm_P2.00mm" H 5713 7050 50  0001 C CNN
 F 3 "~" H 5675 7200 50  0001 C CNN
+F 4 "Tayda" H 5675 7200 50  0001 C CNN "Vendor"
 	1    5675 7200
 	1    0    0    1   
 $EndComp
@@ -672,17 +677,6 @@ Connection ~ 5675 7050
 Wire Wire Line
 	5675 7350 5300 7350
 Connection ~ 5300 7350
-$Comp
-L Reference_Voltage:LM4040LP-8.2 U4
-U 1 1 5F60BEE7
-P 1150 6700
-F 0 "U4" V 1196 6612 50  0000 R CNN
-F 1 "LM4040AIZ-8.2" V 1105 6612 50  0000 R CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1150 6500 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf" H 1150 6700 50  0001 C CIN
-	1    1150 6700
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5675 6600 5675 7050
 $Comp
@@ -1057,4 +1051,15 @@ Wire Wire Line
 	9650 2600 9600 2600
 Text GLabel 1950 1850 3    50   Input ~ 0
 CV_IN2_J
+$Comp
+L Reference_Voltage:LM4040LP-8.2 U4
+U 1 1 5F60BEE7
+P 1150 6700
+F 0 "U4" V 1196 6612 50  0000 R CNN
+F 1 "LM4040DIZ-10" V 1105 6612 50  0000 R CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1150 6500 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf" H 1150 6700 50  0001 C CIN
+	1    1150 6700
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

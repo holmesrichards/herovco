@@ -160,13 +160,14 @@ F 3 "~" H 7350 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C16
+L ao_symbols:C C16
 U 1 1 62FC8318
 P 8750 3650
 F 0 "C16" V 8498 3650 50  0000 C CNN
 F 1 "180pF" V 8589 3650 50  0000 C CNN
 F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8788 3500 50  0001 C CNN
 F 3 "~" H 8750 3650 50  0001 C CNN
+F 4 "Tayda" H 8750 3650 50  0001 C CNN "Vendor"
 	1    8750 3650
 	0    1    1    0   
 $EndComp
@@ -357,13 +358,14 @@ Wire Wire Line
 Wire Wire Line
 	7100 4450 7200 4450
 $Comp
-L Device:C C17
+L ao_symbols:C C17
 U 1 1 62FC8383
 P 8750 5000
 F 0 "C17" V 8498 5000 50  0000 C CNN
 F 1 "180pF" V 8589 5000 50  0000 C CNN
 F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8788 4850 50  0001 C CNN
 F 3 "~" H 8750 5000 50  0001 C CNN
+F 4 "Tayda" H 8750 5000 50  0001 C CNN "Vendor"
 	1    8750 5000
 	0    1    1    0   
 $EndComp

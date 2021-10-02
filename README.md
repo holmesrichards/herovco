@@ -1,8 +1,8 @@
-# 3340 VCO
+# Hero VCO
 
 **Untested hardware and software — Do not assume anything works!**
 
-For the most part this draws on two other designs. Mainly it's taken from the [Kassutronics VCO 3340](https://kassu2000.blogspot.com/2018/06/vco-3340.html), which among other nice features has gain stages to give uniform output amplitudes for the various wave shapes, and has a tri to sin shaper for a sin wave output.
+This is a 3340 based VCO. For the most part it draws on two other designs. Mainly it's taken from the [Kassutronics VCO 3340](https://kassu2000.blogspot.com/2018/06/vco-3340.html), which among other nice features has gain stages to give uniform output amplitudes for the various wave shapes, and a tri to sin shaper for a sin wave output.
 
 However the inputs and controls are based more or less on the [LMNC 1222](https://www.lookmumnocomputer.com/1222-performance-vco). The octave switch is expanded to 9 positions. (11 positions is tempting but tuning may require intentionally setting the reference voltage to a slightly different value, and using a trimmer to voltage divide a 10 V reference down to ~8 V seemed easiest.) The pulse wave knob range is expanded.
 
@@ -12,8 +12,10 @@ The design specifies and assumes the AS3340A, an improvement to the AS3340.
 
 * Power reversal protection diodes
 * No +5 V regulator. Kassutronics limits internal pitch CV (center value, Frequency, and Fine Tune) to 0–5 V, using a regulator instead of a voltage reference at the tops of those pots for some reason, but I do not.
-* Replaced CV sources with ones based on LMNC: Octave switch, center trimmer, fine tune knob, V/Oct CV in, attenuated CV in. Expanded octave switch to 8 octaves.
+* Replaced CV sources with ones based on LMNC: Octave switch, center trimmer, fine tune knob, V/Oct CV in, attenuated CV in. Expanded octave switch to 8 octaves. PWM control voltage section was replaced with my own design.
 * Access to trimmers and measurement point from front.
+* Changed component values in output gain/offset stages, scaling resistances by a factor 0.18 for lower noise floor and increasing stabilization caps more to get 1/(2πRC) ~ 50 kHz.
+* Maybe most significantly, summed pitch CVs (excluding center trimmer and HF trim), PWM CVs, linear FM CV, and sawtooth wave are sent to a header for connection to a future "Sidekick" VCO.
 
 ## To check
 

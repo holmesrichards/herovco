@@ -8,7 +8,7 @@ Title "3340 VCO"
 Date "2020-07-19"
 Rev ""
 Comp "Rich Holmes / Analog Output"
-Comment1 "CVs and voltage reference based on LMNC 1222"
+Comment1 "CVs based on LMNC 1222"
 Comment2 "Based mainly on Kassutronics VCO 3340"
 Comment3 ""
 Comment4 ""
@@ -106,8 +106,6 @@ U 5F447D4B
 F0 "Panel components and power" 50
 F1 "jackspower.sch" 50
 $EndSheet
-Text GLabel 2300 5450 2    50   Input ~ 0
-+2V_REF
 Text GLabel 2300 5950 2    50   Input ~ 0
 CV_IN
 Wire Wire Line
@@ -118,8 +116,6 @@ Text Label 4650 5400 0    50   ~ 0
 CENTER_FREQ
 Text Label 2100 6150 0    50   ~ 0
 FREQ_CV
-Text Label 2100 5650 0    50   ~ 0
-FINE_TUNE
 Text GLabel 1550 2050 0    50   Input ~ 0
 PWM_IN
 Text GLabel 1550 1650 0    50   Output ~ 0
@@ -468,25 +464,6 @@ Wire Wire Line
 	1800 5950 1800 6050
 Wire Wire Line
 	2200 5950 2300 5950
-Wire Wire Line
-	2300 5450 2200 5450
-$Comp
-L power:GND #PWR03
-U 1 1 612EAD30
-P 1800 5550
-F 0 "#PWR03" H 1800 5300 50  0001 C CNN
-F 1 "GND" H 1805 5377 50  0000 C CNN
-F 2 "" H 1800 5550 50  0001 C CNN
-F 3 "" H 1800 5550 50  0001 C CNN
-	1    1800 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 5450 1800 5450
-Wire Wire Line
-	1800 5450 1800 5550
-Wire Wire Line
-	2050 5600 2050 5650
 Text GLabel 1100 4700 0    50   Input ~ 0
 OCTAVE
 Wire Wire Line
@@ -649,8 +626,6 @@ Wire Notes Line
 Text Notes 1300 3900 0    200  ~ 0
 CONTROL\nVOLTAGES
 Wire Notes Line rgb(194, 0, 194)
-	2650 4300 2650 5350
-Wire Notes Line rgb(194, 0, 194)
 	3300 5350 3300 4300
 Text Notes 2700 4550 0    50   ~ 0
 These resistors\nprecision or \nhand matched
@@ -709,17 +684,6 @@ F 3 "~" H 2800 6150 50  0001 C CNN
 	1    2800 6150
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R6
-U 1 1 612FF2F5
-P 2800 5650
-F 0 "R6" V 2593 5650 50  0000 C CNN
-F 1 "100k" V 2684 5650 50  0000 C CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 5650 50  0001 C CNN
-F 3 "~" H 2800 5650 50  0001 C CNN
-	1    2800 5650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2950 6150 3050 6150
 Wire Wire Line
@@ -754,27 +718,6 @@ F 3 "~" H 2050 5950 50  0001 C CNN
 	1    2050 5950
 	0    -1   1    0   
 $EndComp
-$Comp
-L Device:R_POT RV2
-U 1 1 612D5128
-P 2050 5450
-F 0 "RV2" V 1843 5450 50  0000 C CNN
-F 1 "100k" V 1934 5450 50  0000 C CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 2050 5450 50  0001 C CNN
-F 3 "~" H 2050 5450 50  0001 C CNN
-	1    2050 5450
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	4000 4900 4050 4900
-Wire Wire Line
-	3400 5000 3350 5000
-Wire Wire Line
-	3350 5000 3350 5300
-Wire Wire Line
-	3350 5300 3600 5300
-Wire Wire Line
-	4050 5300 4050 4900
 Text GLabel 4550 5950 2    50   Output ~ 0
 LINK_OUT_CV
 $Comp
@@ -788,10 +731,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1650 5000 50  0001 C CNN
 	1    1600 4800
 	1    0    0    -1  
 $EndComp
-Text GLabel 8800 3400 2    50   Output ~ 0
-LIN_FM
-Text GLabel 8100 3850 2    50   Output ~ 0
-LINK_OUT_FM
 $Sheet
 S 5800 1000 1350 1100
 U 62F85310
@@ -834,28 +773,6 @@ Wire Wire Line
 Connection ~ 8900 4800
 Wire Wire Line
 	6700 3400 6800 3400
-$Comp
-L Device:R R23
-U 1 1 63217C3C
-P 8550 3400
-F 0 "R23" V 8343 3400 50  0000 C CNN
-F 1 "1M" V 8434 3400 50  0000 C CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8480 3400 50  0001 C CNN
-F 3 "~" H 8550 3400 50  0001 C CNN
-	1    8550 3400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7250 3950 7200 3950
-Wire Wire Line
-	7200 3950 7200 4150
-Wire Wire Line
-	7200 4150 7900 4150
-Wire Wire Line
-	7900 4150 7900 3850
-Wire Wire Line
-	7900 3850 7850 3850
-Connection ~ 7900 3850
 Wire Wire Line
 	7300 5500 7500 5500
 Wire Wire Line
@@ -873,8 +790,6 @@ CV_NODE
 Wire Wire Line
 	8200 4900 7850 4900
 Connection ~ 8200 4900
-Wire Wire Line
-	8300 3400 8400 3400
 Text GLabel 9650 5800 2    50   Output ~ 0
 LINK_OUT_PW
 Wire Notes Line
@@ -884,29 +799,29 @@ Wire Notes Line
 $Comp
 L ao_symbols:TL074 U1
 U 2 1 609C9151
-P 3700 4900
-F 0 "U1" H 3700 4533 50  0000 C CNN
-F 1 "TL074" H 3700 4624 50  0000 C CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 3650 5000 50  0001 C CNN
-F 3 "" H 3750 5100 50  0001 C CNN
-F 4 "Tayda" H 3700 4900 50  0001 C CNN "Vendor"
-F 5 "A-1138" H 3700 4900 50  0001 C CNN "SKU"
-	2    3700 4900
-	1    0    0    1   
+P 3850 4700
+F 0 "U1" H 3850 5000 50  0000 C CNN
+F 1 "TL074" H 3850 4900 50  0000 C CNN
+F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 3800 4800 50  0001 C CNN
+F 3 "" H 3900 4900 50  0001 C CNN
+F 4 "Tayda" H 3850 4700 50  0001 C CNN "Vendor"
+F 5 "A-1138" H 3850 4700 50  0001 C CNN "SKU"
+	2    3850 4700
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R10
 U 1 1 609D668D
-P 3750 5300
-F 0 "R10" V 3543 5300 50  0000 C CNN
-F 1 "100k" V 3634 5300 50  0000 C CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3680 5300 50  0001 C CNN
-F 3 "~" H 3750 5300 50  0001 C CNN
-	1    3750 5300
+P 3900 5100
+F 0 "R10" V 3693 5100 50  0000 C CNN
+F 1 "100k" V 3784 5100 50  0000 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3830 5100 50  0001 C CNN
+F 3 "~" H 3900 5100 50  0001 C CNN
+	1    3900 5100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3900 5300 4050 5300
+	4050 5100 4200 5100
 Wire Wire Line
 	4550 5950 4450 5950
 Wire Wire Line
@@ -924,14 +839,14 @@ $Comp
 L ao_symbols:TL074 U1
 U 3 1 609FC950
 P 4100 5950
-F 0 "U1" H 4100 5583 50  0000 C CNN
-F 1 "TL074" H 4100 5674 50  0000 C CNN
+F 0 "U1" H 4100 6250 50  0000 C CNN
+F 1 "TL074" H 4150 6150 50  0000 C CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 4050 6050 50  0001 C CNN
 F 3 "" H 4150 6150 50  0001 C CNN
 F 4 "Tayda" H 4100 5950 50  0001 C CNN "Vendor"
 F 5 "A-1138" H 4100 5950 50  0001 C CNN "SKU"
 	3    4100 5950
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R11
@@ -946,53 +861,15 @@ F 3 "~" H 4150 6350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4300 6350 4450 6350
-$Comp
-L Device:R R9
-U 1 1 60A09982
-P 3550 5850
-F 0 "R9" V 3343 5850 50  0000 C CNN
-F 1 "10k" V 3434 5850 50  0000 C CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3480 5850 50  0001 C CNN
-F 3 "~" H 3550 5850 50  0001 C CNN
-	1    3550 5850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	3700 5850 3800 5850
-Wire Wire Line
-	3400 5850 3300 5850
-Wire Wire Line
-	3300 5850 3300 5500
-Wire Wire Line
-	3300 5500 4050 5500
-Wire Wire Line
-	4050 5500 4050 5300
-$Comp
-L ao_symbols:TL074 U1
-U 4 1 60A3697F
-P 7550 3850
-F 0 "U1" H 7550 4217 50  0000 C CNN
-F 1 "TL074" H 7550 4126 50  0000 C CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 7500 3950 50  0001 C CNN
-F 3 "" H 7600 4050 50  0001 C CNN
-F 4 "Tayda" H 7550 3850 50  0001 C CNN "Vendor"
-F 5 "A-1138" H 7550 3850 50  0001 C CNN "SKU"
-	4    7550 3850
-	1    0    0    -1  
-$EndComp
-Connection ~ 4050 5300
+	4200 5500 4200 5100
+Connection ~ 4200 5100
 Wire Wire Line
 	2450 5150 2650 5150
 Wire Wire Line
 	1950 4800 2650 4800
 Wire Wire Line
-	2050 5650 2650 5650
-Wire Wire Line
 	2050 6150 2650 6150
-Wire Notes Line rgb(194, 0, 194)
-	2650 5350 3300 5350
-Wire Wire Line
-	3050 4800 3400 4800
 Connection ~ 3050 4800
 $Comp
 L Device:R R17
@@ -1027,12 +904,6 @@ F 3 "~" H 8550 5250 50  0001 C CNN
 	1    8550 5250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8700 3400 8800 3400
-Wire Wire Line
-	6550 3750 7250 3750
-Wire Wire Line
-	7900 3400 8000 3400
 Text Notes 1100 2600 0    50   ~ 0
 Kassutronics used 10M\nbetween pins 4–5, tests\nindicate 3M is better for\nsuppressing high frequency\noscillations
 $Comp
@@ -1216,38 +1087,6 @@ F 3 "" H 9050 1400 50  0001 C CNN
 	1    9050 1400
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J3
-U 1 1 616C9E38
-P 9550 1900
-AR Path="/616C9E38" Ref="J3"  Part="1" 
-AR Path="/5F447D4B/616C9E38" Ref="J?"  Part="1" 
-F 0 "J3" V 9750 1800 50  0000 L CNN
-F 1 "4 pin Molex connector" V 9650 1450 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 9550 1900 50  0001 C CNN
-F 3 "~" H 9550 1900 50  0001 C CNN
-	1    9550 1900
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9450 2100 3    50   Output ~ 0
-OCTAVE
-Text GLabel 9550 2100 3    50   Input ~ 0
-+8V_REF
-Text GLabel 9650 2100 3    50   Output ~ 0
-+2V_REF
-$Comp
-L power:GND #PWR030
-U 1 1 616DADF8
-P 9750 2450
-F 0 "#PWR030" H 9750 2200 50  0001 C CNN
-F 1 "GND" H 9755 2277 50  0000 C CNN
-F 2 "" H 9750 2450 50  0001 C CNN
-F 3 "" H 9750 2450 50  0001 C CNN
-	1    9750 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 2100 9750 2450
 Wire Wire Line
 	9050 1150 9050 1400
 Text GLabel 9350 1150 3    50   Output ~ 0
@@ -1350,10 +1189,6 @@ Wire Wire Line
 Connection ~ 4450 3500
 Wire Wire Line
 	4450 3500 4450 3400
-Wire Wire Line
-	7900 3400 7900 3850
-Wire Wire Line
-	7900 3850 8100 3850
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J1
 U 1 1 61757EC6
@@ -1463,10 +1298,6 @@ Connection ~ 9500 3350
 Wire Wire Line
 	9950 3950 9500 3950
 Connection ~ 9500 3950
-Text Notes 6800 4400 0    50   ~ 0
-Can dispense with this op amp\nif there's a better use for it\nsomewhere else
-Text Notes 2500 9100 0    50   ~ 0
-In Sidekick:\n\nLINK CV goes through 100k to CV_NODE (summed inside 3340)\nLINK FM goes through 10nF + 1M to LIN_FM (summed inside 3340)\nLINK PW goes through 100k to PWM summing amp (summed outside 3340)\n(PULSE_WIDTH is replaced by fixed -12 V)\nLINK SAW goes to SYNC
 $Comp
 L Device:R_POT_TRIM RV13
 U 1 1 615EDC47
@@ -1620,6 +1451,43 @@ Text Notes 2350 2500 0    50   ~ 0
 AS3340A shows no sign of PWM\nfrequency shift the AS3340 is known\nfor, so that is what is specified.
 Wire Wire Line
 	9650 5050 9850 5050
+Wire Wire Line
+	4200 4700 4200 5100
+Wire Wire Line
+	4150 4700 4200 4700
+Connection ~ 3750 6050
+Wire Notes Line rgb(194, 0, 194)
+	2650 5350 3300 5350
+$Comp
+L Device:R R6
+U 1 1 612FF2F5
+P 2800 5650
+F 0 "R6" V 2593 5650 50  0000 C CNN
+F 1 "100k" V 2684 5650 50  0000 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 5650 50  0001 C CNN
+F 3 "~" H 2800 5650 50  0001 C CNN
+	1    2800 5650
+	0    1    1    0   
+$EndComp
+Wire Notes Line rgb(194, 0, 194)
+	2650 4300 2650 5350
+Text GLabel 8800 3400 2    50   Output ~ 0
+LIN_FM
+Wire Wire Line
+	8700 3400 8800 3400
+$Comp
+L Device:R R23
+U 1 1 63217C3C
+P 8550 3400
+F 0 "R23" V 8343 3400 50  0000 C CNN
+F 1 "1M" V 8434 3400 50  0000 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8480 3400 50  0001 C CNN
+F 3 "~" H 8550 3400 50  0001 C CNN
+	1    8550 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8300 3400 8400 3400
 $Comp
 L ao_symbols:C C8
 U 1 1 6181E495
@@ -1631,5 +1499,188 @@ F 3 "~" H 8150 3400 50  0001 C CNN
 F 4 "Tayda" H 8150 3400 50  0001 C CNN "Vendor"
 	1    8150 3400
 	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 3400 8000 3400
+Wire Wire Line
+	7200 4150 7900 4150
+Wire Wire Line
+	7250 3950 7200 3950
+Wire Wire Line
+	7200 3950 7200 4150
+Wire Wire Line
+	3500 4600 3550 4600
+Wire Wire Line
+	3500 4500 3500 4600
+Wire Wire Line
+	3400 4500 3400 4550
+Wire Wire Line
+	3500 4500 3400 4500
+$Comp
+L power:GND #PWR?
+U 1 1 61618740
+P 3400 4550
+F 0 "#PWR?" H 3400 4300 50  0001 C CNN
+F 1 "GND" H 3405 4377 50  0000 C CNN
+F 2 "" H 3400 4550 50  0001 C CNN
+F 3 "" H 3400 4550 50  0001 C CNN
+	1    3400 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 6050 3200 5500
+Wire Wire Line
+	3200 5500 4200 5500
+$Comp
+L Device:R R9
+U 1 1 60A09982
+P 3450 6050
+F 0 "R9" V 3243 6050 50  0000 C CNN
+F 1 "10k" V 3334 6050 50  0000 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3380 6050 50  0001 C CNN
+F 3 "~" H 3450 6050 50  0001 C CNN
+	1    3450 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 6050 3750 6050
+Wire Wire Line
+	3300 6050 3200 6050
+Wire Wire Line
+	3750 5850 3800 5850
+Wire Wire Line
+	3750 5750 3750 5850
+Wire Wire Line
+	3650 5750 3650 5800
+Wire Wire Line
+	3750 5750 3650 5750
+$Comp
+L power:GND #PWR?
+U 1 1 61636E92
+P 3650 5800
+F 0 "#PWR?" H 3650 5550 50  0001 C CNN
+F 1 "GND" H 3655 5627 50  0000 C CNN
+F 2 "" H 3650 5800 50  0001 C CNN
+F 3 "" H 3650 5800 50  0001 C CNN
+	1    3650 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4800 3500 5100
+Wire Wire Line
+	3550 4800 3500 4800
+Wire Wire Line
+	3050 4800 3500 4800
+Connection ~ 3500 4800
+Wire Wire Line
+	3500 5100 3750 5100
+Text Notes 3300 7900 0    50   ~ 0
+In Sidekick:\n\nLINK CV goes through 100k to CV_NODE (summed inside 3340)\nLINK FM goes through 10nF + 1M to LIN_FM (summed inside 3340)\nLINK PW goes through 100k to PWM summing amp (summed outside 3340)\nLINK SAW goes to SYNC
+Wire Wire Line
+	6550 3750 7250 3750
+Wire Wire Line
+	7900 3400 7900 3850
+Connection ~ 7900 3850
+Wire Wire Line
+	7900 3850 7850 3850
+Wire Wire Line
+	7900 4150 7900 3850
+Text GLabel 8100 3850 2    50   Output ~ 0
+LINK_OUT_FM
+Wire Wire Line
+	7900 3850 8100 3850
+Text Notes 6800 4400 0    50   ~ 0
+Can dispense with this op amp\nif there's a better use for it\nsomewhere else
+$Comp
+L ao_symbols:TL074 U1
+U 4 1 60A3697F
+P 7550 3850
+F 0 "U1" H 7550 4217 50  0000 C CNN
+F 1 "TL074" H 7550 4126 50  0000 C CNN
+F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 7500 3950 50  0001 C CNN
+F 3 "" H 7600 4050 50  0001 C CNN
+F 4 "Tayda" H 7550 3850 50  0001 C CNN "Vendor"
+F 5 "A-1138" H 7550 3850 50  0001 C CNN "SKU"
+	4    7550 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 5650 2650 5650
+Wire Wire Line
+	2200 5450 2300 5450
+Wire Wire Line
+	1800 5450 1900 5450
+$Comp
+L Device:R R?
+U 1 1 617A2EC0
+P 2050 5450
+F 0 "R?" V 1843 5450 50  0000 C CNN
+F 1 "300k" V 1934 5450 50  0000 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1980 5450 50  0001 C CNN
+F 3 "~" H 2050 5450 50  0001 C CNN
+	1    2050 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 617A2EC6
+P 1650 5450
+F 0 "RV?" V 1443 5450 50  0000 C CNN
+F 1 "100k" V 1534 5450 50  0000 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 1650 5450 50  0001 C CNN
+F 3 "~" H 1650 5450 50  0001 C CNN
+	1    1650 5450
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1650 5600 1650 5650
+Wire Wire Line
+	1400 5450 1400 5550
+Wire Wire Line
+	1500 5450 1400 5450
+$Comp
+L power:GND #PWR?
+U 1 1 617A2ECF
+P 1400 5550
+F 0 "#PWR?" H 1400 5300 50  0001 C CNN
+F 1 "GND" H 1405 5377 50  0000 C CNN
+F 2 "" H 1400 5550 50  0001 C CNN
+F 3 "" H 1400 5550 50  0001 C CNN
+	1    1400 5550
+	1    0    0    -1  
+$EndComp
+Text Label 2100 5650 0    50   ~ 0
+FINE_TUNE
+Text GLabel 2300 5450 2    50   Input ~ 0
++8V_REF
+Text GLabel 9300 2150 3    50   Input ~ 0
++8V_REF
+Text GLabel 9200 2150 3    50   Output ~ 0
+OCTAVE
+Wire Wire Line
+	9400 2150 9400 2500
+$Comp
+L power:GND #PWR?
+U 1 1 617D3212
+P 9400 2500
+F 0 "#PWR?" H 9400 2250 50  0001 C CNN
+F 1 "GND" H 9405 2327 50  0000 C CNN
+F 2 "" H 9400 2500 50  0001 C CNN
+F 3 "" H 9400 2500 50  0001 C CNN
+	1    9400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:3_pin_Molex_header J?
+U 1 1 617D321A
+P 9300 1950
+F 0 "J?" V 9264 1762 50  0000 R CNN
+F 1 "3_pin_Molex_header" V 9173 1762 50  0000 R CNN
+F 2 "ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 9300 1950 50  0001 C CNN
+F 3 "" H 9300 1950 50  0001 C CNN
+F 4 "Tayda" H 9300 1950 50  0001 C CNN "Vendor"
+F 5 "A-805" H 9300 1950 50  0001 C CNN "SKU"
+	1    9300 1950
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

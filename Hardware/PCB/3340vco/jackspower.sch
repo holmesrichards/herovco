@@ -26,36 +26,15 @@ F 3 "" H 7600 5950 50  0001 C CNN
 	1    7600 5950
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 5F4590E6
-P 7600 4900
-AR Path="/5F4590E6" Ref="#PWR?"  Part="1" 
-AR Path="/5F447D4B/5F4590E6" Ref="#PWR032"  Part="1" 
-F 0 "#PWR032" H 7600 4750 50  0001 C CNN
-F 1 "+12V" H 7615 5073 50  0000 C CNN
-F 2 "" H 7600 4900 50  0001 C CNN
-F 3 "" H 7600 4900 50  0001 C CNN
-	1    7600 4900
-	1    0    0    -1  
-$EndComp
-Text Notes 7150 4650 0    50   ~ 0
+Text Notes 6950 4650 0    50   ~ 0
 +8V reference
 Wire Wire Line
 	1650 1850 1650 1950
 Wire Wire Line
 	1650 1950 1650 2200
-Text GLabel 2550 1850 3    50   Output ~ 0
-TRI_J
-Text GLabel 2350 1850 3    50   Output ~ 0
-SAW_J
-Text GLabel 2450 1850 3    50   Output ~ 0
-PULSE_J
-Text GLabel 2650 1850 3    50   Output ~ 0
-SIN_J
 Text GLabel 1750 1850 3    50   Input ~ 0
 V_OCT_J
-Text GLabel 1850 1850 3    50   Input ~ 0
+Text GLabel 1950 1850 3    50   Input ~ 0
 CV_IN_J
 Text GLabel 2050 1850 3    50   Input ~ 0
 SYNC_J
@@ -71,7 +50,7 @@ AR Path="/5F501F53" Ref="J?"  Part="1"
 AR Path="/5F447D4B/5F501F53" Ref="J4"  Part="1" 
 F 0 "J4" V 2350 1650 50  0000 C CNN
 F 1 "Conn_01x11" V 2250 1650 50  0000 C CNN
-F 2 "ao_tht:PinHeader_1x11_P2.54mm_Vertical" H 2150 1650 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vertical" H 2150 1650 50  0001 C CNN
 F 3 "~" H 2150 1650 50  0001 C CNN
 	1    2150 1650
 	0    -1   -1   0   
@@ -367,50 +346,6 @@ Wire Notes Line
 	1350 4000 1350 1125
 Text Notes 4625 1350 2    100  ~ 0
 Jacks board components
-$Comp
-L ao_symbols:CP C?
-U 1 1 5F5271A5
-P 5375 5350
-AR Path="/5F447D4B/5F523F39/5F5271A5" Ref="C?"  Part="1" 
-AR Path="/5F447D4B/5F5271A5" Ref="C11"  Part="1" 
-F 0 "C11" H 5493 5396 50  0000 L CNN
-F 1 "10uF" H 5493 5305 50  0000 L CNN
-F 2 "ao_tht:CP_Radial_D5.0mm_P2.00mm" H 5413 5200 50  0001 C CNN
-F 3 "~" H 5375 5350 50  0001 C CNN
-F 4 "Tayda" H 5375 5350 50  0001 C CNN "Vendor"
-	1    5375 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L ao_symbols:CP C?
-U 1 1 5F5271AB
-P 5375 5650
-AR Path="/5F447D4B/5F523F39/5F5271AB" Ref="C?"  Part="1" 
-AR Path="/5F447D4B/5F5271AB" Ref="C12"  Part="1" 
-F 0 "C12" H 5493 5696 50  0000 L CNN
-F 1 "10uF" H 5493 5605 50  0000 L CNN
-F 2 "ao_tht:CP_Radial_D5.0mm_P2.00mm" H 5413 5500 50  0001 C CNN
-F 3 "~" H 5375 5650 50  0001 C CNN
-F 4 "Tayda" H 5375 5650 50  0001 C CNN "Vendor"
-	1    5375 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F5271B1
-P 5075 5500
-AR Path="/5F447D4B/5F523F39/5F5271B1" Ref="#PWR?"  Part="1" 
-AR Path="/5F447D4B/5F5271B1" Ref="#PWR050"  Part="1" 
-F 0 "#PWR050" H 5075 5250 50  0001 C CNN
-F 1 "GND" H 5080 5327 50  0000 C CNN
-F 2 "" H 5075 5500 50  0001 C CNN
-F 3 "" H 5075 5500 50  0001 C CNN
-	1    5075 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5075 5500 5375 5500
-Connection ~ 5375 5500
 Wire Wire Line
 	3175 5300 3600 5300
 Wire Wire Line
@@ -438,32 +373,6 @@ Wire Wire Line
 Wire Wire Line
 	3175 5850 3175 5700
 $Comp
-L power:GND #PWR?
-U 1 1 5F5271DD
-P 2000 5500
-AR Path="/5F447D4B/5F523F39/5F5271DD" Ref="#PWR?"  Part="1" 
-AR Path="/5F447D4B/5F5271DD" Ref="#PWR035"  Part="1" 
-F 0 "#PWR035" H 2000 5250 50  0001 C CNN
-F 1 "GND" V 2005 5372 50  0000 R CNN
-F 2 "" H 2000 5500 50  0001 C CNN
-F 3 "" H 2000 5500 50  0001 C CNN
-	1    2000 5500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F5271E3
-P 3175 5500
-AR Path="/5F447D4B/5F523F39/5F5271E3" Ref="#PWR?"  Part="1" 
-AR Path="/5F447D4B/5F5271E3" Ref="#PWR037"  Part="1" 
-F 0 "#PWR037" H 3175 5250 50  0001 C CNN
-F 1 "GND" V 3180 5372 50  0000 R CNN
-F 2 "" H 3175 5500 50  0001 C CNN
-F 3 "" H 3175 5500 50  0001 C CNN
-	1    3175 5500
-	0    -1   1    0   
-$EndComp
-$Comp
 L power:+12V #PWR?
 U 1 1 5F5271E9
 P 4550 5300
@@ -474,19 +383,6 @@ F 1 "+12V" H 4565 5473 50  0000 C CNN
 F 2 "" H 4550 5300 50  0001 C CNN
 F 3 "" H 4550 5300 50  0001 C CNN
 	1    4550 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 5F5271EF
-P 5375 5200
-AR Path="/5F447D4B/5F523F39/5F5271EF" Ref="#PWR?"  Part="1" 
-AR Path="/5F447D4B/5F5271EF" Ref="#PWR053"  Part="1" 
-F 0 "#PWR053" H 5375 5050 50  0001 C CNN
-F 1 "+12V" H 5390 5373 50  0000 C CNN
-F 2 "" H 5375 5200 50  0001 C CNN
-F 3 "" H 5375 5200 50  0001 C CNN
-	1    5375 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -501,19 +397,6 @@ F 2 "" H 4550 5700 50  0001 C CNN
 F 3 "" H 4550 5700 50  0001 C CNN
 	1    4550 5700
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:-12V #PWR?
-U 1 1 5F527201
-P 5375 5800
-AR Path="/5F447D4B/5F523F39/5F527201" Ref="#PWR?"  Part="1" 
-AR Path="/5F447D4B/5F527201" Ref="#PWR054"  Part="1" 
-F 0 "#PWR054" H 5375 5900 50  0001 C CNN
-F 1 "-12V" H 5390 5973 50  0000 C CNN
-F 2 "" H 5375 5800 50  0001 C CNN
-F 3 "" H 5375 5800 50  0001 C CNN
-	1    5375 5800
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG02
@@ -549,7 +432,7 @@ U 1 1 5F559112
 P 5300 7050
 F 0 "U5" H 5300 6808 50  0000 C CNN
 F 1 "L79L05_TO92" H 5300 6899 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5300 6850 50  0001 C CIN
+F 2 "ao_tht:TO-92_Inline_Wide" H 5300 6850 50  0001 C CIN
 F 3 "http://www.farnell.com/datasheets/1827870.pdf" H 5300 7050 50  0001 C CNN
 	1    5300 7050
 	1    0    0    1   
@@ -568,27 +451,14 @@ F 3 "" H 5300 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-12V #PWR?
-U 1 1 5F55B14D
-P 4925 6600
-AR Path="/5F447D4B/5F523F39/5F55B14D" Ref="#PWR?"  Part="1" 
-AR Path="/5F447D4B/5F55B14D" Ref="#PWR049"  Part="1" 
-F 0 "#PWR049" H 4925 6700 50  0001 C CNN
-F 1 "-12V" H 4940 6773 50  0000 C CNN
-F 2 "" H 4925 6600 50  0001 C CNN
-F 3 "" H 4925 6600 50  0001 C CNN
-	1    4925 6600
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:-5V #PWR055
 U 1 1 5F55C4D4
-P 5675 6600
-F 0 "#PWR055" H 5675 6700 50  0001 C CNN
-F 1 "-5V" H 5690 6773 50  0000 C CNN
-F 2 "" H 5675 6600 50  0001 C CNN
-F 3 "" H 5675 6600 50  0001 C CNN
-	1    5675 6600
+P 5700 6600
+F 0 "#PWR055" H 5700 6700 50  0001 C CNN
+F 1 "-5V" H 5715 6773 50  0000 C CNN
+F 2 "" H 5700 6600 50  0001 C CNN
+F 3 "" H 5700 6600 50  0001 C CNN
+	1    5700 6600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -607,37 +477,36 @@ F 5 "Tayda" H 5300 6600 50  0001 C CNN "Vendor"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4925 6600 5150 6600
+	4900 6600 5150 6600
 Wire Wire Line
-	5450 6600 5675 6600
+	5450 6600 5700 6600
 Wire Wire Line
-	4925 6600 4925 7050
+	4900 6600 4900 7050
 Wire Wire Line
-	4925 7050 5000 7050
-Connection ~ 4925 6600
+	4900 7050 5000 7050
 Wire Wire Line
-	5675 7050 5600 7050
-Connection ~ 5675 6600
+	5700 7050 5600 7050
+Connection ~ 5700 6600
 $Comp
 L ao_symbols:CP C?
 U 1 1 5F582748
-P 5675 7200
+P 5700 7200
 AR Path="/5F447D4B/5F523F39/5F582748" Ref="C?"  Part="1" 
 AR Path="/5F447D4B/5F582748" Ref="C13"  Part="1" 
-F 0 "C13" H 5793 7246 50  0000 L CNN
-F 1 "1uF" H 5793 7155 50  0000 L CNN
-F 2 "ao_tht:CP_Radial_D5.0mm_P2.00mm" H 5713 7050 50  0001 C CNN
-F 3 "~" H 5675 7200 50  0001 C CNN
-F 4 "Tayda" H 5675 7200 50  0001 C CNN "Vendor"
-	1    5675 7200
+F 0 "C13" H 5818 7246 50  0000 L CNN
+F 1 "1uF" H 5818 7155 50  0000 L CNN
+F 2 "ao_tht:CP_Radial_D5.0mm_P2.00mm" H 5738 7050 50  0001 C CNN
+F 3 "~" H 5700 7200 50  0001 C CNN
+F 4 "Tayda" H 5700 7200 50  0001 C CNN "Vendor"
+	1    5700 7200
 	1    0    0    1   
 $EndComp
-Connection ~ 5675 7050
+Connection ~ 5700 7050
 Wire Wire Line
-	5675 7350 5300 7350
+	5700 7350 5300 7350
 Connection ~ 5300 7350
 Wire Wire Line
-	5675 6600 5675 7050
+	5700 6600 5700 7050
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5F612CBE
@@ -704,7 +573,7 @@ F 4 "DNF" H 9800 6400 50  0001 C CNN "Config"
 	1    0    0    -1  
 $EndComp
 Text GLabel 5250 3525 2    50   Output ~ 0
-CV_IN2_J
+V_OCT2_J
 $Comp
 L Connector:AudioJack2 J15
 U 1 1 60902F15
@@ -837,7 +706,7 @@ OCTAVE_P
 Text Label 6850 2650 0    50   ~ 0
 +8V_REF_P
 Text Label 6850 2750 0    50   ~ 0
-GND
+0V
 Wire Wire Line
 	6750 2750 7650 2750
 Wire Wire Line
@@ -858,8 +727,8 @@ Wire Wire Line
 	9650 1250 9650 2600
 Wire Wire Line
 	9650 2600 9600 2600
-Text GLabel 1950 1850 3    50   Input ~ 0
-CV_IN2_J
+Text GLabel 1850 1850 3    50   Input ~ 0
+V_OCT2_J
 Wire Wire Line
 	7650 3800 7950 3800
 $Comp
@@ -960,7 +829,7 @@ U 1 1 6167E1D7
 P 7900 5150
 F 0 "TP1" H 7958 5268 50  0000 L CNN
 F 1 "TestPoint" H 7958 5177 50  0000 L CNN
-F 2 "" H 8100 5150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 8100 5150 50  0001 C CNN
 F 3 "~" H 8100 5150 50  0001 C CNN
 	1    7900 5150
 	1    0    0    -1  
@@ -971,12 +840,12 @@ Wire Wire Line
 Wire Wire Line
 	7900 5150 7900 5250
 $Comp
-L ao_symbols:3_pin_Molex_connector J?
+L ao_symbols:3_pin_Molex_connector J16
 U 1 1 616EFF88
 P 6550 2650
-F 0 "J?" H 6468 2967 50  0000 C CNN
+F 0 "J16" H 6468 2967 50  0000 C CNN
 F 1 "3_pin_Molex_connector" H 6468 2876 50  0000 C CNN
-F 2 "" H 6550 2650 50  0001 C CNN
+F 2 "ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 6550 2650 50  0001 C CNN
 F 3 "" H 6550 2650 50  0001 C CNN
 F 4 "Tayda" H 6550 2650 50  0001 C CNN "Vendor"
 F 5 "A-827" H 6550 2650 50  0001 C CNN "SKU"
@@ -1002,10 +871,10 @@ L Device:R R?
 U 1 1 6182DD24
 P 7250 6150
 AR Path="/6182DD24" Ref="R?"  Part="1" 
-AR Path="/5F447D4B/6182DD24" Ref="R?"  Part="1" 
-F 0 "R?" V 7150 6150 50  0000 C CNN
+AR Path="/5F447D4B/6182DD24" Ref="R58"  Part="1" 
+F 0 "R58" V 7150 6150 50  0000 C CNN
 F 1 "1k" V 7250 6150 50  0000 C CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7180 6150 50  0001 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7180 6150 50  0001 C CNN
 F 3 "~" H 7250 6150 50  0001 C CNN
 	1    7250 6150
 	1    0    0    1   
@@ -1015,8 +884,8 @@ L power:GND #PWR?
 U 1 1 61831EA6
 P 7250 6350
 AR Path="/61831EA6" Ref="#PWR?"  Part="1" 
-AR Path="/5F447D4B/61831EA6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7250 6100 50  0001 C CNN
+AR Path="/5F447D4B/61831EA6" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 7250 6100 50  0001 C CNN
 F 1 "GND" H 7255 6177 50  0000 C CNN
 F 2 "" H 7250 6350 50  0001 C CNN
 F 3 "" H 7250 6350 50  0001 C CNN
@@ -1032,12 +901,12 @@ Wire Wire Line
 Wire Wire Line
 	7400 5800 7500 5800
 $Comp
-L Reference_Voltage:TL431LP U?
+L Reference_Voltage:TL431LP U4
 U 1 1 618013C3
 P 7600 5800
-F 0 "U?" V 7646 5730 50  0000 R CNN
+F 0 "U4" V 7646 5730 50  0000 R CNN
 F 1 "TL431LP" V 7555 5730 50  0000 R CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7600 5650 50  0001 C CIN
+F 2 "ao_tht:TO-92_Inline_Wide" H 7600 5650 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 7600 5800 50  0001 C CIN
 	1    7600 5800
 	0    -1   -1   0   
@@ -1051,10 +920,10 @@ L Device:R R?
 U 1 1 6185BE0B
 P 7250 5450
 AR Path="/6185BE0B" Ref="R?"  Part="1" 
-AR Path="/5F447D4B/6185BE0B" Ref="R?"  Part="1" 
-F 0 "R?" V 7150 5450 50  0000 C CNN
+AR Path="/5F447D4B/6185BE0B" Ref="R57"  Part="1" 
+F 0 "R57" V 7150 5450 50  0000 C CNN
 F 1 "8.2k" V 7250 5450 50  0000 C CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7180 5450 50  0001 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7180 5450 50  0001 C CNN
 F 3 "~" H 7250 5450 50  0001 C CNN
 	1    7250 5450
 	1    0    0    1   
@@ -1073,7 +942,7 @@ AR Path="/5F4590EC" Ref="R?"  Part="1"
 AR Path="/5F447D4B/5F4590EC" Ref="R26"  Part="1" 
 F 0 "R26" V 7500 5050 50  0000 C CNN
 F 1 "1k" V 7600 5050 50  0000 C CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7530 5050 50  0001 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7530 5050 50  0001 C CNN
 F 3 "~" H 7600 5050 50  0001 C CNN
 	1    7600 5050
 	1    0    0    1   
@@ -1098,4 +967,276 @@ Connection ~ 7950 3800
 Wire Wire Line
 	7950 3800 8550 3800
 Connection ~ 7950 3500
+Text Label 7400 5800 0    50   ~ 0
+VREF
+$Comp
+L ao_symbols:MountingHole H3
+U 1 1 6167D55B
+P 1500 3500
+F 0 "H3" H 1600 3546 50  0000 L CNN
+F 1 "MountingHole" H 1600 3455 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 1500 3500 50  0001 C CNN
+F 3 "" H 1500 3500 50  0001 C CNN
+F 4 "DNF" H 1500 3500 50  0001 C CNN "Config"
+	1    1500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:MountingHole H2
+U 1 1 6167D918
+P 1500 3300
+F 0 "H2" H 1600 3346 50  0000 L CNN
+F 1 "MountingHole" H 1600 3255 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 1500 3300 50  0001 C CNN
+F 3 "" H 1500 3300 50  0001 C CNN
+F 4 "DNF" H 1500 3300 50  0001 C CNN "Config"
+	1    1500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:MountingHole H1
+U 1 1 6167DAA1
+P 1500 3100
+F 0 "H1" H 1600 3146 50  0000 L CNN
+F 1 "MountingHole" H 1600 3055 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 1500 3100 50  0001 C CNN
+F 3 "" H 1500 3100 50  0001 C CNN
+F 4 "DNF" H 1500 3100 50  0001 C CNN "Config"
+	1    1500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:MountingHole H6
+U 1 1 6167E39E
+P 1500 4600
+F 0 "H6" H 1600 4646 50  0000 L CNN
+F 1 "MountingHole" H 1600 4555 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 1500 4600 50  0001 C CNN
+F 3 "" H 1500 4600 50  0001 C CNN
+F 4 "DNF" H 1500 4600 50  0001 C CNN "Config"
+	1    1500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:MountingHole H5
+U 1 1 6167E3A5
+P 1500 4400
+F 0 "H5" H 1600 4446 50  0000 L CNN
+F 1 "MountingHole" H 1600 4355 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 1500 4400 50  0001 C CNN
+F 3 "" H 1500 4400 50  0001 C CNN
+F 4 "DNF" H 1500 4400 50  0001 C CNN "Config"
+	1    1500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:MountingHole H4
+U 1 1 6167E3AC
+P 1500 4200
+F 0 "H4" H 1600 4246 50  0000 L CNN
+F 1 "MountingHole" H 1600 4155 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 1500 4200 50  0001 C CNN
+F 3 "" H 1500 4200 50  0001 C CNN
+F 4 "DNF" H 1500 4200 50  0001 C CNN "Config"
+	1    1500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:Graphic GRAF2
+U 1 1 61680E82
+P 1700 3800
+F 0 "GRAF2" H 1978 3846 50  0000 L CNN
+F 1 "Holes" H 1978 3755 50  0000 L CNN
+F 2 "3340vco:3340vco_panel_holes" H 1700 3800 50  0001 C CNN
+F 3 "" H 1700 3800 50  0001 C CNN
+F 4 "DNF" H 1700 3800 50  0001 C CNN "Config"
+	1    1700 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 9650 5200 2    50   Input ~ 0
+LINK_OUT_CV_L
+Text GLabel 9650 5100 2    50   Input ~ 0
+LINK_OUT_PW_L
+Text GLabel 9650 5000 2    50   Input ~ 0
+LINK_OUT_FM_L
+Text GLabel 9650 4900 2    50   Input ~ 0
+LINK_OUT_SAW
+Wire Wire Line
+	9550 4900 9650 4900
+Wire Wire Line
+	9550 5000 9650 5000
+Wire Wire Line
+	9550 5100 9650 5100
+Wire Wire Line
+	9550 5200 9650 5200
+Wire Wire Line
+	8950 5250 8950 5200
+Wire Wire Line
+	8950 4900 9050 4900
+Wire Wire Line
+	9050 5200 8950 5200
+Connection ~ 8950 5200
+Wire Wire Line
+	8950 5200 8950 5100
+Wire Wire Line
+	9050 5100 8950 5100
+Connection ~ 8950 5100
+Wire Wire Line
+	8950 5100 8950 5000
+Wire Wire Line
+	9050 5000 8950 5000
+Connection ~ 8950 5000
+Wire Wire Line
+	8950 5000 8950 4900
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J?
+U 1 1 61727870
+P 9250 5000
+AR Path="/61727870" Ref="J?"  Part="1" 
+AR Path="/5F447D4B/61727870" Ref="J1"  Part="1" 
+F 0 "J1" H 9300 5317 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 9300 5226 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 9250 5000 50  0001 C CNN
+F 3 "~" H 9250 5000 50  0001 C CNN
+	1    9250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0104
+U 1 1 6172E572
+P 2000 5500
+F 0 "#PWR0104" H 2000 5250 50  0001 C CNN
+F 1 "GND1" H 2005 5327 50  0000 C CNN
+F 2 "" H 2000 5500 50  0001 C CNN
+F 3 "" H 2000 5500 50  0001 C CNN
+	1    2000 5500
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND1 #PWR0105
+U 1 1 61731B11
+P 3175 5500
+F 0 "#PWR0105" H 3175 5250 50  0001 C CNN
+F 1 "GND1" H 3180 5327 50  0000 C CNN
+F 2 "" H 3175 5500 50  0001 C CNN
+F 3 "" H 3175 5500 50  0001 C CNN
+	1    3175 5500
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND1 #PWR0116
+U 1 1 617354F0
+P 5050 5550
+F 0 "#PWR0116" H 5050 5300 50  0001 C CNN
+F 1 "GND1" H 5055 5377 50  0000 C CNN
+F 2 "" H 5050 5550 50  0001 C CNN
+F 3 "" H 5050 5550 50  0001 C CNN
+	1    5050 5550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 5F527201
+P 5350 5800
+AR Path="/5F447D4B/5F523F39/5F527201" Ref="#PWR?"  Part="1" 
+AR Path="/5F447D4B/5F527201" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 5350 5900 50  0001 C CNN
+F 1 "-12V" H 5365 5973 50  0000 C CNN
+F 2 "" H 5350 5800 50  0001 C CNN
+F 3 "" H 5350 5800 50  0001 C CNN
+	1    5350 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5F5271EF
+P 5350 5200
+AR Path="/5F447D4B/5F523F39/5F5271EF" Ref="#PWR?"  Part="1" 
+AR Path="/5F447D4B/5F5271EF" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 5350 5050 50  0001 C CNN
+F 1 "+12V" H 5365 5373 50  0000 C CNN
+F 2 "" H 5350 5200 50  0001 C CNN
+F 3 "" H 5350 5200 50  0001 C CNN
+	1    5350 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 5500
+$Comp
+L ao_symbols:CP C?
+U 1 1 5F5271AB
+P 5350 5650
+AR Path="/5F447D4B/5F523F39/5F5271AB" Ref="C?"  Part="1" 
+AR Path="/5F447D4B/5F5271AB" Ref="C12"  Part="1" 
+F 0 "C12" H 5468 5696 50  0000 L CNN
+F 1 "10uF" H 5468 5605 50  0000 L CNN
+F 2 "ao_tht:CP_Radial_D5.0mm_P2.00mm" H 5388 5500 50  0001 C CNN
+F 3 "~" H 5350 5650 50  0001 C CNN
+F 4 "Tayda" H 5350 5650 50  0001 C CNN "Vendor"
+	1    5350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:CP C?
+U 1 1 5F5271A5
+P 5350 5350
+AR Path="/5F447D4B/5F523F39/5F5271A5" Ref="C?"  Part="1" 
+AR Path="/5F447D4B/5F5271A5" Ref="C11"  Part="1" 
+F 0 "C11" H 5468 5396 50  0000 L CNN
+F 1 "10uF" H 5468 5305 50  0000 L CNN
+F 2 "ao_tht:CP_Radial_D5.0mm_P2.00mm" H 5388 5200 50  0001 C CNN
+F 3 "~" H 5350 5350 50  0001 C CNN
+F 4 "Tayda" H 5350 5350 50  0001 C CNN "Vendor"
+	1    5350 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 5500 5350 5500
+Wire Wire Line
+	5050 5500 5050 5550
+Text GLabel 4900 6550 1    50   Input ~ 0
+-12V_P
+Wire Wire Line
+	4900 6550 4900 6600
+Connection ~ 4900 6600
+Text GLabel 7600 4900 1    50   Input ~ 0
++12V_P
+$Comp
+L power:GND1 #PWR0103
+U 1 1 6172ADE2
+P 8950 5250
+F 0 "#PWR0103" H 8950 5000 50  0001 C CNN
+F 1 "GND1" H 8955 5077 50  0000 C CNN
+F 2 "" H 8950 5250 50  0001 C CNN
+F 3 "" H 8950 5250 50  0001 C CNN
+	1    8950 5250
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2650 1850 3    50   Input ~ 0
+SIN_A_CCW_S
+Text GLabel 2350 1850 3    50   Input ~ 0
+SIN_S_W_S
+Text GLabel 2450 1850 3    50   Input ~ 0
+SIN_S_CCW_S
+Text GLabel 2550 1850 3    50   Input ~ 0
+SIN_A_W_S
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 6188C4A6
+P 9300 5750
+AR Path="/6188C4A6" Ref="J?"  Part="1" 
+AR Path="/62F85310/6188C4A6" Ref="J?"  Part="1" 
+AR Path="/5F447D4B/6188C4A6" Ref="J20"  Part="1" 
+F 0 "J20" H 9380 5792 50  0000 L CNN
+F 1 "Conn_01x03" H 9380 5701 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 9300 5750 50  0001 C CNN
+F 3 "~" H 9300 5750 50  0001 C CNN
+	1    9300 5750
+	-1   0    0    -1  
+$EndComp
+Text GLabel 9500 5650 2    50   Output ~ 0
+LINK_OUT_FM_L
+Text GLabel 9500 5750 2    50   Output ~ 0
+LINK_OUT_PW_L
+Text GLabel 9500 5850 2    50   Output ~ 0
+LINK_OUT_CV_L
 $EndSCHEMATC

@@ -861,7 +861,7 @@ Wire Wire Line
 Text GLabel 1950 1850 3    50   Input ~ 0
 CV_IN2_J
 Wire Wire Line
-	7650 3800 8550 3800
+	7650 3800 7950 3800
 $Comp
 L ao_symbols:R R?
 U 1 1 61655593
@@ -1080,4 +1080,22 @@ F 3 "~" H 7600 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7600 5250 7600 5200
+$Comp
+L ao_symbols:R R?
+U 1 1 61898C80
+P 7950 3650
+AR Path="/61898C80" Ref="R?"  Part="1" 
+AR Path="/5F447D4B/61898C80" Ref="R34"  Part="1" 
+F 0 "R34" V 7850 3650 50  0000 C CNN
+F 1 "10k" V 7950 3650 50  0000 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7880 3650 50  0001 C CNN
+F 3 "~" H 7950 3650 50  0001 C CNN
+F 4 "Tayda" H 7950 3650 50  0001 C CNN "Vendor"
+	1    7950 3650
+	1    0    0    1   
+$EndComp
+Connection ~ 7950 3800
+Wire Wire Line
+	7950 3800 8550 3800
+Connection ~ 7950 3500
 $EndSCHEMATC

@@ -467,7 +467,7 @@ U 1 1 6158230A
 P 7150 5500
 F 0 "RV9" H 7081 5454 50  0000 R CNN
 F 1 "100k" H 7081 5545 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 7150 5500 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered" H 7150 5500 50  0001 C CNN
 F 3 "~" H 7150 5500 50  0001 C CNN
 	1    7150 5500
 	1    0    0    1   
@@ -489,7 +489,7 @@ U 1 1 6154C867
 P 6600 4900
 F 0 "RV8" H 6531 4854 50  0000 R CNN
 F 1 "100k" H 6531 4945 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 6600 4900 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered" H 6600 4900 50  0001 C CNN
 F 3 "~" H 6600 4900 50  0001 C CNN
 	1    6600 4900
 	1    0    0    1   
@@ -506,7 +506,7 @@ U 1 1 6092FD85
 P 6550 3400
 F 0 "RV7" V 6343 3400 50  0000 C CNN
 F 1 "100k" V 6434 3400 50  0000 C CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 6550 3400 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered" H 6550 3400 50  0001 C CNN
 F 3 "~" H 6550 3400 50  0001 C CNN
 	1    6550 3400
 	0    -1   1    0   
@@ -1372,7 +1372,7 @@ U 1 1 617A2EC6
 P 1650 5950
 F 0 "RV2" V 1443 5950 50  0000 C CNN
 F 1 "100k" V 1534 5950 50  0000 C CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 1650 5950 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered" H 1650 5950 50  0001 C CNN
 F 3 "~" H 1650 5950 50  0001 C CNN
 	1    1650 5950
 	0    -1   1    0   
@@ -1413,7 +1413,7 @@ U 1 1 6125DB39
 P 2050 6450
 F 0 "RV3" V 1843 6450 50  0000 C CNN
 F 1 "100k" V 1934 6450 50  0000 C CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 2050 6450 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered" H 2050 6450 50  0001 C CNN
 F 3 "~" H 2050 6450 50  0001 C CNN
 	1    2050 6450
 	0    -1   1    0   
@@ -1544,4 +1544,36 @@ Text GLabel 3900 3850 2    50   Input ~ 0
 LINK_OUT_PW
 Text GLabel 3900 3950 2    50   Input ~ 0
 LINK_OUT_CV
+$Comp
+L Connector_Generic:Conn_01x03 J21
+U 1 1 615E54A5
+P 5150 3850
+AR Path="/615E54A5" Ref="J21"  Part="1" 
+AR Path="/62F85310/615E54A5" Ref="J?"  Part="1" 
+F 0 "J21" H 5230 3892 50  0000 L CNN
+F 1 "Conn_01x03" H 5230 3801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5150 3850 50  0001 C CNN
+F 3 "~" H 5150 3850 50  0001 C CNN
+	1    5150 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 615F8B1C
+P 5350 3750
+F 0 "#PWR05" H 5350 3500 50  0001 C CNN
+F 1 "GND" H 5355 3577 50  0000 C CNN
+F 2 "" H 5350 3750 50  0001 C CNN
+F 3 "" H 5350 3750 50  0001 C CNN
+	1    5350 3750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5650 3850 1    50   Input ~ 0
++12V_P
+Text GLabel 5650 3950 3    50   Input ~ 0
+-12V_P
+Wire Wire Line
+	5350 3850 5650 3850
+Wire Wire Line
+	5350 3950 5650 3950
 $EndSCHEMATC

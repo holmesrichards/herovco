@@ -8,9 +8,9 @@ Title "3340 VCO"
 Date "2020-07-19"
 Rev ""
 Comp "Rich Holmes / Analog Output"
-Comment1 "CVs based on LMNC 1222"
-Comment2 "Based mainly on Kassutronics VCO 3340"
-Comment3 ""
+Comment1 "Sine shaper from Thomas Henry design"
+Comment2 "CVs based on LMNC 1222"
+Comment3 "Based mainly on Kassutronics VCO 3340"
 Comment4 ""
 $EndDescr
 $Comp
@@ -89,12 +89,6 @@ Text GLabel 2450 5150 0    50   Input ~ 0
 V_OCT
 Text GLabel 6800 3400 2    50   Input ~ 0
 LIN_FM_IN
-$Sheet
-S 7300 1000 1350 1100
-U 5F447D4B
-F0 "Panel components and power" 50
-F1 "jackspower.sch" 50
-$EndSheet
 Wire Wire Line
 	1900 4800 1950 4800
 Text Label 4650 4850 0    50   ~ 0
@@ -920,41 +914,17 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5000 7100 50  0001 C CNN
 	5    4950 6900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x11 J2
-U 1 1 5F4CB3A5
-P 9550 950
-F 0 "J2" V 9750 950 50  0000 C CNN
-F 1 "Conn_01x11" V 9650 950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical" H 9550 950 50  0001 C CNN
-F 3 "~" H 9550 950 50  0001 C CNN
-	1    9550 950 
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9650 1150 3    50   Output ~ 0
+Text GLabel 9350 1100 3    50   Output ~ 0
 PWMIN
-Text GLabel 9550 1150 3    50   Output ~ 0
+Text GLabel 9050 1100 3    50   Output ~ 0
 LIN_FM_IN
-Text GLabel 9450 1150 3    50   Output ~ 0
+Text GLabel 9150 1100 3    50   Output ~ 0
 SYNC
-Text GLabel 9350 1150 3    50   Output ~ 0
+Text GLabel 9250 1100 3    50   Output ~ 0
 CV_IN
-Text GLabel 9150 1150 3    50   Output ~ 0
+Text GLabel 8850 1100 3    50   Output ~ 0
 V_OCT
-$Comp
-L power:GND #PWR027
-U 1 1 5F4CDB17
-P 9050 1400
-F 0 "#PWR027" H 9050 1150 50  0001 C CNN
-F 1 "GND" H 9055 1227 50  0000 C CNN
-F 2 "" H 9050 1400 50  0001 C CNN
-F 3 "" H 9050 1400 50  0001 C CNN
-	1    9050 1400
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9050 1150 9050 1400
-Text GLabel 9250 1150 3    50   Output ~ 0
+Text GLabel 8950 1100 3    50   Output ~ 0
 V_OCT2
 Wire Wire Line
 	3050 6650 3050 6150
@@ -1517,14 +1487,10 @@ Text GLabel 4000 3350 0    50   Input ~ 0
 SAW_OUT
 Text GLabel 4000 3450 0    50   Input ~ 0
 PULSE_OUT
-Text GLabel 10050 1150 3    50   Input ~ 0
-SIN_A_CCW
-Text GLabel 9750 1150 3    50   Input ~ 0
+Text GLabel 9800 1100 3    50   Input ~ 0
 SIN_S_W
-Text GLabel 9850 1150 3    50   Input ~ 0
+Text GLabel 9900 1100 3    50   Input ~ 0
 SIN_S_CCW
-Text GLabel 9950 1150 3    50   Input ~ 0
-SIN_A_W
 $Comp
 L Connector_Generic:Conn_01x03 J19
 U 1 1 61894991
@@ -1576,4 +1542,53 @@ Wire Wire Line
 	5350 3850 5650 3850
 Wire Wire Line
 	5350 3950 5650 3950
+Text GLabel 10000 1100 3    50   Input ~ 0
+SIN_R_CCW
+Text GLabel 9600 1100 3    50   Input ~ 0
+SIN_R_W
+Text GLabel 9700 1100 3    50   Input ~ 0
+SIN_S_CW
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 5F4CB3A5
+P 9050 900
+F 0 "J2" V 9250 900 50  0000 C CNN
+F 1 "Conn_01x06" V 9150 900 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 9050 900 50  0001 C CNN
+F 3 "~" H 9050 900 50  0001 C CNN
+	1    9050 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 J23
+U 1 1 618EE441
+P 9800 900
+F 0 "J23" V 10000 900 50  0000 C CNN
+F 1 "Conn_01x07" V 9900 900 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 9800 900 50  0001 C CNN
+F 3 "~" H 9800 900 50  0001 C CNN
+	1    9800 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 1100 9500 1350
+$Comp
+L power:GND #PWR027
+U 1 1 5F4CDB17
+P 9500 1350
+F 0 "#PWR027" H 9500 1100 50  0001 C CNN
+F 1 "GND" H 9505 1177 50  0000 C CNN
+F 2 "" H 9500 1350 50  0001 C CNN
+F 3 "" H 9500 1350 50  0001 C CNN
+	1    9500 1350
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 7300 1000 1350 1100
+U 5F447D4B
+F0 "Panel components and power" 50
+F1 "jackspower.sch" 50
+$EndSheet
+Text GLabel 10100 1100 3    50   Input ~ 0
+SIN_A_W
 $EndSCHEMATC

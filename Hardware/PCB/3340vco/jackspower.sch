@@ -3,14 +3,14 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 3
+Sheet 3 3
 Title "3340 VCO"
 Date "2020-07-19"
 Rev ""
 Comp "Rich Holmes / Analog Output"
-Comment1 "CVs based on LMNC 1222"
-Comment2 "Based mainly on Kassutronics VCO 3340"
-Comment3 ""
+Comment1 "Sine shaper from Thomas Henry design"
+Comment2 "CVs based on LMNC 1222"
+Comment3 "Based mainly on Kassutronics VCO 3340"
 Comment4 ""
 $EndDescr
 $Comp
@@ -28,43 +28,18 @@ F 3 "" H 7600 5950 50  0001 C CNN
 $EndComp
 Text Notes 6950 4650 0    50   ~ 0
 +8V reference
-Wire Wire Line
-	1650 1850 1650 1950
-Wire Wire Line
-	1650 1950 1650 2200
-Text GLabel 1750 1850 3    50   Input ~ 0
-V_OCT_J
-Text GLabel 1950 1850 3    50   Input ~ 0
-CV_IN_J
-Text GLabel 2050 1850 3    50   Input ~ 0
-SYNC_J
-Text GLabel 2150 1850 3    50   Input ~ 0
-LIN_FM_IN_J
-Text GLabel 2250 1850 3    50   Input ~ 0
-PWMIN_J
 $Comp
-L Connector_Generic:Conn_01x11 J?
+L Connector_Generic:Conn_01x06 J?
 U 1 1 5F501F53
-P 2150 1650
+P 1850 1400
 AR Path="/5F501F53" Ref="J?"  Part="1" 
 AR Path="/5F447D4B/5F501F53" Ref="J4"  Part="1" 
-F 0 "J4" V 2350 1650 50  0000 C CNN
-F 1 "Conn_01x11" V 2250 1650 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vertical" H 2150 1650 50  0001 C CNN
-F 3 "~" H 2150 1650 50  0001 C CNN
-	1    2150 1650
+F 0 "J4" V 2050 1400 50  0000 C CNN
+F 1 "Conn_01x06" V 1950 1400 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 1850 1400 50  0001 C CNN
+F 3 "~" H 1850 1400 50  0001 C CNN
+	1    1850 1400
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND1 #PWR034
-U 1 1 5F502265
-P 1650 2200
-F 0 "#PWR034" H 1650 1950 50  0001 C CNN
-F 1 "GND1" H 1655 2027 50  0000 C CNN
-F 2 "" H 1650 2200 50  0001 C CNN
-F 3 "" H 1650 2200 50  0001 C CNN
-	1    1650 2200
-	-1   0    0    -1  
 $EndComp
 Text GLabel 4700 2075 0    50   Input ~ 0
 TRI
@@ -507,18 +482,6 @@ Wire Wire Line
 Connection ~ 5300 7350
 Wire Wire Line
 	5700 6600 5700 7050
-$Comp
-L power:PWR_FLAG #FLG01
-U 1 1 5F612CBE
-P 1650 1950
-F 0 "#FLG01" H 1650 2025 50  0001 C CNN
-F 1 "PWR_FLAG" H 1650 2123 50  0000 C CNN
-F 2 "" H 1650 1950 50  0001 C CNN
-F 3 "~" H 1650 1950 50  0001 C CNN
-	1    1650 1950
-	0    -1   1    0   
-$EndComp
-Connection ~ 1650 1950
 Text GLabel 8000 5250 2    50   Output ~ 0
 +8V_REF
 $Comp
@@ -727,8 +690,6 @@ Wire Wire Line
 	9650 1250 9650 2600
 Wire Wire Line
 	9650 2600 9600 2600
-Text GLabel 1850 1850 3    50   Input ~ 0
-V_OCT2_J
 Wire Wire Line
 	7650 3800 7950 3800
 $Comp
@@ -972,37 +933,37 @@ VREF
 $Comp
 L ao_symbols:MountingHole H3
 U 1 1 6167D55B
-P 1500 3500
-F 0 "H3" H 1600 3546 50  0000 L CNN
-F 1 "MountingHole" H 1600 3455 50  0000 L CNN
-F 2 "ao_tht:MountingHole_3.2mm_M3" H 1500 3500 50  0001 C CNN
-F 3 "" H 1500 3500 50  0001 C CNN
-F 4 "DNF" H 1500 3500 50  0001 C CNN "Config"
-	1    1500 3500
+P 1950 3600
+F 0 "H3" H 2050 3646 50  0000 L CNN
+F 1 "MountingHole" H 2050 3555 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 1950 3600 50  0001 C CNN
+F 3 "" H 1950 3600 50  0001 C CNN
+F 4 "DNF" H 1950 3600 50  0001 C CNN "Config"
+	1    1950 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L ao_symbols:MountingHole H2
 U 1 1 6167D918
-P 1500 3300
-F 0 "H2" H 1600 3346 50  0000 L CNN
-F 1 "MountingHole" H 1600 3255 50  0000 L CNN
-F 2 "ao_tht:MountingHole_3.2mm_M3" H 1500 3300 50  0001 C CNN
-F 3 "" H 1500 3300 50  0001 C CNN
-F 4 "DNF" H 1500 3300 50  0001 C CNN "Config"
-	1    1500 3300
+P 1950 3850
+F 0 "H2" H 2050 3896 50  0000 L CNN
+F 1 "MountingHole" H 2050 3805 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 1950 3850 50  0001 C CNN
+F 3 "" H 1950 3850 50  0001 C CNN
+F 4 "DNF" H 1950 3850 50  0001 C CNN "Config"
+	1    1950 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L ao_symbols:MountingHole H1
 U 1 1 6167DAA1
-P 1500 3100
-F 0 "H1" H 1600 3146 50  0000 L CNN
-F 1 "MountingHole" H 1600 3055 50  0000 L CNN
-F 2 "ao_tht:MountingHole_3.2mm_M3" H 1500 3100 50  0001 C CNN
-F 3 "" H 1500 3100 50  0001 C CNN
-F 4 "DNF" H 1500 3100 50  0001 C CNN "Config"
-	1    1500 3100
+P 1950 3350
+F 0 "H1" H 2050 3396 50  0000 L CNN
+F 1 "MountingHole" H 2050 3305 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 1950 3350 50  0001 C CNN
+F 3 "" H 1950 3350 50  0001 C CNN
+F 4 "DNF" H 1950 3350 50  0001 C CNN "Config"
+	1    1950 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1044,13 +1005,13 @@ $EndComp
 $Comp
 L ao_symbols:Graphic GRAF2
 U 1 1 61680E82
-P 1700 3800
-F 0 "GRAF2" H 1978 3846 50  0000 L CNN
-F 1 "Holes" H 1978 3755 50  0000 L CNN
-F 2 "3340vco:3340vco_panel_holes" H 1700 3800 50  0001 C CNN
-F 3 "" H 1700 3800 50  0001 C CNN
-F 4 "DNF" H 1700 3800 50  0001 C CNN "Config"
-	1    1700 3800
+P 4300 3850
+F 0 "GRAF2" H 4578 3896 50  0000 L CNN
+F 1 "Holes" H 4578 3805 50  0000 L CNN
+F 2 "3340vco:3340vco_panel_holes" H 4300 3850 50  0001 C CNN
+F 3 "" H 4300 3850 50  0001 C CNN
+F 4 "DNF" H 4300 3850 50  0001 C CNN "Config"
+	1    4300 3850
 	1    0    0    -1  
 $EndComp
 Text GLabel 9650 5000 2    50   Input ~ 0
@@ -1211,14 +1172,6 @@ F 3 "" H 8950 5250 50  0001 C CNN
 	1    8950 5250
 	-1   0    0    -1  
 $EndComp
-Text GLabel 2650 1850 3    50   Input ~ 0
-SIN_A_CCW_S
-Text GLabel 2350 1850 3    50   Input ~ 0
-SIN_S_W_S
-Text GLabel 2450 1850 3    50   Input ~ 0
-SIN_S_CCW_S
-Text GLabel 2550 1850 3    50   Input ~ 0
-SIN_A_W_S
 $Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 6188C4A6
@@ -1298,4 +1251,68 @@ Text Label 3250 5300 0    50   ~ 0
 +12V_IN
 Text Label 3250 5700 0    50   ~ 0
 -12V_IN
+Text GLabel 2050 2450 3    50   Input ~ 0
+SIN_S_CCW_S
+Text GLabel 1950 2450 3    50   Input ~ 0
+SIN_S_W_S
+Text GLabel 1750 1600 3    50   Input ~ 0
+V_OCT2_J
+$Comp
+L power:GND1 #PWR034
+U 1 1 5F502265
+P 1650 3100
+F 0 "#PWR034" H 1650 2850 50  0001 C CNN
+F 1 "GND1" H 1655 2927 50  0000 C CNN
+F 2 "" H 1650 3100 50  0001 C CNN
+F 3 "" H 1650 3100 50  0001 C CNN
+	1    1650 3100
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2150 1600 3    50   Input ~ 0
+PWMIN_J
+Text GLabel 1850 1600 3    50   Input ~ 0
+LIN_FM_IN_J
+Text GLabel 1950 1600 3    50   Input ~ 0
+SYNC_J
+Text GLabel 2050 1600 3    50   Input ~ 0
+CV_IN_J
+Text GLabel 1650 1600 3    50   Input ~ 0
+V_OCT_J
+Text GLabel 1750 2450 3    50   Input ~ 0
+SIN_R_W_S
+Text GLabel 2150 2450 3    50   Input ~ 0
+SIN_R_CCW_S
+Text GLabel 1850 2450 3    50   Input ~ 0
+SIN_S_CW_S
+$Comp
+L Connector_Generic:Conn_01x07 J?
+U 1 1 61912C8E
+P 1950 2250
+AR Path="/61912C8E" Ref="J?"  Part="1" 
+AR Path="/5F447D4B/61912C8E" Ref="J24"  Part="1" 
+F 0 "J24" V 2150 2250 50  0000 C CNN
+F 1 "Conn_01x07" V 2050 2250 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 1950 2250 50  0001 C CNN
+F 3 "~" H 1950 2250 50  0001 C CNN
+	1    1950 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 3050 1650 3100
+Connection ~ 1650 3050
+Wire Wire Line
+	1650 2450 1650 3050
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5F612CBE
+P 1650 3050
+F 0 "#FLG01" H 1650 3125 50  0001 C CNN
+F 1 "PWR_FLAG" H 1650 3223 50  0000 C CNN
+F 2 "" H 1650 3050 50  0001 C CNN
+F 3 "~" H 1650 3050 50  0001 C CNN
+	1    1650 3050
+	0    -1   1    0   
+$EndComp
+Text GLabel 2250 2450 3    50   Input ~ 0
+SIN
 $EndSCHEMATC

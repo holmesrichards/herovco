@@ -963,7 +963,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 4900 4750 4800
 Text GLabel 4750 4400 0    50   Input ~ 0
-SIN_S_CCW
+SIN_S_CW
 Text GLabel 4750 4900 0    50   Input ~ 0
 SIN_S_CCW
 Text GLabel 5000 4650 2    50   Input ~ 0

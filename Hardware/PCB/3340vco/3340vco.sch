@@ -14,17 +14,6 @@ Comment3 "Based mainly on Kassutronics VCO 3340"
 Comment4 ""
 $EndDescr
 $Comp
-L ao_symbols:AS3340 U2
-U 1 1 5F150DCD
-P 3100 1700
-F 0 "U2" H 3100 2315 50  0000 C CNN
-F 1 "AS3340A" H 3100 2224 50  0000 C CNN
-F 2 "ao_tht:DIP-16_W7.62mm_Socket_LongPads" H 3100 1700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3100 1700 50  0001 C CNN
-	1    3100 1700
-	1    0    0    -1  
-$EndComp
-$Comp
 L ao_symbols:C C1
 U 1 1 5F1530B9
 P 900 1800
@@ -1141,8 +1130,6 @@ F 3 "" H 9500 5250 50  0001 C CNN
 	1    9500 5250
 	1    0    0    -1  
 $EndComp
-Text Notes 2350 2500 0    50   ~ 0
-AS3340A shows no sign of PWM\nfrequency shift the AS3340 is known\nfor, so that is what is specified.
 Wire Wire Line
 	9650 5050 9850 5050
 Wire Wire Line
@@ -1467,8 +1454,8 @@ Text GLabel 6600 5100 3    50   Input ~ 0
 Text GLabel 9500 3950 3    50   Input ~ 0
 -12V_P
 Wire Wire Line
-	3800 2050 4100 2050
-Text GLabel 3850 2050 3    50   Input ~ 0
+	3800 2050 3900 2050
+Text GLabel 3800 2250 0    50   Input ~ 0
 +12V_P
 $Comp
 L Connector_Generic:Conn_01x03 J17
@@ -1591,4 +1578,26 @@ F1 "jackspower.sch" 50
 $EndSheet
 Text GLabel 10100 1100 3    50   Input ~ 0
 SIN_A_W
+Text Notes 600  1450 0    50   ~ 0
+Regulated -5V is\nrecommended by\nAlfa, and tests\nshow it mostly or\nentirely suppresses\nPW frequency shift.
+Text Notes 2300 2850 0    50   ~ 0
+Use AS3340 or AS3340A. "AS3340A [has] \nmuch more output frequency stability \nagainst Vcc and VEE ....[and] benefits from \nimproved symmetry of rising and falling \nedge of triangle signal (approx. 50%)."
+$Comp
+L ao_symbols:AS3340 U2
+U 1 1 5F150DCD
+P 3100 1700
+F 0 "U2" H 3100 2315 50  0000 C CNN
+F 1 "AS3340A" H 3100 2224 50  0000 C CNN
+F 2 "ao_tht:DIP-16_W7.62mm_Socket_LongPads" H 3100 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3100 1700 50  0001 C CNN
+	1    3100 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2250 3900 2250
+Wire Wire Line
+	3900 2250 3900 2050
+Connection ~ 3900 2050
+Wire Wire Line
+	3900 2050 4100 2050
 $EndSCHEMATC

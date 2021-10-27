@@ -559,25 +559,6 @@ F 3 "" H 8150 5200 50  0001 C CNN
 	1    8150 5200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 617F1809
-P 4000 6450
-AR Path="/617F1809" Ref="J?"  Part="1" 
-AR Path="/62F85310/617F1809" Ref="J18"  Part="1" 
-F 0 "J18" H 4080 6492 50  0000 L CNN
-F 1 "Conn_01x03" H 4080 6401 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4000 6450 50  0001 C CNN
-F 3 "~" H 4000 6450 50  0001 C CNN
-	1    4000 6450
-	-1   0    0    -1  
-$EndComp
-Text GLabel 4200 6350 2    50   Output ~ 0
-TRIANGLE_OUT_S
-Text GLabel 4200 6450 2    50   Output ~ 0
-SAW_OUT_S
-Text GLabel 4200 6550 2    50   Output ~ 0
-PULSE_OUT_S
 Text GLabel 2150 2950 0    50   Input ~ 0
 SIN_R_CCW_S
 $Comp

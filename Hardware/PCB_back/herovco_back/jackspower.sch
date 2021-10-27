@@ -1,0 +1,800 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 2 2
+Title "Hero VCO back PCB"
+Date "2020-07-19"
+Rev ""
+Comp "Rich Holmes / Analog Output"
+Comment1 "Sine shaper from Thomas Henry design"
+Comment2 "CVs based on LMNC 1222"
+Comment3 "Based mainly on Kassutronics VCO 3340"
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 5F501F53
+P 1850 1550
+AR Path="/5F501F53" Ref="J?"  Part="1" 
+AR Path="/5F447D4B/5F501F53" Ref="J?"  Part="1" 
+AR Path="/618159AF/5F501F53" Ref="J202"  Part="1" 
+F 0 "J202" V 2050 1550 50  0000 C CNN
+F 1 "Conn_01x09" V 1950 1550 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical" H 1850 1550 50  0001 C CNN
+F 3 "~" H 1850 1550 50  0001 C CNN
+	1    1850 1550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4700 2075 0    50   Input ~ 0
+TRI
+Text GLabel 4700 3025 0    50   Input ~ 0
+SAW
+Text GLabel 4700 2550 0    50   Input ~ 0
+PULSE
+Text GLabel 4700 1600 0    50   Input ~ 0
+SIN
+Text GLabel 3750 3500 2    50   Output ~ 0
+V_OCT_J
+Text GLabel 3750 3025 2    50   Output ~ 0
+CV_IN_J
+Text GLabel 3750 2550 2    50   Output ~ 0
+SYNC_J
+Text GLabel 3750 2075 2    50   Output ~ 0
+LIN_FM_IN_J
+Text GLabel 3750 1600 2    50   Output ~ 0
+PWMIN_J
+$Comp
+L Connector:AudioJack2 J211
+U 1 1 5F50439C
+P 4950 1600
+F 0 "J211" H 4770 1583 50  0000 R CNN
+F 1 "AudioJack2" H 4770 1674 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN_slots" H 4950 1600 50  0001 C CNN
+F 3 "~" H 4950 1600 50  0001 C CNN
+	1    4950 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND1 #PWR0229
+U 1 1 5F5052DC
+P 4700 1750
+F 0 "#PWR0229" H 4700 1500 50  0001 C CNN
+F 1 "GND1" H 4705 1577 50  0000 C CNN
+F 2 "" H 4700 1750 50  0001 C CNN
+F 3 "" H 4700 1750 50  0001 C CNN
+	1    4700 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1700 4700 1700
+Wire Wire Line
+	4700 1700 4700 1750
+Wire Wire Line
+	4700 1600 4750 1600
+$Comp
+L Connector:AudioJack2 J212
+U 1 1 5F5068D3
+P 4950 2075
+F 0 "J212" H 4770 2058 50  0000 R CNN
+F 1 "AudioJack2" H 4770 2149 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN_slots" H 4950 2075 50  0001 C CNN
+F 3 "~" H 4950 2075 50  0001 C CNN
+	1    4950 2075
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND1 #PWR0230
+U 1 1 5F5068D9
+P 4700 2225
+F 0 "#PWR0230" H 4700 1975 50  0001 C CNN
+F 1 "GND1" H 4705 2052 50  0000 C CNN
+F 2 "" H 4700 2225 50  0001 C CNN
+F 3 "" H 4700 2225 50  0001 C CNN
+	1    4700 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2175 4700 2175
+Wire Wire Line
+	4700 2175 4700 2225
+Wire Wire Line
+	4700 2075 4750 2075
+$Comp
+L Connector:AudioJack2 J213
+U 1 1 5F507367
+P 4950 2550
+F 0 "J213" H 4770 2533 50  0000 R CNN
+F 1 "AudioJack2" H 4770 2624 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN_slots" H 4950 2550 50  0001 C CNN
+F 3 "~" H 4950 2550 50  0001 C CNN
+	1    4950 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND1 #PWR0231
+U 1 1 5F50736D
+P 4700 2700
+F 0 "#PWR0231" H 4700 2450 50  0001 C CNN
+F 1 "GND1" H 4705 2527 50  0000 C CNN
+F 2 "" H 4700 2700 50  0001 C CNN
+F 3 "" H 4700 2700 50  0001 C CNN
+	1    4700 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2650 4700 2650
+Wire Wire Line
+	4700 2650 4700 2700
+Wire Wire Line
+	4700 2550 4750 2550
+$Comp
+L Connector:AudioJack2 J214
+U 1 1 5F5084A6
+P 4950 3025
+F 0 "J214" H 4770 3008 50  0000 R CNN
+F 1 "AudioJack2" H 4770 3099 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN_slots" H 4950 3025 50  0001 C CNN
+F 3 "~" H 4950 3025 50  0001 C CNN
+	1    4950 3025
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND1 #PWR0232
+U 1 1 5F5084AC
+P 4700 3175
+F 0 "#PWR0232" H 4700 2925 50  0001 C CNN
+F 1 "GND1" H 4705 3002 50  0000 C CNN
+F 2 "" H 4700 3175 50  0001 C CNN
+F 3 "" H 4700 3175 50  0001 C CNN
+	1    4700 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3125 4700 3125
+Wire Wire Line
+	4700 3125 4700 3175
+Wire Wire Line
+	4700 3025 4750 3025
+$Comp
+L Connector:AudioJack2 J205
+U 1 1 5F51C6B5
+P 3500 1600
+F 0 "J205" H 3320 1583 50  0000 R CNN
+F 1 "AudioJack2" H 3320 1674 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN_slots" H 3500 1600 50  0001 C CNN
+F 3 "~" H 3500 1600 50  0001 C CNN
+	1    3500 1600
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND1 #PWR0223
+U 1 1 5F51C6BB
+P 3750 1750
+F 0 "#PWR0223" H 3750 1500 50  0001 C CNN
+F 1 "GND1" H 3755 1577 50  0000 C CNN
+F 2 "" H 3750 1750 50  0001 C CNN
+F 3 "" H 3750 1750 50  0001 C CNN
+	1    3750 1750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1700 3750 1700
+Wire Wire Line
+	3750 1700 3750 1750
+Wire Wire Line
+	3750 1600 3700 1600
+$Comp
+L Connector:AudioJack2 J206
+U 1 1 5F51C6C4
+P 3500 2075
+F 0 "J206" H 3320 2058 50  0000 R CNN
+F 1 "AudioJack2" H 3320 2149 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN_slots" H 3500 2075 50  0001 C CNN
+F 3 "~" H 3500 2075 50  0001 C CNN
+	1    3500 2075
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND1 #PWR0224
+U 1 1 5F51C6CA
+P 3750 2225
+F 0 "#PWR0224" H 3750 1975 50  0001 C CNN
+F 1 "GND1" H 3755 2052 50  0000 C CNN
+F 2 "" H 3750 2225 50  0001 C CNN
+F 3 "" H 3750 2225 50  0001 C CNN
+	1    3750 2225
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2175 3750 2175
+Wire Wire Line
+	3750 2175 3750 2225
+Wire Wire Line
+	3750 2075 3700 2075
+$Comp
+L Connector:AudioJack2 J207
+U 1 1 5F51C6D3
+P 3500 2550
+F 0 "J207" H 3320 2533 50  0000 R CNN
+F 1 "AudioJack2" H 3320 2624 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN_slots" H 3500 2550 50  0001 C CNN
+F 3 "~" H 3500 2550 50  0001 C CNN
+	1    3500 2550
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND1 #PWR0225
+U 1 1 5F51C6D9
+P 3750 2700
+F 0 "#PWR0225" H 3750 2450 50  0001 C CNN
+F 1 "GND1" H 3755 2527 50  0000 C CNN
+F 2 "" H 3750 2700 50  0001 C CNN
+F 3 "" H 3750 2700 50  0001 C CNN
+	1    3750 2700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2650 3750 2650
+Wire Wire Line
+	3750 2650 3750 2700
+Wire Wire Line
+	3750 2550 3700 2550
+$Comp
+L Connector:AudioJack2 J208
+U 1 1 5F51C6E2
+P 3500 3025
+F 0 "J208" H 3320 3008 50  0000 R CNN
+F 1 "AudioJack2" H 3320 3099 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN_slots" H 3500 3025 50  0001 C CNN
+F 3 "~" H 3500 3025 50  0001 C CNN
+	1    3500 3025
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND1 #PWR0226
+U 1 1 5F51C6E8
+P 3750 3175
+F 0 "#PWR0226" H 3750 2925 50  0001 C CNN
+F 1 "GND1" H 3755 3002 50  0000 C CNN
+F 2 "" H 3750 3175 50  0001 C CNN
+F 3 "" H 3750 3175 50  0001 C CNN
+	1    3750 3175
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3125 3750 3125
+Wire Wire Line
+	3750 3125 3750 3175
+Wire Wire Line
+	3750 3025 3700 3025
+$Comp
+L Connector:AudioJack2 J209
+U 1 1 5F51C6F1
+P 3500 3500
+F 0 "J209" H 3320 3483 50  0000 R CNN
+F 1 "AudioJack2" H 3320 3574 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN_slots" H 3500 3500 50  0001 C CNN
+F 3 "~" H 3500 3500 50  0001 C CNN
+	1    3500 3500
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND1 #PWR0227
+U 1 1 5F51C6F7
+P 3750 3650
+F 0 "#PWR0227" H 3750 3400 50  0001 C CNN
+F 1 "GND1" H 3755 3477 50  0000 C CNN
+F 2 "" H 3750 3650 50  0001 C CNN
+F 3 "" H 3750 3650 50  0001 C CNN
+	1    3750 3650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3600 3750 3600
+Wire Wire Line
+	3750 3600 3750 3650
+Wire Wire Line
+	3750 3500 3700 3500
+Wire Wire Line
+	4275 5350 4700 5350
+Wire Wire Line
+	4275 5750 4700 5750
+Wire Wire Line
+	3375 5450 3375 5550
+Connection ~ 3375 5550
+Wire Wire Line
+	3375 5550 3375 5650
+Wire Wire Line
+	4275 5450 4275 5550
+Connection ~ 4275 5550
+Wire Wire Line
+	4275 5550 4275 5650
+Wire Wire Line
+	3375 5350 3375 5000
+Wire Wire Line
+	3375 5000 4275 5000
+Wire Wire Line
+	4275 5000 4275 5350
+Wire Wire Line
+	3375 5750 3375 5900
+Wire Wire Line
+	3375 5900 4275 5900
+Wire Wire Line
+	4275 5900 4275 5750
+$Comp
+L power:PWR_FLAG #FLG0201
+U 1 1 5F52F6CB
+P 5300 5350
+F 0 "#FLG0201" H 5300 5425 50  0001 C CNN
+F 1 "PWR_FLAG" H 5300 5523 50  0000 C CNN
+F 2 "" H 5300 5350 50  0001 C CNN
+F 3 "~" H 5300 5350 50  0001 C CNN
+	1    5300 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 5350
+$Comp
+L power:PWR_FLAG #FLG0202
+U 1 1 5F52FBBB
+P 5300 5750
+F 0 "#FLG0202" H 5300 5825 50  0001 C CNN
+F 1 "PWR_FLAG" H 5300 5923 50  0000 C CNN
+F 2 "" H 5300 5750 50  0001 C CNN
+F 3 "~" H 5300 5750 50  0001 C CNN
+	1    5300 5750
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 5750
+Wire Wire Line
+	5300 5350 5650 5350
+Wire Wire Line
+	5300 5750 5650 5750
+$Comp
+L ao_symbols:Synth_power_2x5 J210
+U 1 1 5F682BB2
+P 3825 5550
+F 0 "J210" H 3825 5997 60  0000 C CNN
+F 1 "Synth_power_2x5" H 3825 5891 60  0000 C CNN
+F 2 "ao_tht:Power_Header" H 3825 5550 60  0001 C CNN
+F 3 "" H 3825 5550 60  0001 C CNN
+	1    3825 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 4275 5750
+Connection ~ 4275 5350
+Wire Wire Line
+	5000 5350 5300 5350
+Wire Wire Line
+	5000 5750 5300 5750
+$Comp
+L Diode:1N5817 D202
+U 1 1 5F776D8B
+P 4850 5750
+F 0 "D202" H 4850 5967 50  0000 C CNN
+F 1 "1N5817" H 4850 5876 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4850 5575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 4850 5750 50  0001 C CNN
+	1    4850 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N5817 D201
+U 1 1 5F776FF5
+P 4850 5350
+F 0 "D201" H 4850 5133 50  0000 C CNN
+F 1 "1N5817" H 4850 5224 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4850 5175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 4850 5350 50  0001 C CNN
+	1    4850 5350
+	-1   0    0    1   
+$EndComp
+Text GLabel 5250 3525 2    50   Output ~ 0
+V_OCT2_J
+$Comp
+L Connector:AudioJack2 J215
+U 1 1 60902F15
+P 5000 3525
+F 0 "J215" H 4820 3508 50  0000 R CNN
+F 1 "AudioJack2" H 4820 3599 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN_slots" H 5000 3525 50  0001 C CNN
+F 3 "~" H 5000 3525 50  0001 C CNN
+	1    5000 3525
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND1 #PWR0233
+U 1 1 60902F1B
+P 5250 3675
+F 0 "#PWR0233" H 5250 3425 50  0001 C CNN
+F 1 "GND1" H 5255 3502 50  0000 C CNN
+F 2 "" H 5250 3675 50  0001 C CNN
+F 3 "" H 5250 3675 50  0001 C CNN
+	1    5250 3675
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3625 5250 3625
+Wire Wire Line
+	5250 3625 5250 3675
+Wire Wire Line
+	5250 3525 5200 3525
+Wire Wire Line
+	3100 5550 3375 5550
+$Comp
+L ao_symbols:MountingHole H203
+U 1 1 6167E39E
+P 1650 7550
+F 0 "H203" H 1750 7596 50  0000 L CNN
+F 1 "MountingHole" H 1750 7505 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 1650 7550 50  0001 C CNN
+F 3 "" H 1650 7550 50  0001 C CNN
+F 4 "DNF" H 1650 7550 50  0001 C CNN "Config"
+	1    1650 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:MountingHole H202
+U 1 1 6167E3A5
+P 1650 7350
+F 0 "H202" H 1750 7396 50  0000 L CNN
+F 1 "MountingHole" H 1750 7305 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 1650 7350 50  0001 C CNN
+F 3 "" H 1650 7350 50  0001 C CNN
+F 4 "DNF" H 1650 7350 50  0001 C CNN "Config"
+	1    1650 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:MountingHole H201
+U 1 1 6167E3AC
+P 1650 7150
+F 0 "H201" H 1750 7196 50  0000 L CNN
+F 1 "MountingHole" H 1750 7105 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 1650 7150 50  0001 C CNN
+F 3 "" H 1650 7150 50  0001 C CNN
+F 4 "DNF" H 1650 7150 50  0001 C CNN "Config"
+	1    1650 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:Graphic GRAF201
+U 1 1 61680E82
+P 2700 7150
+F 0 "GRAF201" H 2978 7196 50  0000 L CNN
+F 1 "Holes" H 2978 7105 50  0000 L CNN
+F 2 "3340vco:3340vco_panel_holes" H 2700 7150 50  0001 C CNN
+F 3 "" H 2700 7150 50  0001 C CNN
+F 4 "DNF" H 2700 7150 50  0001 C CNN "Config"
+	1    2700 7150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 4750 0    50   Input ~ 0
+LINK_OUT_CV_L
+Text GLabel 1800 4650 0    50   Input ~ 0
+LINK_OUT_PW_L
+Text GLabel 1800 4550 0    50   Input ~ 0
+LINK_OUT_FM_L
+Text GLabel 1800 4450 0    50   Input ~ 0
+LINK_OUT_SAW
+Wire Wire Line
+	1900 4750 1800 4750
+Wire Wire Line
+	1900 4650 1800 4650
+Wire Wire Line
+	1900 4550 1800 4550
+Wire Wire Line
+	1900 4450 1800 4450
+Wire Wire Line
+	2500 4750 2400 4750
+Wire Wire Line
+	2400 4450 2500 4450
+Wire Wire Line
+	2500 4450 2500 4550
+Wire Wire Line
+	2400 4550 2500 4550
+Connection ~ 2500 4550
+Wire Wire Line
+	2500 4550 2500 4650
+Wire Wire Line
+	2400 4650 2500 4650
+Connection ~ 2500 4650
+Wire Wire Line
+	2500 4650 2500 4750
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J?
+U 1 1 61727870
+P 2100 4550
+AR Path="/61727870" Ref="J?"  Part="1" 
+AR Path="/5F447D4B/61727870" Ref="J?"  Part="1" 
+AR Path="/618159AF/61727870" Ref="J204"  Part="1" 
+F 0 "J204" H 2150 4867 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 2150 4776 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 2100 4550 50  0001 C CNN
+F 3 "~" H 2100 4550 50  0001 C CNN
+	1    2100 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0222
+U 1 1 6172E572
+P 3100 5550
+F 0 "#PWR0222" H 3100 5300 50  0001 C CNN
+F 1 "GND1" H 3105 5377 50  0000 C CNN
+F 2 "" H 3100 5550 50  0001 C CNN
+F 3 "" H 3100 5550 50  0001 C CNN
+	1    3100 5550
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND1 #PWR0228
+U 1 1 61731B11
+P 4275 5550
+F 0 "#PWR0228" H 4275 5300 50  0001 C CNN
+F 1 "GND1" H 4280 5377 50  0000 C CNN
+F 2 "" H 4275 5550 50  0001 C CNN
+F 3 "" H 4275 5550 50  0001 C CNN
+	1    4275 5550
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND1 #PWR0236
+U 1 1 617354F0
+P 6150 5600
+F 0 "#PWR0236" H 6150 5350 50  0001 C CNN
+F 1 "GND1" H 6155 5427 50  0000 C CNN
+F 2 "" H 6150 5600 50  0001 C CNN
+F 3 "" H 6150 5600 50  0001 C CNN
+	1    6150 5600
+	-1   0    0    -1  
+$EndComp
+Connection ~ 6450 5550
+$Comp
+L ao_symbols:CP C?
+U 1 1 5F5271AB
+P 6450 5700
+AR Path="/5F447D4B/5F523F39/5F5271AB" Ref="C?"  Part="1" 
+AR Path="/5F447D4B/5F5271AB" Ref="C?"  Part="1" 
+AR Path="/618159AF/5F5271AB" Ref="C206"  Part="1" 
+F 0 "C206" H 6568 5746 50  0000 L CNN
+F 1 "10uF" H 6568 5655 50  0000 L CNN
+F 2 "ao_tht:CP_Radial_D5.0mm_P2.00mm" H 6488 5550 50  0001 C CNN
+F 3 "~" H 6450 5700 50  0001 C CNN
+F 4 "Tayda" H 6450 5700 50  0001 C CNN "Vendor"
+	1    6450 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:CP C?
+U 1 1 5F5271A5
+P 6450 5400
+AR Path="/5F447D4B/5F523F39/5F5271A5" Ref="C?"  Part="1" 
+AR Path="/5F447D4B/5F5271A5" Ref="C?"  Part="1" 
+AR Path="/618159AF/5F5271A5" Ref="C205"  Part="1" 
+F 0 "C205" H 6568 5446 50  0000 L CNN
+F 1 "10uF" H 6568 5355 50  0000 L CNN
+F 2 "ao_tht:CP_Radial_D5.0mm_P2.00mm" H 6488 5250 50  0001 C CNN
+F 3 "~" H 6450 5400 50  0001 C CNN
+F 4 "Tayda" H 6450 5400 50  0001 C CNN "Vendor"
+	1    6450 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 5550 6450 5550
+Wire Wire Line
+	6150 5550 6150 5600
+$Comp
+L power:GND1 #PWR0221
+U 1 1 6172ADE2
+P 2500 4800
+F 0 "#PWR0221" H 2500 4550 50  0001 C CNN
+F 1 "GND1" H 2505 4627 50  0000 C CNN
+F 2 "" H 2500 4800 50  0001 C CNN
+F 3 "" H 2500 4800 50  0001 C CNN
+	1    2500 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 6188C4A6
+P 1700 3750
+AR Path="/6188C4A6" Ref="J?"  Part="1" 
+AR Path="/62F85310/6188C4A6" Ref="J?"  Part="1" 
+AR Path="/5F447D4B/6188C4A6" Ref="J?"  Part="1" 
+AR Path="/618159AF/6188C4A6" Ref="J201"  Part="1" 
+F 0 "J201" H 1780 3792 50  0000 L CNN
+F 1 "Conn_01x06" H 1780 3701 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 1700 3750 50  0001 C CNN
+F 3 "~" H 1700 3750 50  0001 C CNN
+	1    1700 3750
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1900 3850 2    50   Output ~ 0
+LINK_OUT_FM_L
+Text GLabel 1900 3950 2    50   Output ~ 0
+LINK_OUT_PW_L
+Text GLabel 1900 4050 2    50   Output ~ 0
+LINK_OUT_CV_L
+Text Label 4350 5350 0    50   ~ 0
++12V_IN
+Text Label 4350 5750 0    50   ~ 0
+-12V_IN
+Text GLabel 1900 2750 3    50   Input ~ 0
+SIN_S_CCW_S
+Text GLabel 2000 2750 3    50   Input ~ 0
+SIN_S_W_S
+Text GLabel 2150 1750 3    50   Input ~ 0
+V_OCT2_J
+$Comp
+L power:GND1 #PWR0219
+U 1 1 5F502265
+P 1600 3200
+F 0 "#PWR0219" H 1600 2950 50  0001 C CNN
+F 1 "GND1" H 1605 3027 50  0000 C CNN
+F 2 "" H 1600 3200 50  0001 C CNN
+F 3 "" H 1600 3200 50  0001 C CNN
+	1    1600 3200
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1750 1750 3    50   Input ~ 0
+PWMIN_J
+Text GLabel 2050 1750 3    50   Input ~ 0
+LIN_FM_IN_J
+Text GLabel 1950 1750 3    50   Input ~ 0
+SYNC_J
+Text GLabel 1850 1750 3    50   Input ~ 0
+CV_IN_J
+Text GLabel 2250 1750 3    50   Input ~ 0
+V_OCT_J
+Text GLabel 2200 2750 3    50   Input ~ 0
+SIN_R_W_S
+Text GLabel 1800 2750 3    50   Input ~ 0
+SIN_R_CCW_S
+Text GLabel 2100 2750 3    50   Input ~ 0
+SIN_S_CW_S
+$Comp
+L Connector_Generic:Conn_01x07 J?
+U 1 1 61912C8E
+P 1900 2550
+AR Path="/61912C8E" Ref="J?"  Part="1" 
+AR Path="/5F447D4B/61912C8E" Ref="J?"  Part="1" 
+AR Path="/618159AF/61912C8E" Ref="J203"  Part="1" 
+F 0 "J203" V 2100 2550 50  0000 C CNN
+F 1 "Conn_01x07" V 2000 2550 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 1900 2550 50  0001 C CNN
+F 3 "~" H 1900 2550 50  0001 C CNN
+	1    1900 2550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1700 2750 3    50   Input ~ 0
+SIN
+$Comp
+L ao_symbols:+12V_1 #PWR?
+U 1 1 61817D34
+P 5650 5350
+AR Path="/62F85310/61817D34" Ref="#PWR?"  Part="1" 
+AR Path="/5F447D4B/61817D34" Ref="#PWR?"  Part="1" 
+AR Path="/618159AF/61817D34" Ref="#PWR0234"  Part="1" 
+F 0 "#PWR0234" H 5650 5200 50  0001 C CNN
+F 1 "+12V_1" H 5665 5523 50  0000 C CNN
+F 2 "" H 5650 5350 50  0001 C CNN
+F 3 "" H 5650 5350 50  0001 C CNN
+	1    5650 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:+12V_1 #PWR?
+U 1 1 6181BA9D
+P 6450 5250
+AR Path="/62F85310/6181BA9D" Ref="#PWR?"  Part="1" 
+AR Path="/5F447D4B/6181BA9D" Ref="#PWR?"  Part="1" 
+AR Path="/618159AF/6181BA9D" Ref="#PWR0237"  Part="1" 
+F 0 "#PWR0237" H 6450 5100 50  0001 C CNN
+F 1 "+12V_1" H 6465 5423 50  0000 C CNN
+F 2 "" H 6450 5250 50  0001 C CNN
+F 3 "" H 6450 5250 50  0001 C CNN
+	1    6450 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2750 1600 3200
+$Comp
+L ao_symbols:-12V_1 #PWR?
+U 1 1 618BA34D
+P 5650 5750
+AR Path="/618BA34D" Ref="#PWR?"  Part="1" 
+AR Path="/5F447D4B/618BA34D" Ref="#PWR?"  Part="1" 
+AR Path="/618159AF/618BA34D" Ref="#PWR0235"  Part="1" 
+F 0 "#PWR0235" H 5650 5850 50  0001 C CNN
+F 1 "-12V_1" H 5665 5923 50  0000 C CNN
+F 2 "" H 5650 5750 50  0001 C CNN
+F 3 "" H 5650 5750 50  0001 C CNN
+	1    5650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:-12V_1 #PWR?
+U 1 1 618C1F8A
+P 6450 5850
+AR Path="/618C1F8A" Ref="#PWR?"  Part="1" 
+AR Path="/5F447D4B/618C1F8A" Ref="#PWR?"  Part="1" 
+AR Path="/618159AF/618C1F8A" Ref="#PWR0238"  Part="1" 
+F 0 "#PWR0238" H 6450 5950 50  0001 C CNN
+F 1 "-12V_1" H 6465 6023 50  0000 C CNN
+F 2 "" H 6450 5850 50  0001 C CNN
+F 3 "" H 6450 5850 50  0001 C CNN
+	1    6450 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND1 #PWR0217
+U 1 1 619226DB
+P 1450 1750
+F 0 "#PWR0217" H 1450 1500 50  0001 C CNN
+F 1 "GND1" V 1450 1550 50  0000 C CNN
+F 2 "" H 1450 1750 50  0001 C CNN
+F 3 "" H 1450 1750 50  0001 C CNN
+	1    1450 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:+12V_1 #PWR?
+U 1 1 619226E3
+P 1650 1750
+AR Path="/62F85310/619226E3" Ref="#PWR?"  Part="1" 
+AR Path="/5F447D4B/619226E3" Ref="#PWR?"  Part="1" 
+AR Path="/618159AF/619226E3" Ref="#PWR0220"  Part="1" 
+F 0 "#PWR0220" H 1650 1600 50  0001 C CNN
+F 1 "+12V_1" V 1650 2000 50  0000 C CNN
+F 2 "" H 1650 1750 50  0001 C CNN
+F 3 "" H 1650 1750 50  0001 C CNN
+	1    1650 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L ao_symbols:-12V_1 #PWR?
+U 1 1 619226E9
+P 1550 1750
+AR Path="/619226E9" Ref="#PWR?"  Part="1" 
+AR Path="/5F447D4B/619226E9" Ref="#PWR?"  Part="1" 
+AR Path="/618159AF/619226E9" Ref="#PWR0218"  Part="1" 
+F 0 "#PWR0218" H 1550 1850 50  0001 C CNN
+F 1 "-12V_1" V 1550 2000 50  0000 C CNN
+F 2 "" H 1550 1750 50  0001 C CNN
+F 3 "" H 1550 1750 50  0001 C CNN
+	1    1550 1750
+	-1   0    0    1   
+$EndComp
+Text GLabel 1900 3550 2    50   Output ~ 0
+TRIANGLE_OUT_S
+Text GLabel 1900 3650 2    50   Output ~ 0
+SAW_OUT_S
+Text GLabel 1900 3750 2    50   Output ~ 0
+PULSE_OUT_S
+Wire Wire Line
+	2500 4800 2500 4750
+Connection ~ 2500 4750
+Wire Notes Line
+	6150 4450 6150 1000
+Wire Notes Line
+	1100 1000 1100 5100
+Wire Notes Line
+	2650 5100 1100 5100
+Text Notes 1250 1250 0    150  ~ 0
+HEADERS
+Text Notes 2750 1250 0    150  ~ 0
+JACKS
+Wire Notes Line
+	2650 4450 6900 4450
+Text Notes 2850 4800 0    150  ~ 0
+POWER
+Wire Notes Line
+	2650 1000 2650 6700
+Wire Notes Line
+	6900 4450 6900 6700
+Wire Notes Line
+	2650 6700 6900 6700
+Wire Notes Line
+	1100 1000 6150 1000
+$EndSCHEMATC

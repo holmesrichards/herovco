@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name 3340vco)(type KiCad)(uri ${KIPRJMOD}/3340vco.pretty)(options "")(descr ""))
-)

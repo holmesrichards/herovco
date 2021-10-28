@@ -488,13 +488,14 @@ $EndComp
 Text Notes 800  1500 0    150  ~ 0
 SINE SHAPING
 $Comp
-L Device:R R210
+L ao_symbols:R R210
 U 1 1 62FEFD1D
 P 5150 2600
 F 0 "R210" V 4943 2600 50  0000 C CNN
 F 1 "2k" V 5034 2600 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5080 2600 50  0001 C CNN
 F 3 "~" H 5150 2600 50  0001 C CNN
+F 4 "Tayda" H 5150 2600 50  0001 C CNN "Vendor"
 	1    5150 2600
 	0    1    1    0   
 $EndComp
@@ -525,13 +526,14 @@ Wire Wire Line
 Wire Wire Line
 	7550 5200 7550 5100
 $Comp
-L Device:R R214
+L ao_symbols:R R214
 U 1 1 62FC83BF
 P 7550 4950
 F 0 "R214" H 7620 4996 50  0000 L CNN
 F 1 "18k" H 7620 4905 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7480 4950 50  0001 C CNN
 F 3 "~" H 7550 4950 50  0001 C CNN
+F 4 "Tayda" H 7550 4950 50  0001 C CNN "Vendor"
 	1    7550 4950
 	1    0    0    -1  
 $EndComp
@@ -543,13 +545,14 @@ Wire Wire Line
 Wire Wire Line
 	7550 3850 7550 3750
 $Comp
-L Device:R R213
+L ao_symbols:R R213
 U 1 1 62FC83AF
 P 7550 3600
 F 0 "R213" H 7620 3646 50  0000 L CNN
 F 1 "18k" H 7620 3555 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7480 3600 50  0001 C CNN
 F 3 "~" H 7550 3600 50  0001 C CNN
+F 4 "Tayda" H 7550 3600 50  0001 C CNN "Vendor"
 	1    7550 3600
 	1    0    0    -1  
 $EndComp
@@ -568,8 +571,6 @@ Wire Wire Line
 	7500 3100 7550 3100
 Connection ~ 9100 3200
 Wire Wire Line
-	9200 3200 9100 3200
-Wire Wire Line
 	9600 3200 9500 3200
 Wire Wire Line
 	9100 4550 9050 4550
@@ -578,28 +579,6 @@ Wire Wire Line
 	9200 4550 9100 4550
 Wire Wire Line
 	9600 4550 9500 4550
-$Comp
-L Device:R R226
-U 1 1 62FC839A
-P 9350 4550
-F 0 "R226" V 9143 4550 50  0000 C CNN
-F 1 "1k" V 9234 4550 50  0000 C CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9280 4550 50  0001 C CNN
-F 3 "~" H 9350 4550 50  0001 C CNN
-	1    9350 4550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R225
-U 1 1 62FC8394
-P 9350 3200
-F 0 "R225" V 9143 3200 50  0000 C CNN
-F 1 "1k" V 9234 3200 50  0000 C CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9280 3200 50  0001 C CNN
-F 3 "~" H 9350 3200 50  0001 C CNN
-	1    9350 3200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9100 5000 9100 5350
 Connection ~ 9100 5000
@@ -609,17 +588,6 @@ Wire Wire Line
 	9100 5350 8900 5350
 Wire Wire Line
 	9100 4550 9100 5000
-$Comp
-L Device:R R223
-U 1 1 62FC8389
-P 8750 5350
-F 0 "R223" V 8543 5350 50  0000 C CNN
-F 1 "18k" V 8634 5350 50  0000 C CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8680 5350 50  0001 C CNN
-F 3 "~" H 8750 5350 50  0001 C CNN
-	1    8750 5350
-	0    1    1    0   
-$EndComp
 $Comp
 L ao_symbols:C C204
 U 1 1 62FC8383
@@ -636,17 +604,6 @@ Wire Wire Line
 	7100 4450 7200 4450
 Wire Wire Line
 	8150 4850 8150 4800
-$Comp
-L Device:R R220
-U 1 1 62FC837B
-P 8150 5000
-F 0 "R220" H 8220 5046 50  0000 L CNN
-F 1 "16k" H 8220 4955 50  0000 L CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 5000 50  0001 C CNN
-F 3 "~" H 8150 5000 50  0001 C CNN
-	1    8150 5000
-	1    0    0    -1  
-$EndComp
 Connection ~ 8150 4800
 Wire Wire Line
 	8150 4800 8150 4650
@@ -681,13 +638,14 @@ Wire Wire Line
 Wire Wire Line
 	8400 5350 8400 5000
 $Comp
-L Device:R R212
+L ao_symbols:R R212
 U 1 1 62FC8357
 P 7350 4450
 F 0 "R212" V 7143 4450 50  0000 C CNN
 F 1 "33k" V 7234 4450 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7280 4450 50  0001 C CNN
 F 3 "~" H 7350 4450 50  0001 C CNN
+F 4 "Tayda" H 7350 4450 50  0001 C CNN "Vendor"
 	1    7350 4450
 	0    1    1    0   
 $EndComp
@@ -695,17 +653,6 @@ Wire Wire Line
 	7100 3100 7200 3100
 Wire Wire Line
 	8150 3500 8150 3450
-$Comp
-L Device:R R219
-U 1 1 62FC834F
-P 8150 3650
-F 0 "R219" H 8220 3696 50  0000 L CNN
-F 1 "16k" H 8220 3605 50  0000 L CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 3650 50  0001 C CNN
-F 3 "~" H 8150 3650 50  0001 C CNN
-	1    8150 3650
-	1    0    0    -1  
-$EndComp
 Connection ~ 8150 3450
 Wire Wire Line
 	8150 3450 8150 3300
@@ -731,13 +678,14 @@ $EndComp
 Wire Wire Line
 	8150 2250 8150 2200
 $Comp
-L Device:R R218
+L ao_symbols:R R218
 U 1 1 62FC8330
 P 8150 2400
 F 0 "R218" H 8220 2446 50  0000 L CNN
 F 1 "16k" H 8220 2355 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 2400 50  0001 C CNN
 F 3 "~" H 8150 2400 50  0001 C CNN
+F 4 "Tayda" H 8150 2400 50  0001 C CNN "Vendor"
 	1    8150 2400
 	1    0    0    -1  
 $EndComp
@@ -764,17 +712,6 @@ Wire Wire Line
 Wire Wire Line
 	9050 3200 9100 3200
 $Comp
-L Device:R R222
-U 1 1 62FC831E
-P 8750 4000
-F 0 "R222" V 8543 4000 50  0000 C CNN
-F 1 "18k" V 8634 4000 50  0000 C CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8680 4000 50  0001 C CNN
-F 3 "~" H 8750 4000 50  0001 C CNN
-	1    8750 4000
-	0    1    1    0   
-$EndComp
-$Comp
 L ao_symbols:C C203
 U 1 1 62FC8318
 P 8750 3650
@@ -787,13 +724,14 @@ F 4 "Tayda" H 8750 3650 50  0001 C CNN "Vendor"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R211
+L ao_symbols:R R211
 U 1 1 62FC8312
 P 7350 3100
 F 0 "R211" V 7143 3100 50  0000 C CNN
 F 1 "18k" V 7234 3100 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7280 3100 50  0001 C CNN
 F 3 "~" H 7350 3100 50  0001 C CNN
+F 4 "Tayda" H 7350 3100 50  0001 C CNN "Vendor"
 	1    7350 3100
 	0    1    1    0   
 $EndComp
@@ -806,13 +744,14 @@ Wire Wire Line
 Wire Wire Line
 	9100 1950 9200 1950
 $Comp
-L Device:R R224
+L ao_symbols:R R224
 U 1 1 62FC8307
 P 9350 1950
 F 0 "R224" V 9143 1950 50  0000 C CNN
 F 1 "1k" V 9234 1950 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9280 1950 50  0001 C CNN
 F 3 "~" H 9350 1950 50  0001 C CNN
+F 4 "Tayda" H 9350 1950 50  0001 C CNN "Vendor"
 	1    9350 1950
 	0    1    1    0   
 $EndComp
@@ -836,13 +775,14 @@ Wire Wire Line
 Wire Wire Line
 	8450 2050 8400 2050
 $Comp
-L Device:R R221
+L ao_symbols:R R221
 U 1 1 62FC82F1
 P 8750 2350
 F 0 "R221" V 8543 2350 50  0000 C CNN
 F 1 "18k" V 8634 2350 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8680 2350 50  0001 C CNN
 F 3 "~" H 8750 2350 50  0001 C CNN
+F 4 "Tayda" H 8750 2350 50  0001 C CNN "Vendor"
 	1    8750 2350
 	0    1    1    0   
 $EndComp
@@ -851,13 +791,14 @@ Wire Wire Line
 Wire Wire Line
 	7700 2200 7800 2200
 $Comp
-L Device:R R215
+L ao_symbols:R R215
 U 1 1 62FC82E2
 P 7950 2200
 F 0 "R215" V 7743 2200 50  0000 C CNN
 F 1 "43k" V 7834 2200 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7880 2200 50  0001 C CNN
 F 3 "~" H 7950 2200 50  0001 C CNN
+F 4 "Tayda" H 7950 2200 50  0001 C CNN "Vendor"
 	1    7950 2200
 	0    1    1    0   
 $EndComp
@@ -925,4 +866,78 @@ U 618159AF
 F0 "Jacks, power, headers" 50
 F1 "jackspower.sch" 50
 $EndSheet
+$Comp
+L ao_symbols:R R219
+U 1 1 617C115C
+P 8150 3650
+F 0 "R219" H 8220 3696 50  0000 L CNN
+F 1 "16k" H 8220 3605 50  0000 L CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 3650 50  0001 C CNN
+F 3 "~" H 8150 3650 50  0001 C CNN
+F 4 "Tayda" H 8150 3650 50  0001 C CNN "Vendor"
+	1    8150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:R R220
+U 1 1 617C1660
+P 8150 5000
+F 0 "R220" H 8220 5046 50  0000 L CNN
+F 1 "16k" H 8220 4955 50  0000 L CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 5000 50  0001 C CNN
+F 3 "~" H 8150 5000 50  0001 C CNN
+F 4 "Tayda" H 8150 5000 50  0001 C CNN "Vendor"
+	1    8150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:R R222
+U 1 1 617C1B1C
+P 8750 4000
+F 0 "R222" V 8543 4000 50  0000 C CNN
+F 1 "18k" V 8634 4000 50  0000 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8680 4000 50  0001 C CNN
+F 3 "~" H 8750 4000 50  0001 C CNN
+F 4 "Tayda" H 8750 4000 50  0001 C CNN "Vendor"
+	1    8750 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L ao_symbols:R R223
+U 1 1 617C2026
+P 8750 5350
+F 0 "R223" V 8543 5350 50  0000 C CNN
+F 1 "18k" V 8634 5350 50  0000 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8680 5350 50  0001 C CNN
+F 3 "~" H 8750 5350 50  0001 C CNN
+F 4 "Tayda" H 8750 5350 50  0001 C CNN "Vendor"
+	1    8750 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L ao_symbols:R R225
+U 1 1 617C2494
+P 9350 3200
+F 0 "R225" V 9143 3200 50  0000 C CNN
+F 1 "1k" V 9234 3200 50  0000 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9280 3200 50  0001 C CNN
+F 3 "~" H 9350 3200 50  0001 C CNN
+F 4 "Tayda" H 9350 3200 50  0001 C CNN "Vendor"
+	1    9350 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L ao_symbols:R R226
+U 1 1 617C2896
+P 9350 4550
+F 0 "R226" V 9143 4550 50  0000 C CNN
+F 1 "1k" V 9234 4550 50  0000 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9280 4550 50  0001 C CNN
+F 3 "~" H 9350 4550 50  0001 C CNN
+F 4 "Tayda" H 9350 4550 50  0001 C CNN "Vendor"
+	1    9350 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9100 3200 9200 3200
 $EndSCHEMATC

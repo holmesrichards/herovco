@@ -447,7 +447,7 @@ F 3 "" H 8150 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7150 6150 0    50   ~ 0
-Kassutronics used 100k feedback resistors and\ncorrespondingly large values for voltage divider \nresistors. AS3340 datasheet calls for a 51k\npulldown on pin 4, and I don't see any reason to\nuser larger resistances than that, so I reduced \nthe values by a factor ~~ (51k/(180k+100k)).\nThen stabilization caps were increased more to\nmake 1/(2πRC) ~~ 50kHz.
+Kassutronics used 100k feedback resistors and\nsimilarly large values for voltage divider resistors. \nAS3340 datasheet calls for a 51k pulldown \non pin 4, so I reduced the voltage divider \nresistances by a factor ~~ (51k/(180k+100k)). \nOp amp resistances were reduced by a factor \nof 10. Then stabilization caps were increased \nmore to make 1/(2πRC) ~~ 50kHz.
 Wire Wire Line
 	9100 3550 9300 3550
 Wire Wire Line
@@ -593,7 +593,7 @@ L ao_symbols:C C204
 U 1 1 62FC8383
 P 8750 5000
 F 0 "C204" V 8498 5000 50  0000 C CNN
-F 1 "180pF" V 8589 5000 50  0000 C CNN
+F 1 "330pF" V 8589 5000 50  0000 C CNN
 F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8788 4850 50  0001 C CNN
 F 3 "~" H 8750 5000 50  0001 C CNN
 F 4 "Tayda" H 8750 5000 50  0001 C CNN "Vendor"
@@ -615,17 +615,6 @@ Wire Wire Line
 	7700 4800 7800 4800
 Wire Wire Line
 	7700 4750 7700 4800
-$Comp
-L Device:R R217
-U 1 1 62FC8363
-P 7950 4800
-F 0 "R217" V 7743 4800 50  0000 C CNN
-F 1 "43k" V 7834 4800 50  0000 C CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7880 4800 50  0001 C CNN
-F 3 "~" H 7950 4800 50  0001 C CNN
-	1    7950 4800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8400 5000 8400 4650
 Connection ~ 8400 5000
@@ -669,7 +658,7 @@ L Device:R R216
 U 1 1 62FC8337
 P 7950 3450
 F 0 "R216" V 7743 3450 50  0000 C CNN
-F 1 "43k" V 7834 3450 50  0000 C CNN
+F 1 "24k" V 7834 3450 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7880 3450 50  0001 C CNN
 F 3 "~" H 7950 3450 50  0001 C CNN
 	1    7950 3450
@@ -682,7 +671,7 @@ L ao_symbols:R R218
 U 1 1 62FC8330
 P 8150 2400
 F 0 "R218" H 8220 2446 50  0000 L CNN
-F 1 "16k" H 8220 2355 50  0000 L CNN
+F 1 "9.1k" H 8220 2355 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 2400 50  0001 C CNN
 F 3 "~" H 8150 2400 50  0001 C CNN
 F 4 "Tayda" H 8150 2400 50  0001 C CNN "Vendor"
@@ -716,7 +705,7 @@ L ao_symbols:C C203
 U 1 1 62FC8318
 P 8750 3650
 F 0 "C203" V 8498 3650 50  0000 C CNN
-F 1 "180pF" V 8589 3650 50  0000 C CNN
+F 1 "330pF" V 8589 3650 50  0000 C CNN
 F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8788 3500 50  0001 C CNN
 F 3 "~" H 8750 3650 50  0001 C CNN
 F 4 "Tayda" H 8750 3650 50  0001 C CNN "Vendor"
@@ -779,7 +768,7 @@ L ao_symbols:R R221
 U 1 1 62FC82F1
 P 8750 2350
 F 0 "R221" V 8543 2350 50  0000 C CNN
-F 1 "18k" V 8634 2350 50  0000 C CNN
+F 1 "10k" V 8634 2350 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8680 2350 50  0001 C CNN
 F 3 "~" H 8750 2350 50  0001 C CNN
 F 4 "Tayda" H 8750 2350 50  0001 C CNN "Vendor"
@@ -795,7 +784,7 @@ L ao_symbols:R R215
 U 1 1 62FC82E2
 P 7950 2200
 F 0 "R215" V 7743 2200 50  0000 C CNN
-F 1 "43k" V 7834 2200 50  0000 C CNN
+F 1 "24k" V 7834 2200 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7880 2200 50  0001 C CNN
 F 3 "~" H 7950 2200 50  0001 C CNN
 F 4 "Tayda" H 7950 2200 50  0001 C CNN "Vendor"
@@ -871,7 +860,7 @@ L ao_symbols:R R219
 U 1 1 617C115C
 P 8150 3650
 F 0 "R219" H 8220 3696 50  0000 L CNN
-F 1 "16k" H 8220 3605 50  0000 L CNN
+F 1 "9.1k" H 8220 3605 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 3650 50  0001 C CNN
 F 3 "~" H 8150 3650 50  0001 C CNN
 F 4 "Tayda" H 8150 3650 50  0001 C CNN "Vendor"
@@ -883,7 +872,7 @@ L ao_symbols:R R220
 U 1 1 617C1660
 P 8150 5000
 F 0 "R220" H 8220 5046 50  0000 L CNN
-F 1 "16k" H 8220 4955 50  0000 L CNN
+F 1 "9.1k" H 8220 4955 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 5000 50  0001 C CNN
 F 3 "~" H 8150 5000 50  0001 C CNN
 F 4 "Tayda" H 8150 5000 50  0001 C CNN "Vendor"
@@ -895,7 +884,7 @@ L ao_symbols:R R222
 U 1 1 617C1B1C
 P 8750 4000
 F 0 "R222" V 8543 4000 50  0000 C CNN
-F 1 "18k" V 8634 4000 50  0000 C CNN
+F 1 "10k" V 8634 4000 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8680 4000 50  0001 C CNN
 F 3 "~" H 8750 4000 50  0001 C CNN
 F 4 "Tayda" H 8750 4000 50  0001 C CNN "Vendor"
@@ -907,7 +896,7 @@ L ao_symbols:R R223
 U 1 1 617C2026
 P 8750 5350
 F 0 "R223" V 8543 5350 50  0000 C CNN
-F 1 "18k" V 8634 5350 50  0000 C CNN
+F 1 "10k" V 8634 5350 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8680 5350 50  0001 C CNN
 F 3 "~" H 8750 5350 50  0001 C CNN
 F 4 "Tayda" H 8750 5350 50  0001 C CNN "Vendor"
@@ -940,4 +929,15 @@ F 4 "Tayda" H 9350 4550 50  0001 C CNN "Vendor"
 $EndComp
 Wire Wire Line
 	9100 3200 9200 3200
+$Comp
+L Device:R R217
+U 1 1 62FC8363
+P 7950 4800
+F 0 "R217" V 7743 4800 50  0000 C CNN
+F 1 "24k" V 7834 4800 50  0000 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7880 4800 50  0001 C CNN
+F 3 "~" H 7950 4800 50  0001 C CNN
+	1    7950 4800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

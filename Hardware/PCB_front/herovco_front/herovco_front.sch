@@ -802,8 +802,8 @@ F 4 "Tayda" H 8550 5250 50  0001 C CNN "Vendor"
 	1    8550 5250
 	0    1    1    0   
 $EndComp
-Text Notes 1100 2600 0    50   ~ 0
-Kassutronics used 10M\nbetween pins 4–5, tests\nindicate 3M is better for\nsuppressing high frequency\noscillations
+Text Notes 1100 2800 0    50   ~ 0
+I did some tests that indicated \n3M is better than 10M for\nsuppressing high frequency\noscillations, but in later tests \n10M looked OK and 3M had a \nbad effect on minimum pulse \nwidth. I don't understand \nseeming inconsistency.
 $Comp
 L ao_symbols:C C109
 U 1 1 615AB5BE

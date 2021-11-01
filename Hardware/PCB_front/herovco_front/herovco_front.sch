@@ -1408,9 +1408,9 @@ Wire Wire Line
 	3800 2050 3900 2050
 Text GLabel 9450 3300 2    50   Input ~ 0
 TRIANGLE_OUT
-Text GLabel 9450 3400 2    50   Input ~ 0
-SAW_OUT
 Text GLabel 9450 3500 2    50   Input ~ 0
+SAW_OUT
+Text GLabel 9450 3400 2    50   Input ~ 0
 PULSE_OUT
 Text GLabel 9950 1500 3    50   Input ~ 0
 SIN_S_W

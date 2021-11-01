@@ -464,7 +464,7 @@ U 1 1 61680E82
 P 2700 7150
 F 0 "GRAF201" H 2978 7196 50  0000 L CNN
 F 1 "Holes" H 2978 7105 50  0000 L CNN
-F 2 "3340vco:3340vco_panel_holes" H 2700 7150 50  0001 C CNN
+F 2 "herovco_panel:3340vco_panel_holes" H 2700 7150 50  0001 C CNN
 F 3 "" H 2700 7150 50  0001 C CNN
 F 4 "DNF" H 2700 7150 50  0001 C CNN "Config"
 	1    2700 7150
@@ -768,9 +768,9 @@ F 3 "" H 1550 1750 50  0001 C CNN
 $EndComp
 Text GLabel 1900 3550 2    50   Output ~ 0
 TRIANGLE_OUT_S
-Text GLabel 1900 3650 2    50   Output ~ 0
-SAW_OUT_S
 Text GLabel 1900 3750 2    50   Output ~ 0
+SAW_OUT_S
+Text GLabel 1900 3650 2    50   Output ~ 0
 PULSE_OUT_S
 Wire Wire Line
 	2500 4800 2500 4750
@@ -797,4 +797,28 @@ Wire Notes Line
 	2650 6700 6900 6700
 Wire Notes Line
 	1100 1000 6150 1000
+$Comp
+L ao_symbols:Graphic GRAF202
+U 1 1 618DC593
+P 2700 7400
+F 0 "GRAF202" H 2978 7446 50  0000 L CNN
+F 1 "AO logo" H 2978 7355 50  0000 L CNN
+F 2 "ao_tht:analogoutput" H 2700 7400 50  0001 C CNN
+F 3 "" H 2700 7400 50  0001 C CNN
+F 4 "DNF" H 2700 7400 50  0001 C CNN "Config"
+	1    2700 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:Graphic GRAF203
+U 1 1 618DC882
+P 2700 7650
+F 0 "GRAF203" H 2978 7696 50  0000 L CNN
+F 1 "CC0 logo" H 2978 7605 50  0000 L CNN
+F 2 "ao_tht:CC0_logo" H 2700 7650 50  0001 C CNN
+F 3 "" H 2700 7650 50  0001 C CNN
+F 4 "DNF" H 2700 7650 50  0001 C CNN "Config"
+	1    2700 7650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

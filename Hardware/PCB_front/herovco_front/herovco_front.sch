@@ -2023,7 +2023,7 @@ AR Path="/5F447D4B/61946087" Ref="GRAF?"  Part="1"
 AR Path="/61946087" Ref="GRAF101"  Part="1" 
 F 0 "GRAF101" H 1178 7396 50  0000 L CNN
 F 1 "Holes" H 1178 7305 50  0000 L CNN
-F 2 "herovco_panel:3340vco_panel_holes" H 900 7350 50  0001 C CNN
+F 2 "herovco_panel:herovco_panel_holes" H 900 7350 50  0001 C CNN
 F 3 "" H 900 7350 50  0001 C CNN
 F 4 "DNF" H 900 7350 50  0001 C CNN "Config"
 	1    900  7350

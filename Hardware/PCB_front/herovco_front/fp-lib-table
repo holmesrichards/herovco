@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name herovco_panel)(type KiCad)(uri ${KIPRJMOD}/../../Panel/herovco_panel/herovco_panel.pretty)(options "")(descr ""))
-)

@@ -3,13 +3,13 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 2
+Sheet 2 5
 Title "Hero VCO"
-Date "2020-07-19"
+Date "2021-11-16"
 Rev ""
 Comp "Rich Holmes / Analog Output"
-Comment1 "Sine shaper from Thomas Henry design"
-Comment2 "CVs based on LMNC 1222"
+Comment1 "or neighboring rights to this work. Published from United States."
+Comment2 "To the extent possible under law, Richard Holmes has waived all copyright and related "
 Comment3 "Based mainly on Kassutronics VCO 3340"
 Comment4 ""
 $EndDescr
@@ -27,8 +27,9 @@ U 1 1 60AC1298
 P 6200 3650
 AR Path="/60AC1298" Ref="SW?"  Part="1" 
 AR Path="/5F447D4B/60AC1298" Ref="SW?"  Part="1" 
-AR Path="/617EF026/60AC1298" Ref="SW102"  Part="1" 
-F 0 "SW102" H 6100 2825 50  0000 C CNN
+AR Path="/617EF026/60AC1298" Ref="SW?"  Part="1" 
+AR Path="/619704E4/60AC1298" Ref="SW1"  Part="1" 
+F 0 "SW1" H 6100 2825 50  0000 C CNN
 F 1 "SW_Rotary12" H 6100 2916 50  0000 C CNN
 F 2 "ao_tht:Rotary_Switch" H 6000 4350 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 6000 4350 50  0001 C CNN
@@ -99,8 +100,9 @@ U 1 1 60AC12C4
 P 5150 2600
 AR Path="/60AC12C4" Ref="R?"  Part="1" 
 AR Path="/5F447D4B/60AC12C4" Ref="R?"  Part="1" 
-AR Path="/617EF026/60AC12C4" Ref="R130"  Part="1" 
-F 0 "R130" H 5200 2525 50  0000 L CNN
+AR Path="/617EF026/60AC12C4" Ref="R?"  Part="1" 
+AR Path="/619704E4/60AC12C4" Ref="R1"  Part="1" 
+F 0 "R1" H 5200 2525 50  0000 L CNN
 F 1 "10k 1/8W" H 5200 2600 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5080 2600 50  0001 C CNN
 F 3 "~" H 5150 2600 50  0001 C CNN
@@ -112,12 +114,6 @@ Wire Notes Line
 	5950 5300 4450 5300
 Text Notes 4500 5225 0    50   ~ 0
 Precision or hand matched resistors
-Text Label 4050 3600 0    50   ~ 0
-OCTAVE_P
-Text Label 4050 3700 0    50   ~ 0
-+8V_REF_P
-Text Label 4050 3800 0    50   ~ 0
-0V
 Wire Wire Line
 	3950 3800 4850 3800
 Wire Wire Line
@@ -146,8 +142,9 @@ U 1 1 61655593
 P 5150 2900
 AR Path="/61655593" Ref="R?"  Part="1" 
 AR Path="/5F447D4B/61655593" Ref="R?"  Part="1" 
-AR Path="/617EF026/61655593" Ref="R131"  Part="1" 
-F 0 "R131" H 5200 2825 50  0000 L CNN
+AR Path="/617EF026/61655593" Ref="R?"  Part="1" 
+AR Path="/619704E4/61655593" Ref="R2"  Part="1" 
+F 0 "R2" H 5200 2825 50  0000 L CNN
 F 1 "10k 1/8W" H 5200 2900 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5080 2900 50  0001 C CNN
 F 3 "~" H 5150 2900 50  0001 C CNN
@@ -162,8 +159,9 @@ U 1 1 61655952
 P 5150 3200
 AR Path="/61655952" Ref="R?"  Part="1" 
 AR Path="/5F447D4B/61655952" Ref="R?"  Part="1" 
-AR Path="/617EF026/61655952" Ref="R132"  Part="1" 
-F 0 "R132" H 5200 3125 50  0000 L CNN
+AR Path="/617EF026/61655952" Ref="R?"  Part="1" 
+AR Path="/619704E4/61655952" Ref="R3"  Part="1" 
+F 0 "R3" H 5200 3125 50  0000 L CNN
 F 1 "10k 1/8W" H 5200 3200 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5080 3200 50  0001 C CNN
 F 3 "~" H 5150 3200 50  0001 C CNN
@@ -178,8 +176,9 @@ U 1 1 61655C11
 P 5150 3500
 AR Path="/61655C11" Ref="R?"  Part="1" 
 AR Path="/5F447D4B/61655C11" Ref="R?"  Part="1" 
-AR Path="/617EF026/61655C11" Ref="R133"  Part="1" 
-F 0 "R133" H 5200 3425 50  0000 L CNN
+AR Path="/617EF026/61655C11" Ref="R?"  Part="1" 
+AR Path="/619704E4/61655C11" Ref="R4"  Part="1" 
+F 0 "R4" H 5200 3425 50  0000 L CNN
 F 1 "10k 1/8W" H 5200 3500 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5080 3500 50  0001 C CNN
 F 3 "~" H 5150 3500 50  0001 C CNN
@@ -194,8 +193,9 @@ U 1 1 61655F36
 P 5150 3800
 AR Path="/61655F36" Ref="R?"  Part="1" 
 AR Path="/5F447D4B/61655F36" Ref="R?"  Part="1" 
-AR Path="/617EF026/61655F36" Ref="R134"  Part="1" 
-F 0 "R134" H 5200 3725 50  0000 L CNN
+AR Path="/617EF026/61655F36" Ref="R?"  Part="1" 
+AR Path="/619704E4/61655F36" Ref="R5"  Part="1" 
+F 0 "R5" H 5200 3725 50  0000 L CNN
 F 1 "10k 1/8W" H 5200 3800 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5080 3800 50  0001 C CNN
 F 3 "~" H 5150 3800 50  0001 C CNN
@@ -210,8 +210,9 @@ U 1 1 6165615D
 P 5150 4100
 AR Path="/6165615D" Ref="R?"  Part="1" 
 AR Path="/5F447D4B/6165615D" Ref="R?"  Part="1" 
-AR Path="/617EF026/6165615D" Ref="R135"  Part="1" 
-F 0 "R135" H 5200 4025 50  0000 L CNN
+AR Path="/617EF026/6165615D" Ref="R?"  Part="1" 
+AR Path="/619704E4/6165615D" Ref="R6"  Part="1" 
+F 0 "R6" H 5200 4025 50  0000 L CNN
 F 1 "10k 1/8W" H 5200 4100 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5080 4100 50  0001 C CNN
 F 3 "~" H 5150 4100 50  0001 C CNN
@@ -229,8 +230,9 @@ U 1 1 61656492
 P 5150 4400
 AR Path="/61656492" Ref="R?"  Part="1" 
 AR Path="/5F447D4B/61656492" Ref="R?"  Part="1" 
-AR Path="/617EF026/61656492" Ref="R136"  Part="1" 
-F 0 "R136" H 5200 4325 50  0000 L CNN
+AR Path="/617EF026/61656492" Ref="R?"  Part="1" 
+AR Path="/619704E4/61656492" Ref="R7"  Part="1" 
+F 0 "R7" H 5200 4325 50  0000 L CNN
 F 1 "10k 1/8W" H 5200 4400 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5080 4400 50  0001 C CNN
 F 3 "~" H 5150 4400 50  0001 C CNN
@@ -239,26 +241,14 @@ F 4 "Tayda" H 5150 4400 50  0001 C CNN "Vendor"
 	1    0    0    1   
 $EndComp
 $Comp
-L ao_symbols:3_pin_Molex_connector J105
-U 1 1 616EFF88
-P 3750 3700
-F 0 "J105" H 3668 4017 50  0000 C CNN
-F 1 "3_pin_Molex_connector" H 3668 3926 50  0000 C CNN
-F 2 "ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 3750 3700 50  0001 C CNN
-F 3 "" H 3750 3700 50  0001 C CNN
-F 4 "Tayda" H 3750 3700 50  0001 C CNN "Vendor"
-F 5 "A-827" H 3750 3700 50  0001 C CNN "SKU"
-	1    3750 3700
-	-1   0    0    -1  
-$EndComp
-$Comp
 L ao_symbols:R R?
 U 1 1 61898C80
 P 5150 4700
 AR Path="/61898C80" Ref="R?"  Part="1" 
 AR Path="/5F447D4B/61898C80" Ref="R?"  Part="1" 
-AR Path="/617EF026/61898C80" Ref="R137"  Part="1" 
-F 0 "R137" H 5200 4625 50  0000 L CNN
+AR Path="/617EF026/61898C80" Ref="R?"  Part="1" 
+AR Path="/619704E4/61898C80" Ref="R8"  Part="1" 
+F 0 "R8" H 5200 4625 50  0000 L CNN
 F 1 "10k 1/8W" H 5200 4700 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5080 4700 50  0001 C CNN
 F 3 "~" H 5150 4700 50  0001 C CNN
@@ -282,4 +272,10 @@ Wire Notes Line
 	3350 2050 7050 2050
 Wire Notes Line
 	7050 2050 7050 5550
+Text HLabel 4050 3600 3    50   Input ~ 0
+OCTAVE_P
+Text HLabel 4150 3700 3    50   Input ~ 0
++8V_REF_P
+Text HLabel 4250 3800 3    50   Input ~ 0
+0V
 $EndSCHEMATC

@@ -3,25 +3,26 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 2
-Title "Hero VCO back PCB"
-Date ""
+Sheet 4 5
+Title "Hero VCO"
+Date "2021-11-16"
 Rev ""
 Comp "Rich Holmes / Analog Output"
-Comment1 "Sine shaper from Thomas Henry design"
-Comment2 "CVs based on LMNC 1222"
+Comment1 "or neighboring rights to this work. Published from United States."
+Comment2 "To the extent possible under law, Richard Holmes has waived all copyright and related "
 Comment3 "Based mainly on Kassutronics VCO 3340"
 Comment4 ""
 $EndDescr
 Wire Wire Line
 	3350 5900 3750 5900
 $Comp
-L ao_symbols:C C202
+L ao_symbols:C C?
 U 1 1 6160631D
 P 3750 5750
-AR Path="/6160631D" Ref="C202"  Part="1" 
+AR Path="/6160631D" Ref="C?"  Part="1" 
 AR Path="/62F85310/6160631D" Ref="C?"  Part="1" 
-F 0 "C202" H 3865 5796 50  0000 L CNN
+AR Path="/619FD1D7/6160631D" Ref="C13"  Part="1" 
+F 0 "C13" H 3865 5796 50  0000 L CNN
 F 1 "100nF" H 3865 5705 50  0000 L CNN
 F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3788 5600 50  0001 C CNN
 F 3 "" H 3750 5750 50  0001 C CNN
@@ -32,10 +33,10 @@ $EndComp
 Wire Wire Line
 	4200 5600 3750 5600
 $Comp
-L power:GND1 #PWR0208
+L power:GND1 #PWR049
 U 1 1 616EF6A4
 P 4200 5600
-F 0 "#PWR0208" H 4200 5350 50  0001 C CNN
+F 0 "#PWR049" H 4200 5350 50  0001 C CNN
 F 1 "GND1" H 4205 5427 50  0000 C CNN
 F 2 "" H 4200 5600 50  0001 C CNN
 F 3 "" H 4200 5600 50  0001 C CNN
@@ -43,10 +44,10 @@ F 3 "" H 4200 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ao_symbols:-12V_1 #PWR0204
+L ao_symbols:-12V_1 #PWR045
 U 1 1 618C4777
 P 3350 5900
-F 0 "#PWR0204" H 3350 6000 50  0001 C CNN
+F 0 "#PWR045" H 3350 6000 50  0001 C CNN
 F 1 "-12V_1" H 3365 6073 50  0000 C CNN
 F 2 "" H 3350 5900 50  0001 C CNN
 F 3 "" H 3350 5900 50  0001 C CNN
@@ -56,10 +57,10 @@ $EndComp
 Connection ~ 3350 5900
 Connection ~ 3750 5600
 $Comp
-L ao_symbols:-12V_1 #PWR0205
+L ao_symbols:-12V_1 #PWR046
 U 1 1 618C4F2A
 P 3500 4150
-F 0 "#PWR0205" H 3500 4250 50  0001 C CNN
+F 0 "#PWR046" H 3500 4250 50  0001 C CNN
 F 1 "-12V_1" H 3515 4323 50  0000 C CNN
 F 2 "" H 3500 4150 50  0001 C CNN
 F 3 "" H 3500 4150 50  0001 C CNN
@@ -67,10 +68,10 @@ F 3 "" H 3500 4150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ao_symbols:+12V_1 #PWR0213
+L ao_symbols:+12V_1 #PWR054
 U 1 1 6180D255
 P 7700 4750
-F 0 "#PWR0213" H 7700 4600 50  0001 C CNN
+F 0 "#PWR054" H 7700 4600 50  0001 C CNN
 F 1 "+12V_1" H 7715 4923 50  0000 C CNN
 F 2 "" H 7700 4750 50  0001 C CNN
 F 3 "" H 7700 4750 50  0001 C CNN
@@ -78,10 +79,10 @@ F 3 "" H 7700 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ao_symbols:+12V_1 #PWR0212
+L ao_symbols:+12V_1 #PWR053
 U 1 1 61808034
 P 7700 3400
-F 0 "#PWR0212" H 7700 3250 50  0001 C CNN
+F 0 "#PWR053" H 7700 3250 50  0001 C CNN
 F 1 "+12V_1" H 7715 3573 50  0000 C CNN
 F 2 "" H 7700 3400 50  0001 C CNN
 F 3 "" H 7700 3400 50  0001 C CNN
@@ -89,10 +90,10 @@ F 3 "" H 7700 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ao_symbols:+12V_1 #PWR0203
+L ao_symbols:+12V_1 #PWR044
 U 1 1 61802E0F
 P 3350 5300
-F 0 "#PWR0203" H 3350 5150 50  0001 C CNN
+F 0 "#PWR044" H 3350 5150 50  0001 C CNN
 F 1 "+12V_1" H 3365 5473 50  0000 C CNN
 F 2 "" H 3350 5300 50  0001 C CNN
 F 3 "" H 3350 5300 50  0001 C CNN
@@ -100,10 +101,10 @@ F 3 "" H 3350 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ao_symbols:+12V_1 #PWR0202
+L ao_symbols:+12V_1 #PWR043
 U 1 1 617FDCA2
 P 3000 1950
-F 0 "#PWR0202" H 3000 1800 50  0001 C CNN
+F 0 "#PWR043" H 3000 1800 50  0001 C CNN
 F 1 "+12V_1" H 3015 2123 50  0000 C CNN
 F 2 "" H 3000 1950 50  0001 C CNN
 F 3 "" H 3000 1950 50  0001 C CNN
@@ -113,10 +114,10 @@ $EndComp
 Wire Wire Line
 	7700 2150 7700 2200
 $Comp
-L ao_symbols:+12V_1 #PWR0211
+L ao_symbols:+12V_1 #PWR052
 U 1 1 617E4D3C
 P 7700 2150
-F 0 "#PWR0211" H 7700 2000 50  0001 C CNN
+F 0 "#PWR052" H 7700 2000 50  0001 C CNN
 F 1 "+12V_1" H 7715 2323 50  0000 C CNN
 F 2 "" H 7700 2150 50  0001 C CNN
 F 3 "" H 7700 2150 50  0001 C CNN
@@ -126,10 +127,10 @@ $EndComp
 Wire Wire Line
 	5300 2600 5650 2600
 $Comp
-L power:GND1 #PWR0201
+L power:GND1 #PWR042
 U 1 1 6189AAD7
 P 2250 3450
-F 0 "#PWR0201" H 2250 3200 50  0001 C CNN
+F 0 "#PWR042" H 2250 3200 50  0001 C CNN
 F 1 "GND1" H 2255 3277 50  0000 C CNN
 F 2 "" H 2250 3450 50  0001 C CNN
 F 3 "" H 2250 3450 50  0001 C CNN
@@ -137,10 +138,10 @@ F 3 "" H 2250 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND1 #PWR0206
+L power:GND1 #PWR047
 U 1 1 6189A844
 P 3750 3450
-F 0 "#PWR0206" H 3750 3200 50  0001 C CNN
+F 0 "#PWR047" H 3750 3200 50  0001 C CNN
 F 1 "GND1" H 3755 3277 50  0000 C CNN
 F 2 "" H 3750 3450 50  0001 C CNN
 F 3 "" H 3750 3450 50  0001 C CNN
@@ -148,10 +149,10 @@ F 3 "" H 3750 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND1 #PWR0207
+L power:GND1 #PWR048
 U 1 1 6188DFA7
 P 4150 3200
-F 0 "#PWR0207" H 4150 2950 50  0001 C CNN
+F 0 "#PWR048" H 4150 2950 50  0001 C CNN
 F 1 "GND1" H 4155 3027 50  0000 C CNN
 F 2 "" H 4150 3200 50  0001 C CNN
 F 3 "" H 4150 3200 50  0001 C CNN
@@ -162,13 +163,13 @@ Wire Wire Line
 	3750 2950 3750 3050
 Wire Wire Line
 	3750 3350 3750 3450
-Text GLabel 3250 3750 2    50   Input ~ 0
+Text HLabel 3250 3750 2    50   Input ~ 0
 SIN_S_CW_S
-Text GLabel 2750 3750 0    50   Input ~ 0
+Text HLabel 2750 3750 0    50   Input ~ 0
 SIN_S_CCW_S
-Text GLabel 3000 4050 0    50   Input ~ 0
+Text HLabel 3000 4050 0    50   Input ~ 0
 SIN_S_W_S
-Text GLabel 1600 2750 2    50   Input ~ 0
+Text HLabel 1600 2750 2    50   Input ~ 0
 SIN_R_W_S
 Wire Wire Line
 	3000 1950 3000 2000
@@ -188,10 +189,10 @@ Connection ~ 3000 2000
 Wire Wire Line
 	3200 3150 3200 3450
 $Comp
-L ao_symbols:R R208
+L ao_symbols:R R45
 U 1 1 616BBB23
 P 4150 2950
-F 0 "R208" H 4220 2996 50  0000 L CNN
+F 0 "R45" H 4220 2996 50  0000 L CNN
 F 1 "20k" H 4220 2905 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4080 2950 50  0001 C CNN
 F 3 "" H 4150 2950 50  0001 C CNN
@@ -222,10 +223,10 @@ Wire Wire Line
 Wire Wire Line
 	4400 2250 4150 2250
 $Comp
-L ao_symbols:R R209
+L ao_symbols:R R46
 U 1 1 616A15DE
 P 4550 2250
-F 0 "R209" V 4343 2250 50  0000 C CNN
+F 0 "R46" V 4343 2250 50  0000 C CNN
 F 1 "20k" V 4434 2250 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4480 2250 50  0001 C CNN
 F 3 "" H 4550 2250 50  0001 C CNN
@@ -248,10 +249,10 @@ Wire Wire Line
 Wire Wire Line
 	3500 2950 3750 2950
 $Comp
-L ao_symbols:R R207
+L ao_symbols:R R44
 U 1 1 61672169
 P 3750 3200
-F 0 "R207" H 3820 3246 50  0000 L CNN
+F 0 "R44" H 3820 3246 50  0000 L CNN
 F 1 "2.2k" H 3820 3155 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3680 3200 50  0001 C CNN
 F 3 "" H 3750 3200 50  0001 C CNN
@@ -266,10 +267,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 2100 3200 2000
 $Comp
-L ao_symbols:R R205
+L ao_symbols:R R42
 U 1 1 616613E8
 P 3200 2250
-F 0 "R205" H 3270 2296 50  0000 L CNN
+F 0 "R42" H 3270 2296 50  0000 L CNN
 F 1 "10k" H 3270 2205 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3130 2250 50  0001 C CNN
 F 3 "" H 3200 2250 50  0001 C CNN
@@ -280,10 +281,10 @@ $EndComp
 Wire Wire Line
 	2250 2950 2500 2950
 $Comp
-L ao_symbols:2N3904 Q202
+L ao_symbols:2N3904 Q2
 U 1 1 61652E78
 P 3300 2950
-F 0 "Q202" H 3150 2800 50  0000 L CNN
+F 0 "Q2" H 3150 2800 50  0000 L CNN
 F 1 "2N3904" H 3800 2700 50  0000 L CNN
 F 2 "ao_tht:TO-92_Inline_Wide" H 3500 2875 50  0001 L CIN
 F 3 "" H 3300 2950 50  0001 L CNN
@@ -299,10 +300,10 @@ Wire Wire Line
 Wire Wire Line
 	2800 2750 2800 2500
 $Comp
-L ao_symbols:R R203
+L ao_symbols:R R40
 U 1 1 6164E2F1
 P 2800 2250
-F 0 "R203" H 2730 2296 50  0000 R CNN
+F 0 "R40" H 2730 2296 50  0000 R CNN
 F 1 "10k" H 2730 2205 50  0000 R CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 2250 50  0001 C CNN
 F 3 "" H 2800 2250 50  0001 C CNN
@@ -321,10 +322,10 @@ Wire Wire Line
 Wire Wire Line
 	3400 4050 3500 4050
 $Comp
-L ao_symbols:R R206
+L ao_symbols:R R43
 U 1 1 6163FB1D
 P 3250 4050
-F 0 "R206" V 3043 4050 50  0000 C CNN
+F 0 "R43" V 3043 4050 50  0000 C CNN
 F 1 "18k" V 3134 4050 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3180 4050 50  0001 C CNN
 F 3 "" H 3250 4050 50  0001 C CNN
@@ -333,10 +334,10 @@ F 4 "Tayda" H 3250 4050 50  0001 C CNN "Vendor"
 	0    1    1    0   
 $EndComp
 $Comp
-L ao_symbols:R R204
+L ao_symbols:R R41
 U 1 1 616316E7
 P 3000 3450
-F 0 "R204" V 2793 3450 50  0000 C CNN
+F 0 "R41" V 2793 3450 50  0000 C CNN
 F 1 "390R" V 2884 3450 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2930 3450 50  0001 C CNN
 F 3 "" H 3000 3450 50  0001 C CNN
@@ -345,10 +346,10 @@ F 4 "Tayda" H 3000 3450 50  0001 C CNN "Vendor"
 	0    1    1    0   
 $EndComp
 $Comp
-L ao_symbols:2N3904 Q201
+L ao_symbols:2N3904 Q1
 U 1 1 6162715E
 P 2700 2950
-F 0 "Q201" H 2500 2800 50  0000 L CNN
+F 0 "Q1" H 2500 2800 50  0000 L CNN
 F 1 "2N3904" H 3350 2700 50  0000 L CNN
 F 2 "ao_tht:TO-92_Inline_Wide" H 2900 2875 50  0001 L CIN
 F 3 "" H 2700 2950 50  0001 L CNN
@@ -364,10 +365,10 @@ Wire Wire Line
 Wire Wire Line
 	2250 3350 2250 3450
 $Comp
-L ao_symbols:R R202
+L ao_symbols:R R39
 U 1 1 61601206
 P 2250 3200
-F 0 "R202" H 2320 3246 50  0000 L CNN
+F 0 "R39" H 2320 3246 50  0000 L CNN
 F 1 "2.2k" H 2320 3155 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2180 3200 50  0001 C CNN
 F 3 "" H 2250 3200 50  0001 C CNN
@@ -378,10 +379,10 @@ $EndComp
 Wire Wire Line
 	1100 2750 1200 2750
 $Comp
-L ao_symbols:R R201
+L ao_symbols:R R38
 U 1 1 615FB0DE
 P 1350 2750
-F 0 "R201" V 1143 2750 50  0000 C CNN
+F 0 "R38" V 1143 2750 50  0000 C CNN
 F 1 "30k" V 1234 2750 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1280 2750 50  0001 C CNN
 F 3 "" H 1350 2750 50  0001 C CNN
@@ -389,13 +390,13 @@ F 4 "Tayda" H 1350 2750 50  0001 C CNN "Vendor"
 	1    1350 2750
 	0    1    1    0   
 $EndComp
-Text GLabel 2150 2950 0    50   Input ~ 0
+Text HLabel 2150 2950 0    50   Input ~ 0
 SIN_R_CCW_S
 $Comp
-L power:GND1 #PWR0216
+L power:GND1 #PWR057
 U 1 1 61703DD4
 P 8150 5200
-F 0 "#PWR0216" H 8150 4950 50  0001 C CNN
+F 0 "#PWR057" H 8150 4950 50  0001 C CNN
 F 1 "GND1" H 8155 5027 50  0000 C CNN
 F 2 "" H 8150 5200 50  0001 C CNN
 F 3 "" H 8150 5200 50  0001 C CNN
@@ -403,10 +404,10 @@ F 3 "" H 8150 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND1 #PWR0210
+L power:GND1 #PWR051
 U 1 1 616FFC91
 P 7550 5200
-F 0 "#PWR0210" H 7550 4950 50  0001 C CNN
+F 0 "#PWR051" H 7550 4950 50  0001 C CNN
 F 1 "GND1" H 7555 5027 50  0000 C CNN
 F 2 "" H 7550 5200 50  0001 C CNN
 F 3 "" H 7550 5200 50  0001 C CNN
@@ -414,10 +415,10 @@ F 3 "" H 7550 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND1 #PWR0215
+L power:GND1 #PWR056
 U 1 1 616FBB7C
 P 8150 3850
-F 0 "#PWR0215" H 8150 3600 50  0001 C CNN
+F 0 "#PWR056" H 8150 3600 50  0001 C CNN
 F 1 "GND1" H 8155 3677 50  0000 C CNN
 F 2 "" H 8150 3850 50  0001 C CNN
 F 3 "" H 8150 3850 50  0001 C CNN
@@ -425,10 +426,10 @@ F 3 "" H 8150 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND1 #PWR0209
+L power:GND1 #PWR050
 U 1 1 616F7A98
 P 7550 3850
-F 0 "#PWR0209" H 7550 3600 50  0001 C CNN
+F 0 "#PWR050" H 7550 3600 50  0001 C CNN
 F 1 "GND1" H 7555 3677 50  0000 C CNN
 F 2 "" H 7550 3850 50  0001 C CNN
 F 3 "" H 7550 3850 50  0001 C CNN
@@ -436,10 +437,10 @@ F 3 "" H 7550 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND1 #PWR0214
+L power:GND1 #PWR055
 U 1 1 616F38CD
 P 8150 2600
-F 0 "#PWR0214" H 8150 2350 50  0001 C CNN
+F 0 "#PWR055" H 8150 2350 50  0001 C CNN
 F 1 "GND1" H 8155 2427 50  0000 C CNN
 F 2 "" H 8150 2600 50  0001 C CNN
 F 3 "" H 8150 2600 50  0001 C CNN
@@ -453,17 +454,18 @@ Wire Wire Line
 Wire Wire Line
 	9100 3550 9100 3650
 Connection ~ 9100 3550
-Text GLabel 9300 3550 2    50   Output ~ 0
+Text HLabel 9300 3550 2    50   Output ~ 0
 LINK_OUT_SAW
 Wire Wire Line
 	3350 5300 3750 5300
 $Comp
-L ao_symbols:C C201
+L ao_symbols:C C?
 U 1 1 61606306
 P 3750 5450
-AR Path="/61606306" Ref="C201"  Part="1" 
+AR Path="/61606306" Ref="C?"  Part="1" 
 AR Path="/62F85310/61606306" Ref="C?"  Part="1" 
-F 0 "C201" H 3865 5496 50  0000 L CNN
+AR Path="/619FD1D7/61606306" Ref="C12"  Part="1" 
+F 0 "C12" H 3865 5496 50  0000 L CNN
 F 1 "100nF" H 3865 5405 50  0000 L CNN
 F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3788 5300 50  0001 C CNN
 F 3 "" H 3750 5450 50  0001 C CNN
@@ -477,8 +479,9 @@ U 5 1 60B407D1
 P 3450 5600
 AR Path="/5F447D4B/60B407D1" Ref="U?"  Part="5" 
 AR Path="/62F85310/60B407D1" Ref="U?"  Part="5" 
-AR Path="/60B407D1" Ref="U201"  Part="5" 
-F 0 "U201" H 3408 5646 50  0000 L CNN
+AR Path="/60B407D1" Ref="U?"  Part="5" 
+AR Path="/619FD1D7/60B407D1" Ref="U6"  Part="5" 
+F 0 "U6" H 3408 5646 50  0000 L CNN
 F 1 "TL074" H 3408 5555 50  0000 L CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 3400 5700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3500 5800 50  0001 C CNN
@@ -488,10 +491,10 @@ $EndComp
 Text Notes 800  1500 0    150  ~ 0
 SINE SHAPING
 $Comp
-L ao_symbols:R R210
+L ao_symbols:R R47
 U 1 1 62FEFD1D
 P 5150 2600
-F 0 "R210" V 4943 2600 50  0000 C CNN
+F 0 "R47" V 4943 2600 50  0000 C CNN
 F 1 "2k" V 5034 2600 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5080 2600 50  0001 C CNN
 F 3 "~" H 5150 2600 50  0001 C CNN
@@ -504,18 +507,16 @@ Wire Wire Line
 Text GLabel 1100 2750 0    50   Input ~ 0
 TRI_RAW
 $Comp
-L Amplifier_Operational:TL074 U201
+L Amplifier_Operational:TL074 U6
 U 4 1 62FEFCA5
 P 4500 2600
-F 0 "U201" H 4600 2350 50  0000 C CNN
+F 0 "U6" H 4600 2350 50  0000 C CNN
 F 1 "TL074" H 4650 2450 50  0000 C CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 4450 2700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4550 2800 50  0001 C CNN
 	4    4500 2600
 	1    0    0    1   
 $EndComp
-Text GLabel 5650 2600 2    50   Output ~ 0
-SIN
 Text Notes 6600 1500 0    150  ~ 0
 OUTPUT CONDITIONING
 Wire Wire Line
@@ -526,10 +527,10 @@ Wire Wire Line
 Wire Wire Line
 	7550 5200 7550 5100
 $Comp
-L ao_symbols:R R214
+L ao_symbols:R R51
 U 1 1 62FC83BF
 P 7550 4950
-F 0 "R214" H 7620 4996 50  0000 L CNN
+F 0 "R51" H 7620 4996 50  0000 L CNN
 F 1 "18k" H 7620 4905 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7480 4950 50  0001 C CNN
 F 3 "~" H 7550 4950 50  0001 C CNN
@@ -545,10 +546,10 @@ Wire Wire Line
 Wire Wire Line
 	7550 3850 7550 3750
 $Comp
-L ao_symbols:R R213
+L ao_symbols:R R50
 U 1 1 62FC83AF
 P 7550 3600
-F 0 "R213" H 7620 3646 50  0000 L CNN
+F 0 "R50" H 7620 3646 50  0000 L CNN
 F 1 "18k" H 7620 3555 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7480 3600 50  0001 C CNN
 F 3 "~" H 7550 3600 50  0001 C CNN
@@ -589,10 +590,10 @@ Wire Wire Line
 Wire Wire Line
 	9100 4550 9100 5000
 $Comp
-L ao_symbols:C C204
+L ao_symbols:C C15
 U 1 1 62FC8383
 P 8750 5000
-F 0 "C204" V 8498 5000 50  0000 C CNN
+F 0 "C15" V 8498 5000 50  0000 C CNN
 F 1 "330pF" V 8589 5000 50  0000 C CNN
 F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8788 4850 50  0001 C CNN
 F 3 "~" H 8750 5000 50  0001 C CNN
@@ -627,10 +628,10 @@ Wire Wire Line
 Wire Wire Line
 	8400 5350 8400 5000
 $Comp
-L ao_symbols:R R212
+L ao_symbols:R R49
 U 1 1 62FC8357
 P 7350 4450
-F 0 "R212" V 7143 4450 50  0000 C CNN
+F 0 "R49" V 7143 4450 50  0000 C CNN
 F 1 "33k" V 7234 4450 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7280 4450 50  0001 C CNN
 F 3 "~" H 7350 4450 50  0001 C CNN
@@ -654,10 +655,10 @@ Wire Wire Line
 Wire Wire Line
 	7700 3400 7700 3450
 $Comp
-L Device:R R216
+L Device:R R53
 U 1 1 62FC8337
 P 7950 3450
-F 0 "R216" V 7743 3450 50  0000 C CNN
+F 0 "R53" V 7743 3450 50  0000 C CNN
 F 1 "24k" V 7834 3450 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7880 3450 50  0001 C CNN
 F 3 "~" H 7950 3450 50  0001 C CNN
@@ -667,10 +668,10 @@ $EndComp
 Wire Wire Line
 	8150 2250 8150 2200
 $Comp
-L ao_symbols:R R218
+L ao_symbols:R R55
 U 1 1 62FC8330
 P 8150 2400
-F 0 "R218" H 8220 2446 50  0000 L CNN
+F 0 "R55" H 8220 2446 50  0000 L CNN
 F 1 "9.1k" H 8220 2355 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 2400 50  0001 C CNN
 F 3 "~" H 8150 2400 50  0001 C CNN
@@ -701,10 +702,10 @@ Wire Wire Line
 Wire Wire Line
 	9050 3200 9100 3200
 $Comp
-L ao_symbols:C C203
+L ao_symbols:C C14
 U 1 1 62FC8318
 P 8750 3650
-F 0 "C203" V 8498 3650 50  0000 C CNN
+F 0 "C14" V 8498 3650 50  0000 C CNN
 F 1 "330pF" V 8589 3650 50  0000 C CNN
 F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8788 3500 50  0001 C CNN
 F 3 "~" H 8750 3650 50  0001 C CNN
@@ -713,10 +714,10 @@ F 4 "Tayda" H 8750 3650 50  0001 C CNN "Vendor"
 	0    1    1    0   
 $EndComp
 $Comp
-L ao_symbols:R R211
+L ao_symbols:R R48
 U 1 1 62FC8312
 P 7350 3100
-F 0 "R211" V 7143 3100 50  0000 C CNN
+F 0 "R48" V 7143 3100 50  0000 C CNN
 F 1 "18k" V 7234 3100 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7280 3100 50  0001 C CNN
 F 3 "~" H 7350 3100 50  0001 C CNN
@@ -733,10 +734,10 @@ Wire Wire Line
 Wire Wire Line
 	9100 1950 9200 1950
 $Comp
-L ao_symbols:R R224
+L ao_symbols:R R61
 U 1 1 62FC8307
 P 9350 1950
-F 0 "R224" V 9143 1950 50  0000 C CNN
+F 0 "R61" V 9143 1950 50  0000 C CNN
 F 1 "1k" V 9234 1950 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9280 1950 50  0001 C CNN
 F 3 "~" H 9350 1950 50  0001 C CNN
@@ -764,10 +765,10 @@ Wire Wire Line
 Wire Wire Line
 	8450 2050 8400 2050
 $Comp
-L ao_symbols:R R221
+L ao_symbols:R R58
 U 1 1 62FC82F1
 P 8750 2350
-F 0 "R221" V 8543 2350 50  0000 C CNN
+F 0 "R58" V 8543 2350 50  0000 C CNN
 F 1 "10k" V 8634 2350 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8680 2350 50  0001 C CNN
 F 3 "~" H 8750 2350 50  0001 C CNN
@@ -780,10 +781,10 @@ Wire Wire Line
 Wire Wire Line
 	7700 2200 7800 2200
 $Comp
-L ao_symbols:R R215
+L ao_symbols:R R52
 U 1 1 62FC82E2
 P 7950 2200
-F 0 "R215" V 7743 2200 50  0000 C CNN
+F 0 "R52" V 7743 2200 50  0000 C CNN
 F 1 "24k" V 7834 2200 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7880 2200 50  0001 C CNN
 F 3 "~" H 7950 2200 50  0001 C CNN
@@ -792,32 +793,32 @@ F 4 "Tayda" H 7950 2200 50  0001 C CNN "Vendor"
 	0    1    1    0   
 $EndComp
 $Comp
-L Amplifier_Operational:TL074 U201
+L Amplifier_Operational:TL074 U6
 U 1 1 62FC82DC
 P 8750 3200
-F 0 "U201" H 8750 3567 50  0000 C CNN
+F 0 "U6" H 8750 3567 50  0000 C CNN
 F 1 "TL074" H 8750 3476 50  0000 C CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 8700 3300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8800 3400 50  0001 C CNN
 	1    8750 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 7100 3100 0    50   Input ~ 0
+Text HLabel 7100 3100 0    50   Input ~ 0
 SAW_OUT_S
 Text GLabel 9600 3200 2    50   Output ~ 0
 SAW
 $Comp
-L Amplifier_Operational:TL074 U201
+L Amplifier_Operational:TL074 U6
 U 3 1 62FC82D4
 P 8750 1950
-F 0 "U201" H 8750 2317 50  0000 C CNN
+F 0 "U6" H 8750 2317 50  0000 C CNN
 F 1 "TL074" H 8750 2226 50  0000 C CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 8700 2050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8800 2150 50  0001 C CNN
 	3    8750 1950
 	1    0    0    -1  
 $EndComp
-Text GLabel 7100 4450 0    50   Input ~ 0
+Text HLabel 7100 4450 0    50   Input ~ 0
 PULSE_OUT_S
 Text GLabel 9600 4550 2    50   Output ~ 0
 PULSE
@@ -825,13 +826,13 @@ Text GLabel 9400 2350 2    50   Output ~ 0
 TRI_RAW
 Text GLabel 9600 1950 2    50   Output ~ 0
 TRI
-Text GLabel 7900 1850 0    50   Input ~ 0
+Text HLabel 7900 1850 0    50   Input ~ 0
 TRIANGLE_OUT_S
 $Comp
-L Amplifier_Operational:TL074 U201
+L Amplifier_Operational:TL074 U6
 U 2 1 62FC82C9
 P 8750 4550
-F 0 "U201" H 8750 4917 50  0000 C CNN
+F 0 "U6" H 8750 4917 50  0000 C CNN
 F 1 "TL074" H 8750 4826 50  0000 C CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 8700 4650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8800 4750 50  0001 C CNN
@@ -849,17 +850,11 @@ Wire Notes Line
 	6200 1150 6200 6550
 Wire Notes Line
 	650  6550 9950 6550
-$Sheet
-S 2350 7100 1400 500 
-U 618159AF
-F0 "Jacks, power, headers" 50
-F1 "jackspower.sch" 50
-$EndSheet
 $Comp
-L ao_symbols:R R219
+L ao_symbols:R R56
 U 1 1 617C115C
 P 8150 3650
-F 0 "R219" H 8220 3696 50  0000 L CNN
+F 0 "R56" H 8220 3696 50  0000 L CNN
 F 1 "9.1k" H 8220 3605 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 3650 50  0001 C CNN
 F 3 "~" H 8150 3650 50  0001 C CNN
@@ -868,10 +863,10 @@ F 4 "Tayda" H 8150 3650 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ao_symbols:R R220
+L ao_symbols:R R57
 U 1 1 617C1660
 P 8150 5000
-F 0 "R220" H 8220 5046 50  0000 L CNN
+F 0 "R57" H 8220 5046 50  0000 L CNN
 F 1 "9.1k" H 8220 4955 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 5000 50  0001 C CNN
 F 3 "~" H 8150 5000 50  0001 C CNN
@@ -880,10 +875,10 @@ F 4 "Tayda" H 8150 5000 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ao_symbols:R R222
+L ao_symbols:R R59
 U 1 1 617C1B1C
 P 8750 4000
-F 0 "R222" V 8543 4000 50  0000 C CNN
+F 0 "R59" V 8543 4000 50  0000 C CNN
 F 1 "10k" V 8634 4000 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8680 4000 50  0001 C CNN
 F 3 "~" H 8750 4000 50  0001 C CNN
@@ -892,10 +887,10 @@ F 4 "Tayda" H 8750 4000 50  0001 C CNN "Vendor"
 	0    1    1    0   
 $EndComp
 $Comp
-L ao_symbols:R R223
+L ao_symbols:R R60
 U 1 1 617C2026
 P 8750 5350
-F 0 "R223" V 8543 5350 50  0000 C CNN
+F 0 "R60" V 8543 5350 50  0000 C CNN
 F 1 "10k" V 8634 5350 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8680 5350 50  0001 C CNN
 F 3 "~" H 8750 5350 50  0001 C CNN
@@ -904,10 +899,10 @@ F 4 "Tayda" H 8750 5350 50  0001 C CNN "Vendor"
 	0    1    1    0   
 $EndComp
 $Comp
-L ao_symbols:R R225
+L ao_symbols:R R62
 U 1 1 617C2494
 P 9350 3200
-F 0 "R225" V 9143 3200 50  0000 C CNN
+F 0 "R62" V 9143 3200 50  0000 C CNN
 F 1 "1k" V 9234 3200 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9280 3200 50  0001 C CNN
 F 3 "~" H 9350 3200 50  0001 C CNN
@@ -916,10 +911,10 @@ F 4 "Tayda" H 9350 3200 50  0001 C CNN "Vendor"
 	0    1    1    0   
 $EndComp
 $Comp
-L ao_symbols:R R226
+L ao_symbols:R R63
 U 1 1 617C2896
 P 9350 4550
-F 0 "R226" V 9143 4550 50  0000 C CNN
+F 0 "R63" V 9143 4550 50  0000 C CNN
 F 1 "1k" V 9234 4550 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9280 4550 50  0001 C CNN
 F 3 "~" H 9350 4550 50  0001 C CNN
@@ -930,14 +925,18 @@ $EndComp
 Wire Wire Line
 	9100 3200 9200 3200
 $Comp
-L Device:R R217
+L Device:R R54
 U 1 1 62FC8363
 P 7950 4800
-F 0 "R217" V 7743 4800 50  0000 C CNN
+F 0 "R54" V 7743 4800 50  0000 C CNN
 F 1 "24k" V 7834 4800 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7880 4800 50  0001 C CNN
 F 3 "~" H 7950 4800 50  0001 C CNN
 	1    7950 4800
 	0    1    1    0   
 $EndComp
+Text HLabel 5650 2600 2    50   Output ~ 0
+SIN
+Text HLabel 4150 3200 2    50   Input ~ 0
+GND_BACK
 $EndSCHEMATC

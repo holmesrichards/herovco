@@ -702,4 +702,80 @@ F 3 "" H 3700 7200 50  0001 C CNN
 	1    3700 7200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 619DDC1D
+P 4100 6300
+F 0 "TP5" H 4158 6418 50  0000 L CNN
+F 1 "+12V" H 4158 6327 50  0000 L CNN
+F 2 "ao_tht:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 4300 6300 50  0001 C CNN
+F 3 "~" H 4300 6300 50  0001 C CNN
+	1    4100 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 619DDEB2
+P 4850 6300
+F 0 "TP6" H 4908 6418 50  0000 L CNN
+F 1 "-12V" H 4908 6327 50  0000 L CNN
+F 2 "ao_tht:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 5050 6300 50  0001 C CNN
+F 3 "~" H 5050 6300 50  0001 C CNN
+	1    4850 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 619DE167
+P 5600 6300
+F 0 "TP7" H 5658 6418 50  0000 L CNN
+F 1 "GND" H 5658 6327 50  0000 L CNN
+F 2 "ao_tht:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 5800 6300 50  0001 C CNN
+F 3 "~" H 5800 6300 50  0001 C CNN
+	1    5600 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:+12V_1 #PWR?
+U 1 1 619DE2EF
+P 4100 6300
+AR Path="/62F85310/619DE2EF" Ref="#PWR?"  Part="1" 
+AR Path="/5F447D4B/619DE2EF" Ref="#PWR?"  Part="1" 
+AR Path="/618159AF/619DE2EF" Ref="#PWR?"  Part="1" 
+AR Path="/619FD1D7/618159AF/619DE2EF" Ref="#PWR?"  Part="1" 
+AR Path="/61A0B1AB/619DE2EF" Ref="#PWR078"  Part="1" 
+F 0 "#PWR078" H 4100 6150 50  0001 C CNN
+F 1 "+12V_1" H 4115 6473 50  0000 C CNN
+F 2 "" H 4100 6300 50  0001 C CNN
+F 3 "" H 4100 6300 50  0001 C CNN
+	1    4100 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ao_symbols:-12V_1 #PWR?
+U 1 1 619DF841
+P 4850 6300
+AR Path="/619DF841" Ref="#PWR?"  Part="1" 
+AR Path="/5F447D4B/619DF841" Ref="#PWR?"  Part="1" 
+AR Path="/618159AF/619DF841" Ref="#PWR?"  Part="1" 
+AR Path="/619FD1D7/618159AF/619DF841" Ref="#PWR?"  Part="1" 
+AR Path="/61A0B1AB/619DF841" Ref="#PWR079"  Part="1" 
+F 0 "#PWR079" H 4850 6400 50  0001 C CNN
+F 1 "-12V_1" H 4865 6473 50  0000 C CNN
+F 2 "" H 4850 6300 50  0001 C CNN
+F 3 "" H 4850 6300 50  0001 C CNN
+	1    4850 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND1 #PWR080
+U 1 1 619E0AC5
+P 5600 6300
+F 0 "#PWR080" H 5600 6050 50  0001 C CNN
+F 1 "GND1" H 5605 6127 50  0000 C CNN
+F 2 "" H 5600 6300 50  0001 C CNN
+F 3 "" H 5600 6300 50  0001 C CNN
+	1    5600 6300
+	0    1    -1   0   
+$EndComp
 $EndSCHEMATC

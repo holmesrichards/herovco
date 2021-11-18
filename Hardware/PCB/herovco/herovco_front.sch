@@ -2106,4 +2106,44 @@ F 3 "" H 950 7750 50  0001 C CNN
 	1    950  7750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 619B0673
+P 6350 3400
+F 0 "TP2" H 6408 3518 50  0000 L CNN
+F 1 "+12V" H 6408 3427 50  0000 L CNN
+F 2 "ao_tht:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6550 3400 50  0001 C CNN
+F 3 "~" H 6550 3400 50  0001 C CNN
+	1    6350 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 3500
+Wire Wire Line
+	6350 3400 6350 3500
+$Comp
+L Connector:TestPoint TP3
+U 1 1 619BF3DB
+P 7150 3550
+F 0 "TP3" H 7208 3668 50  0000 L CNN
+F 1 "-12V" H 7208 3577 50  0000 L CNN
+F 2 "ao_tht:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7350 3550 50  0001 C CNN
+F 3 "~" H 7350 3550 50  0001 C CNN
+	1    7150 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3550 7150 3650
+$Comp
+L Connector:TestPoint TP4
+U 1 1 619CD439
+P 7950 3400
+F 0 "TP4" H 8008 3518 50  0000 L CNN
+F 1 "GND" H 8008 3427 50  0000 L CNN
+F 2 "ao_tht:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 8150 3400 50  0001 C CNN
+F 3 "~" H 8150 3400 50  0001 C CNN
+	1    7950 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3400 7950 3500
 $EndSCHEMATC

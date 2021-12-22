@@ -1,0 +1,3135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Hardware/PCB/herovco/herovco.kicad_sch</source>
+    <date>Thu 16 Dec 2021 11:03:08 PM EST</date>
+    <tool>Eeschema 6.0.0-rc1-unknown-d785a97940~144~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Hero VCO</title>
+        <company>Rich Holmes / Analog Output</company>
+        <rev/>
+        <date>2021-11-16</date>
+        <source>herovco.kicad_sch</source>
+        <comment number="1" value="or neighboring rights to this work. Published from United States."/>
+        <comment number="2" value="To the extent possible under law, Richard Holmes has waived all copyright and related "/>
+        <comment number="3" value="Partly based on designs by Kassutronics, Thomas Henry, and LMNC"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/">
+      <title_block>
+        <title>Hero VCO</title>
+        <company>Rich Holmes / Analog Output</company>
+        <rev/>
+        <date>2021-11-16</date>
+        <source>herovco_front.kicad_sch</source>
+        <comment number="1" value="or neighboring rights to this work. Published from United States."/>
+        <comment number="2" value="To the extent possible under law, Richard Holmes has waived all copyright and related "/>
+        <comment number="3" value="Partly based on designs by Kassutronics, Thomas Henry, and LMNC"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/">
+      <title_block>
+        <title>Hero VCO</title>
+        <company>Rich Holmes / Analog Output</company>
+        <rev/>
+        <date>2021-11-16</date>
+        <source>jackspower.kicad_sch</source>
+        <comment number="1" value="or neighboring rights to this work. Published from United States."/>
+        <comment number="2" value="To the extent possible under law, Richard Holmes has waived all copyright and related "/>
+        <comment number="3" value="Partly based on designs by Kassutronics, Thomas Henry, and LMNC"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Octave switch/" tstamps="/00000000-0000-0000-0000-0000619704e4/">
+      <title_block>
+        <title>Hero VCO</title>
+        <company>Rich Holmes / Analog Output</company>
+        <rev/>
+        <date>2021-11-16</date>
+        <source>octave.kicad_sch</source>
+        <comment number="1" value="or neighboring rights to this work. Published from United States."/>
+        <comment number="2" value="To the extent possible under law, Richard Holmes has waived all copyright and related "/>
+        <comment number="3" value="Partly based on designs by Kassutronics, Thomas Henry, and LMNC"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/">
+      <title_block>
+        <title>Hero VCO</title>
+        <company>Rich Holmes / Analog Output</company>
+        <rev/>
+        <date>2021-11-16</date>
+        <source>herovco_back.kicad_sch</source>
+        <comment number="1" value="or neighboring rights to this work. Published from United States."/>
+        <comment number="2" value="To the extent possible under law, Richard Holmes has waived all copyright and related "/>
+        <comment number="3" value="Partly based on designs by Kassutronics, Thomas Henry, and LMNC"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x09</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x09" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="herovco.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061960751</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x07</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="herovco.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006196071f</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="herovco.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061960713</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>3_pin_Molex_header</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="SKU">A-805</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="3_pin_Molex_header" description="KK254 Molex header"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-805"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="herovco.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061960708</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x09</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x09" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="herovco.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a09f42</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x07</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="herovco.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a09f7f</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="herovco.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a09f65</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>3_pin_Molex_connector</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="SKU">A-827</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="3_pin_Molex_connector" description="KK254 Molex connector"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-827"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="herovco.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a5ea38</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_02x04_Odd_Even</value>
+      <footprint>Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="herovco.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a09f59</tstamps>
+    </comp>
+    <comp ref="B1">
+      <value>Board</value>
+      <footprint>ao_tht:Board_Marker</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="Board" description="Board marker annotation for KiKit"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000061c46b72</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1530b9</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10nF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000060939e16</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00005f157032</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000615d4c54</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000615d4c6b</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1nF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000060f756fe</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10nF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00006181e495</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10nF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000060f0a6ec</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000615ab5be</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000615c90ea</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10nF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000618173a8</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="SKU">A-157</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="1N4148" description="Standard switching diode, DO-35"/>
+      <property name="SKU" value="A-157"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00006181739b</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4732A</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/85816/1n4728a.pdf</datasheet>
+      <libsource lib="Diode" part="1N47xxA" description="1300mW Silicon planar power Zener diodes, DO-41"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000616604b5</tstamps>
+    </comp>
+    <comp ref="GRAF1">
+      <value>Holes</value>
+      <footprint>herovco_panel:herovco_panel_holes</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="Graphic" description="Graphic"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000061946087</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>ao_tht:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="MountingHole" description="Mounting hole"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000061927d24</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>ao_tht:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="MountingHole" description="Mounting hole"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000061927d16</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>ao_tht:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="MountingHole" description="Mounting hole"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000061927d1d</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>3M</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000060b9c7da</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>300k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000617a2ec0</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>24k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000060b528de</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>5.6k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000060b3119e</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000611534ab</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000617d7923</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000617d7c9c</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000612ff2f5</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>470k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000061298152</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000060a09982</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>100k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000609d668d</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000609fc957</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1.8k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000060b30b3f</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1.5M</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000060ef4238</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>470R</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000060ef4a4b</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>1M</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000063217c3c</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>1M</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00006112cd3e</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>100k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00006112da2d</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>100k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000060afd61e</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>8.2k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000617de599</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>1k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000617deb3e</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>1k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000617dee1f</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>240k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000061580c55</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>100k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000615b98a4</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000615917a4</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>100k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00006163b849</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>47k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000616fd3da</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>20k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000616e878e</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00006156cad2</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>100k</value>
+      <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000617a2ec6</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>10k</value>
+      <footprint>ao_tht:Potentiometer_Bourns_3296W_Vertical_standard</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT_TRIM_3296W" description="Trim-potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000060b66115</tstamps>
+    </comp>
+    <comp ref="RV3">
+      <value>100k</value>
+      <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00006125db39</tstamps>
+    </comp>
+    <comp ref="RV4">
+      <value>100k</value>
+      <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00006092fd85</tstamps>
+    </comp>
+    <comp ref="RV5">
+      <value>20k</value>
+      <footprint>ao_tht:Potentiometer_Bourns_3296W_Vertical_standard</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT_TRIM_3296W" description="Trim-potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000610e03d6</tstamps>
+    </comp>
+    <comp ref="RV6">
+      <value>100k</value>
+      <footprint>ao_tht:Potentiometer_Bourns_3296W_Vertical_standard</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT_TRIM_3296W" description="Trim-potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000610e24f2</tstamps>
+    </comp>
+    <comp ref="RV7">
+      <value>10k</value>
+      <footprint>ao_tht:Potentiometer_Bourns_3296W_Vertical_standard</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT_TRIM_3296W" description="Trim-potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000617df171</tstamps>
+    </comp>
+    <comp ref="RV8">
+      <value>50k</value>
+      <footprint>ao_tht:Potentiometer_Bourns_3296W_Vertical_standard</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT_TRIM_3296W" description="Trim-potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00006187e4cd</tstamps>
+    </comp>
+    <comp ref="RV9">
+      <value>50k</value>
+      <footprint>ao_tht:Potentiometer_Bourns_3296W_Vertical_standard</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT_TRIM_3296W" description="Trim-potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00006187e4b8</tstamps>
+    </comp>
+    <comp ref="RV10">
+      <value>100k</value>
+      <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00006154c867</tstamps>
+    </comp>
+    <comp ref="RV11">
+      <value>100k</value>
+      <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00006158230a</tstamps>
+    </comp>
+    <comp ref="RV12">
+      <value>5k</value>
+      <footprint>ao_tht:Potentiometer_Bourns_3296W_Vertical_standard</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT_TRIM_3296W" description="Trim-potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00006187e4aa</tstamps>
+    </comp>
+    <comp ref="RV13">
+      <value>50k</value>
+      <footprint>ao_tht:Potentiometer_Bourns_3296W_Vertical_standard</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT_TRIM_3296W" description="Trim-potentiometer"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000615edc47</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPDT_MSM</value>
+      <footprint>ao_tht:SPDT-toggle-switch-1M-series</footprint>
+      <fields>
+        <field name="SKU">A-3187</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="SW_SPDT_MSM" description="Switch, single pole double throw, center OFF position"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-3187"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000060939e10</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.5x2.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000061a3d1eb</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>+12V</value>
+      <footprint>ao_tht:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000619b0673</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>-12V</value>
+      <footprint>ao_tht:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000619bf3db</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>GND</value>
+      <footprint>ao_tht:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000619cd439</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TL074</value>
+      <footprint>ao_tht:DIP-14_W7.62mm_Socket_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <fields>
+        <field name="SKU">A-1138</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="TL074" description="Quad operational amplifier, DIP-14"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-1138"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000060b2eb3e 00000000-0000-0000-0000-0000609fc950 00000000-0000-0000-0000-000062546822 00000000-0000-0000-0000-000060a3697f 00000000-0000-0000-0000-0000609c9151</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AS3340A</value>
+      <footprint>ao_tht:DIP-16_W7.62mm_Socket_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="ao_symbols" part="AS3340" description="VCO"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-00005f150dcd</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TL072</value>
+      <footprint>ao_tht:DIP-8_W7.62mm_Socket_LongPads</footprint>
+      <fields>
+        <field name="SKU">A-037</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="TL072" description="Dual operational amplifier, DIP-8"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-037"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-0000615b00e8 00000000-0000-0000-0000-0000615afaf0 00000000-0000-0000-0000-00006156cacc</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TL431LP</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl431.pdf</datasheet>
+      <libsource lib="Reference_Voltage" part="TL431LP" description="Shunt Regulator, TO-92"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000061a3d1dc</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>L79L05_TO92</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1827870.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L79L05_TO92" description="Negative 100mA -30V Linear Regulator, Fixed Output -5V, TO-92"/>
+      <property name="Sheetname" value="Front PCB"/>
+      <property name="Sheetfile" value="herovco_front.kicad_sch"/>
+      <sheetpath names="/Front PCB/" tstamps="/00000000-0000-0000-0000-000061942543/"/>
+      <tstamps>00000000-0000-0000-0000-000061817387</tstamps>
+    </comp>
+    <comp ref="B2">
+      <value>Board</value>
+      <footprint>ao_tht:Board_Marker</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="Board" description="Board marker annotation for KiKit"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-000061c2f18f</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>ao_tht:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="CP" description="Polarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00005f5271a5</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10uF</value>
+      <footprint>ao_tht:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="CP" description="Polarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00005f5271ab</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N5817</value>
+      <footprint>ao_tht:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="SKU">A-159</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="1N5817" description="Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-159"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00005f776ff5</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N5817</value>
+      <footprint>ao_tht:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="SKU">A-159</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="1N5817" description="Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-159"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00005f776d8b</tstamps>
+    </comp>
+    <comp ref="GRAF2">
+      <value>Holes</value>
+      <footprint>herovco_panel:herovco_panel_holes</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="Graphic" description="Graphic"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-000061680e82</tstamps>
+    </comp>
+    <comp ref="GRAF3">
+      <value>AO logo</value>
+      <footprint>ao_tht:analogoutput</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="Graphic" description="Graphic"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-0000618dc593</tstamps>
+    </comp>
+    <comp ref="GRAF4">
+      <value>CC0 logo</value>
+      <footprint>ao_tht:CC0_logo</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="Graphic" description="Graphic"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-0000618dc882</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>ao_tht:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="MountingHole" description="Mounting hole"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00006167e3ac</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>ao_tht:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="MountingHole" description="Mounting hole"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00006167e3a5</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole</value>
+      <footprint>ao_tht:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="MountingHole" description="Mounting hole"/>
+      <property name="Config" value="DNF"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00006167e39e</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-1121"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00005f51c6b5</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-1121"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00005f51c6c4</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-1121"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00005f51c6d3</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-1121"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00005f51c6e2</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-1121"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00005f51c6f1</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>Synth_power_2x5</value>
+      <footprint>ao_tht:Power_Header</footprint>
+      <fields>
+        <field name="SKU">A-2939</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="Synth_power_2x5" description="Pin header 2.54 mm 2x5"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-2939"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00005f682bb2</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-1121"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00005f50439c</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-1121"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00005f5068d3</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-1121"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00005f507367</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-1121"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-00005f5084a6</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-1121"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-000060902f15</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>+12V</value>
+      <footprint>ao_tht:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-0000619ddc1d</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>-12V</value>
+      <footprint>ao_tht:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-0000619ddeb2</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>GND</value>
+      <footprint>ao_tht:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Jacks, power, etc"/>
+      <property name="Sheetfile" value="jackspower.kicad_sch"/>
+      <sheetpath names="/Jacks, power, etc/" tstamps="/00000000-0000-0000-0000-000061a0b1ab/"/>
+      <tstamps>00000000-0000-0000-0000-0000619de167</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k 1/8W</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Octave switch"/>
+      <property name="Sheetfile" value="octave.kicad_sch"/>
+      <sheetpath names="/Octave switch/" tstamps="/00000000-0000-0000-0000-0000619704e4/"/>
+      <tstamps>00000000-0000-0000-0000-000060ac12c4</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k 1/8W</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Octave switch"/>
+      <property name="Sheetfile" value="octave.kicad_sch"/>
+      <sheetpath names="/Octave switch/" tstamps="/00000000-0000-0000-0000-0000619704e4/"/>
+      <tstamps>00000000-0000-0000-0000-000061655593</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k 1/8W</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Octave switch"/>
+      <property name="Sheetfile" value="octave.kicad_sch"/>
+      <sheetpath names="/Octave switch/" tstamps="/00000000-0000-0000-0000-0000619704e4/"/>
+      <tstamps>00000000-0000-0000-0000-000061655952</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k 1/8W</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Octave switch"/>
+      <property name="Sheetfile" value="octave.kicad_sch"/>
+      <sheetpath names="/Octave switch/" tstamps="/00000000-0000-0000-0000-0000619704e4/"/>
+      <tstamps>00000000-0000-0000-0000-000061655c11</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k 1/8W</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Octave switch"/>
+      <property name="Sheetfile" value="octave.kicad_sch"/>
+      <sheetpath names="/Octave switch/" tstamps="/00000000-0000-0000-0000-0000619704e4/"/>
+      <tstamps>00000000-0000-0000-0000-000061655f36</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k 1/8W</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Octave switch"/>
+      <property name="Sheetfile" value="octave.kicad_sch"/>
+      <sheetpath names="/Octave switch/" tstamps="/00000000-0000-0000-0000-0000619704e4/"/>
+      <tstamps>00000000-0000-0000-0000-00006165615d</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k 1/8W</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Octave switch"/>
+      <property name="Sheetfile" value="octave.kicad_sch"/>
+      <sheetpath names="/Octave switch/" tstamps="/00000000-0000-0000-0000-0000619704e4/"/>
+      <tstamps>00000000-0000-0000-0000-000061656492</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k 1/8W</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Octave switch"/>
+      <property name="Sheetfile" value="octave.kicad_sch"/>
+      <sheetpath names="/Octave switch/" tstamps="/00000000-0000-0000-0000-0000619704e4/"/>
+      <tstamps>00000000-0000-0000-0000-000061898c80</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Rotary12</value>
+      <footprint>ao_tht:Rotary_Switch</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf</datasheet>
+      <fields>
+        <field name="SKU">A-1893</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="SW_Rotary12" description="rotary switch with 12 positions"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-1893"/>
+      <property name="Sheetname" value="Octave switch"/>
+      <property name="Sheetfile" value="octave.kicad_sch"/>
+      <sheetpath names="/Octave switch/" tstamps="/00000000-0000-0000-0000-0000619704e4/"/>
+      <tstamps>00000000-0000-0000-0000-000060ac1298</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000061606306</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-00006160631d</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>330pF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000062fc8318</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>330pF</value>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000062fc8383</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>ao_tht:TO-92_Inline_Wide</footprint>
+      <fields>
+        <field name="SKU">A-111</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="2N3904" description="Small Signal NPN Transistor, TO-92"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-111"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-00006162715e</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3904</value>
+      <footprint>ao_tht:TO-92_Inline_Wide</footprint>
+      <fields>
+        <field name="SKU">A-111</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="2N3904" description="Small Signal NPN Transistor, TO-92"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-111"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000061652e78</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>30k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-0000615fb0de</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>2.2k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000061601206</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>10k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-00006164e2f1</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>390R</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-0000616316e7</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>10k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-0000616613e8</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>18k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-00006163fb1d</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>2.2k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000061672169</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>20k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-0000616bbb23</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>20k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-0000616a15de</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>2k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000062fefd1d</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>18k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000062fc8312</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>33k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000062fc8357</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>18k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000062fc83af</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>18k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000062fc83bf</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>24k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000062fc82e2</tstamps>
+    </comp>
+    <comp ref="R53">
+      <value>24k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000062fc8337</tstamps>
+    </comp>
+    <comp ref="R54">
+      <value>24k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000062fc8363</tstamps>
+    </comp>
+    <comp ref="R55">
+      <value>9.1k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000062fc8330</tstamps>
+    </comp>
+    <comp ref="R56">
+      <value>9.1k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-0000617c115c</tstamps>
+    </comp>
+    <comp ref="R57">
+      <value>9.1k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-0000617c1660</tstamps>
+    </comp>
+    <comp ref="R58">
+      <value>10k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000062fc82f1</tstamps>
+    </comp>
+    <comp ref="R59">
+      <value>10k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-0000617c1b1c</tstamps>
+    </comp>
+    <comp ref="R60">
+      <value>10k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-0000617c2026</tstamps>
+    </comp>
+    <comp ref="R61">
+      <value>1k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000062fc8307</tstamps>
+    </comp>
+    <comp ref="R62">
+      <value>1k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-0000617c2494</tstamps>
+    </comp>
+    <comp ref="R63">
+      <value>1k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R" description="Resistor"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-0000617c2896</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TL074</value>
+      <footprint>ao_tht:DIP-14_W7.62mm_Socket_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <fields>
+        <field name="SKU">A-1138</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="TL074" description="Quad operational amplifier, DIP-14"/>
+      <property name="Vendor" value="Tayda"/>
+      <property name="SKU" value="A-1138"/>
+      <property name="Sheetname" value="Outputs and sin"/>
+      <property name="Sheetfile" value="herovco_back.kicad_sch"/>
+      <sheetpath names="/Outputs and sin/" tstamps="/00000000-0000-0000-0000-0000619fd1d7/"/>
+      <tstamps>00000000-0000-0000-0000-000062fc82dc 00000000-0000-0000-0000-000062fc82c9 00000000-0000-0000-0000-000062fefca5 00000000-0000-0000-0000-000062fc82d4 00000000-0000-0000-0000-000060b407d1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x07">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x09">
+      <description>Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x09</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Odd_Even">
+      <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N47xxA">
+      <description>1300mW Silicon planar power Zener diodes, DO-41</description>
+      <docs>https://www.vishay.com/docs/85816/1n4728a.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N47xxA</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85816/1n4728a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="TL431LP">
+      <description>Shunt Regulator, TO-92</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl431.pdf</docs>
+      <footprints>
+        <fp>TO*92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL431LP</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl431.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REF" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L79L05_TO92">
+      <description>Negative 100mA -30V Linear Regulator, Fixed Output -5V, TO-92</description>
+      <docs>http://www.farnell.com/datasheets/1827870.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L79L05_TO92</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1827870.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VI" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="1N4148">
+      <description>Standard switching diode, DO-35</description>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-157</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="1N5817">
+      <description>Schottky Barrier Rectifier Diode, DO-41</description>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5817</field>
+        <field name="Footprint">ao_tht:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-159</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="2N3904">
+      <description>Small Signal NPN Transistor, TO-92</description>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">ao_tht:TO-92_Inline_Wide</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-111</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="3_pin_Molex_connector">
+      <description>KK254 Molex connector</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">3_pin_Molex_connector</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-827</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="3_pin_Molex_header">
+      <description>KK254 Molex header</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">3_pin_Molex_header</field>
+        <field name="Footprint">ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="AS3340">
+      <description>VCO</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AS3340</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Scale1" type="passive"/>
+        <pin num="2" name="Scale2" type="passive"/>
+        <pin num="3" name="VEE" type="power_in"/>
+        <pin num="4" name="Pulse_Output" type="output"/>
+        <pin num="5" name="PWM_Input" type="input"/>
+        <pin num="6" name="Hard_Sync" type="input"/>
+        <pin num="7" name="HFT" type="input"/>
+        <pin num="8" name="Saw_Output" type="output"/>
+        <pin num="9" name="Soft_Sync" type="input"/>
+        <pin num="10" name="Triangle_Output" type="output"/>
+        <pin num="11" name="Cap" type="passive"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="Linear_FM" type="input"/>
+        <pin num="14" name="Scale" type="passive"/>
+        <pin num="15" name="Freq_CV" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="AudioJack2">
+      <description>Audio Jack, 2 Poles (Mono / TS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2</field>
+        <field name="Footprint">ao_tht:Jack_6.35mm_PJ_629HAN</field>
+        <field name="Datasheet">~</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-1121</field>
+      </fields>
+      <pins>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="Board">
+      <description>Board marker annotation for KiKit</description>
+      <fields>
+        <field name="Reference">B</field>
+        <field name="Value">Board</field>
+        <field name="Footprint">ao_tht:Board_Marker</field>
+        <field name="Config">DNF</field>
+      </fields>
+    </libpart>
+    <libpart lib="ao_symbols" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint">ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="CP">
+      <description>Polarized capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+        <field name="Footprint">ao_tht:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="Graphic">
+      <description>Graphic</description>
+      <fields>
+        <field name="Reference">GRAF</field>
+        <field name="Value">Graphic</field>
+        <field name="Config">DNF</field>
+      </fields>
+    </libpart>
+    <libpart lib="ao_symbols" part="MountingHole">
+      <description>Mounting hole</description>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Config">DNF</field>
+      </fields>
+    </libpart>
+    <libpart lib="ao_symbols" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint">ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+        <field name="Datasheet">~</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="R_POT_TRIM_3296W">
+      <description>Trim-potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_TRIM_3296W</field>
+        <field name="Footprint">ao_tht:Potentiometer_Bourns_3296W_Vertical_standard</field>
+        <field name="Datasheet">~</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="SW_Rotary12">
+      <description>rotary switch with 12 positions</description>
+      <docs>http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Rotary12</field>
+        <field name="Footprint">ao_tht:Rotary_Switch</field>
+        <field name="Datasheet">http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-1893</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="SW_SPDT_MSM">
+      <description>Switch, single pole double throw, center OFF position</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT_MSM</field>
+        <field name="Footprint">ao_tht:SPDT-toggle-switch-1M-series</field>
+        <field name="Datasheet">~</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-3187</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="Synth_power_2x5">
+      <description>Pin header 2.54 mm 2x5</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Synth_power_2x5</field>
+        <field name="Footprint">ao_tht:Power_Header</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-2939</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-12V" type="power_out"/>
+        <pin num="2" name="-12V" type="passive"/>
+        <pin num="3" name="GND" type="power_out"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="+12V" type="power_out"/>
+        <pin num="10" name="+12V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="TL072">
+      <description>Dual operational amplifier, DIP-8</description>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL072</field>
+        <field name="Footprint">ao_tht:DIP-8_W7.62mm_Socket_LongPads</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-037</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="TL074">
+      <description>Quad operational amplifier, DIP-14</description>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL074</field>
+        <field name="Footprint">ao_tht:DIP-14_W7.62mm_Socket_LongPads</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-1138</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/usr/share/kicad/library/Reference_Voltage.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="ao_symbols">
+      <uri>/home/rsholmes/Documents/Hobbies/Electronics/KiCad/Libraries/aoKicad/ao_symbols.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="RV10" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U2" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="2" name="+12V_1">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="R52" pin="2" pintype="passive"/>
+      <node ref="R53" pin="2" pintype="passive"/>
+      <node ref="R54" pin="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="3" name="-5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VEE" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="4" name="-12V">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="RV10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="5" name="-12V_1">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="6" name="/Front PCB/+8V_REF">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="RV6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="7" name="/Front PCB/CENTER_FREQ">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="RV6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/Front PCB/CV_IN">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="RV3" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="9" name="/Front PCB/CV_SUM">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pintype="output"/>
+    </net>
+    <net code="10" name="/Front PCB/FINE_TUNE">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/Front PCB/FREQ_CV">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="12" name="/Front PCB/HI_FREQ_TRACK">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="RV5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="13" name="/Front PCB/LINK_OUT_FM">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U1" pin="14" pintype="output"/>
+    </net>
+    <net code="14" name="/Front PCB/LINK_OUT_PW">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pintype="output"/>
+    </net>
+    <net code="15" name="/Front PCB/LIN_FM_CV">
+      <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="16" name="/Front PCB/LIN_FM_IN">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="RV4" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="17" name="/Front PCB/OCTAVE">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="18" name="/Front PCB/PULSE_OUT">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="Pulse_Output" pintype="output"/>
+    </net>
+    <net code="19" name="/Front PCB/PULSE_WIDTH">
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="RV10" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="20" name="/Front PCB/PWM">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="RV11" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="21" name="/Front PCB/PWMIN">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="RV11" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="22" name="/Front PCB/SAW_OUT">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="Saw_Output" pintype="output"/>
+    </net>
+    <net code="23" name="/Front PCB/SIN_A_W">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="RV12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV12" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="24" name="/Front PCB/SIN_R_CCW">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="RV8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="25" name="/Front PCB/SIN_R_W">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="RV8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV8" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="26" name="/Front PCB/SIN_S_CCW">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="RV9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="27" name="/Front PCB/SIN_S_CW">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="RV9" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="28" name="/Front PCB/SIN_S_W">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="RV9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="29" name="/Front PCB/SYNC">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="30" name="/Front PCB/TRIANGLE_OUT">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="Triangle_Output" pintype="output"/>
+    </net>
+    <net code="31" name="/Front PCB/VREF">
+      <node ref="RV7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="REF" pintype="passive"/>
+    </net>
+    <net code="32" name="/Front PCB/V_OCT">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="/Front PCB/V_OCT2">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="/Jacks, power, etc/+12V_IN">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J15" pin="10" pinfunction="+12V" pintype="passive"/>
+      <node ref="J15" pin="9" pinfunction="+12V" pintype="power_out"/>
+    </net>
+    <net code="35" name="/Jacks, power, etc/-12V_IN">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="-12V" pintype="power_out"/>
+      <node ref="J15" pin="2" pinfunction="-12V" pintype="passive"/>
+    </net>
+    <net code="36" name="/Jacks, power, etc/CV_IN_J">
+      <node ref="J13" pin="T" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="37" name="/Jacks, power, etc/LIN_FM_IN_J">
+      <node ref="J11" pin="T" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="38" name="/Jacks, power, etc/PWMIN_J">
+      <node ref="J10" pin="T" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="39" name="/Jacks, power, etc/SIN">
+      <node ref="J16" pin="T" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R47" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="/Jacks, power, etc/SYNC_J">
+      <node ref="J12" pin="T" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="41" name="/Jacks, power, etc/V_OCT2_J">
+      <node ref="J20" pin="T" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="42" name="/Jacks, power, etc/V_OCT_J">
+      <node ref="J14" pin="T" pintype="passive"/>
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="43" name="/Octave switch/+8V_REF_P">
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="44" name="/Octave switch/0V">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="45" name="/Octave switch/OCTAVE_P">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW1" pin="13" pinfunction="13" pintype="passive"/>
+    </net>
+    <net code="46" name="/Outputs and sin/LINK_OUT_SAW">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R59" pin="1" pintype="passive"/>
+      <node ref="R62" pin="2" pintype="passive"/>
+      <node ref="U6" pin="1" pintype="output"/>
+    </net>
+    <net code="47" name="/Outputs and sin/PULSE_OUT_S">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="/Outputs and sin/SAW_OUT_S">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R48" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="/Outputs and sin/SIN_R_CCW_S">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+    </net>
+    <net code="50" name="/Outputs and sin/SIN_R_W_S">
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="/Outputs and sin/SIN_S_CCW_S">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="/Outputs and sin/SIN_S_CW_S">
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="/Outputs and sin/SIN_S_W_S">
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="/Outputs and sin/TRIANGLE_OUT_S">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="55" name="CV_NODE">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="Freq_CV" pintype="input"/>
+    </net>
+    <net code="56" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U2" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="57" name="GND1">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="J10" pin="S" pintype="passive"/>
+      <node ref="J11" pin="S" pintype="passive"/>
+      <node ref="J12" pin="S" pintype="passive"/>
+      <node ref="J13" pin="S" pintype="passive"/>
+      <node ref="J14" pin="S" pintype="passive"/>
+      <node ref="J15" pin="3" pinfunction="GND" pintype="power_out"/>
+      <node ref="J15" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J15" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="J15" pin="6" pinfunction="GND" pintype="passive"/>
+      <node ref="J15" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="J15" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="J16" pin="S" pintype="passive"/>
+      <node ref="J17" pin="S" pintype="passive"/>
+      <node ref="J18" pin="S" pintype="passive"/>
+      <node ref="J19" pin="S" pintype="passive"/>
+      <node ref="J20" pin="S" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J9" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="R50" pin="2" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+      <node ref="R55" pin="2" pintype="passive"/>
+      <node ref="R56" pin="2" pintype="passive"/>
+      <node ref="R57" pin="2" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="58" name="HARD_SYNC">
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="Hard_Sync" pintype="input"/>
+    </net>
+    <net code="59" name="HFT">
+      <node ref="RV5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="HFT" pintype="input"/>
+    </net>
+    <net code="60" name="LINK_OUT_CV_L">
+      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="61" name="LINK_OUT_FM_L">
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="62" name="LINK_OUT_PW_L">
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="63" name="LIN_FM">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="Linear_FM" pintype="input"/>
+    </net>
+    <net code="64" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="Cap" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(C14-Pad2)">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="R53" pin="1" pintype="passive"/>
+      <node ref="R56" pin="1" pintype="passive"/>
+      <node ref="R59" pin="2" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="69" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R60" pin="1" pintype="passive"/>
+      <node ref="R63" pin="2" pintype="passive"/>
+      <node ref="U6" pin="7" pintype="output"/>
+    </net>
+    <net code="70" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="R54" pin="1" pintype="passive"/>
+      <node ref="R57" pin="1" pintype="passive"/>
+      <node ref="R60" pin="2" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="71" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="72" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="74" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="Scale1" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="Scale2" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="86" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="87" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="88" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+    <net code="89" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="Scale" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="RV7" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(R29-Pad1)">
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="RV7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(R31-Pad1)">
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="93" name="Net-(R33-Pad1)">
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="94" name="Net-(R33-Pad2)">
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="output"/>
+    </net>
+    <net code="95" name="Net-(R35-Pad1)">
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="RV13" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(R46-Pad1)">
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="R47" pin="2" pintype="passive"/>
+      <node ref="U6" pin="14" pintype="output"/>
+    </net>
+    <net code="97" name="Net-(R48-Pad1)">
+      <node ref="R48" pin="1" pintype="passive"/>
+      <node ref="R50" pin="1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="98" name="Net-(R49-Pad1)">
+      <node ref="R49" pin="1" pintype="passive"/>
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="99" name="Net-(R52-Pad1)">
+      <node ref="R52" pin="1" pintype="passive"/>
+      <node ref="R55" pin="1" pintype="passive"/>
+      <node ref="R58" pin="2" pintype="passive"/>
+      <node ref="U6" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="100" name="PULSE">
+      <node ref="J18" pin="T" pintype="passive"/>
+      <node ref="R63" pin="1" pintype="passive"/>
+    </net>
+    <net code="101" name="PWM_IN">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="RV13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="PWM_Input" pintype="input"/>
+    </net>
+    <net code="102" name="SAW">
+      <node ref="J19" pin="T" pintype="passive"/>
+      <node ref="R62" pin="1" pintype="passive"/>
+    </net>
+    <net code="103" name="SOFT_SYNC">
+      <node ref="SW2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="Soft_Sync" pintype="input"/>
+    </net>
+    <net code="104" name="TRI">
+      <node ref="J17" pin="T" pintype="passive"/>
+      <node ref="R61" pin="1" pintype="passive"/>
+    </net>
+    <net code="105" name="TRI_RAW">
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R58" pin="1" pintype="passive"/>
+      <node ref="R61" pin="2" pintype="passive"/>
+      <node ref="U6" pin="8" pintype="output"/>
+    </net>
+    <net code="106" name="unconnected-(SW1-Pad10)">
+      <node ref="SW1" pin="10" pinfunction="10" pintype="passive+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(SW1-Pad11)">
+      <node ref="SW1" pin="11" pinfunction="11" pintype="passive+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(SW1-Pad12)">
+      <node ref="SW1" pin="12" pinfunction="12" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -4740,7 +4740,7 @@
   (symbol (lib_id "ao_symbols:LM4040LP-10") (at 152.4 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 91dbb78e-73b0-4eb5-be4e-0f2528a22fe2)
-    (property "Reference" "U?" (id 0) (at 154.4066 58.7815 90)
+    (property "Reference" "U4" (id 0) (at 154.4066 58.7815 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LM4040LP-10" (id 1) (at 154.4066 61.5566 90)

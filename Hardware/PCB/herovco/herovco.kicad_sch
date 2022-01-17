@@ -2203,6 +2203,12 @@
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000060afd61e"
       (reference "R27") (unit 1) (value "100k") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
+    (path "/00000000-0000-0000-0000-0000619704e4/4bff3aa5-c675-4fb9-a7ea-3fe964b9da00"
+      (reference "R28") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-0000619704e4/b8739552-f6e8-4363-b891-9e5c2fdb0f23"
+      (reference "R29") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000617dee1f"
       (reference "R30") (unit 1) (value "1k") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
@@ -2308,12 +2314,6 @@
     (path "/00000000-0000-0000-0000-000061942543/8628be1c-a527-47b4-9f81-339c59c51c43"
       (reference "R64") (unit 1) (value "470R") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-0000619704e4/4bff3aa5-c675-4fb9-a7ea-3fe964b9da00"
-      (reference "R?") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/00000000-0000-0000-0000-0000619704e4/b8739552-f6e8-4363-b891-9e5c2fdb0f23"
-      (reference "R?") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000617a2ec6"
       (reference "RV1") (unit 1) (value "50k") (footprint "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered")
     )
@@ -2401,6 +2401,9 @@
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000615b00e8"
       (reference "U3") (unit 3) (value "TL072") (footprint "ao_tht:DIP-8_W7.62mm_Socket_LongPads")
     )
+    (path "/00000000-0000-0000-0000-000061942543/91dbb78e-73b0-4eb5-be4e-0f2528a22fe2"
+      (reference "U4") (unit 1) (value "LM4040LP-10") (footprint "ao_tht:TO-92_Inline_Wide")
+    )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000061817387"
       (reference "U5") (unit 1) (value "L79L05_TO92") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
@@ -2418,9 +2421,6 @@
     )
     (path "/00000000-0000-0000-0000-0000619fd1d7/00000000-0000-0000-0000-000060b407d1"
       (reference "U6") (unit 5) (value "TL074") (footprint "ao_tht:DIP-14_W7.62mm_Socket_LongPads")
-    )
-    (path "/00000000-0000-0000-0000-000061942543/91dbb78e-73b0-4eb5-be4e-0f2528a22fe2"
-      (reference "U?") (unit 1) (value "LM4040LP-10") (footprint "ao_tht:TO-92_Inline_Wide")
     )
   )
 )

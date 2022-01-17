@@ -1501,7 +1501,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 9286cf02-1563-41d2-9931-c192c33bab31)
     )
-    (pin "+8V_REF" output (at 95.25 124.46 0)
+    (pin "+10V_REF" output (at 95.25 124.46 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 66bc2bca-dab7-4947-a0ff-403cdaf9fb89)
     )
@@ -1577,7 +1577,7 @@
     (property "Sheet file" "octave.kicad_sch" (id 1) (at 160.02 146.6346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "+8V_REF_P" input (at 160.02 142.24 180)
+    (pin "+10V_REF_P" input (at 160.02 142.24 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 7e1217ba-8a3d-4079-8d7b-b45f90cfbf53)
     )
@@ -1747,13 +1747,13 @@
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000061636e92"
       (reference "#PWR08") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000061828d2d"
+    (path "/00000000-0000-0000-0000-000061942543/f354a8c3-0d44-407d-b5b9-0802633a65c8"
       (reference "#PWR09") (unit 1) (value "+12V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000060f4a79b"
       (reference "#PWR010") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-00005f157038"
+    (path "/00000000-0000-0000-0000-000061942543/637014df-d5cd-4fc6-a7e8-300ffeb1cbec"
       (reference "#PWR011") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000061917642"
@@ -1791,9 +1791,6 @@
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000615c9507"
       (reference "#PWR023") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000061a3d1c8"
-      (reference "#PWR024") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000061a3d1cf"
       (reference "#PWR025") (unit 1) (value "+12V") (footprint "")
@@ -1842,9 +1839,6 @@
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000616430c4"
       (reference "#PWR040") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-00006166a746"
-      (reference "#PWR041") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000619fd1d7/00000000-0000-0000-0000-00006189aad7"
       (reference "#PWR042") (unit 1) (value "GND1") (footprint "")
@@ -1899,6 +1893,9 @@
     )
     (path "/d65b2e3e-049b-412a-865e-e4762bd2190b"
       (reference "#PWR059") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061942543/19e8cd29-dd25-43f1-974f-f3cb2499abd7"
+      (reference "#PWR060") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061a0b1ab/00000000-0000-0000-0000-00006172e572"
       (reference "#PWR061") (unit 1) (value "GND1") (footprint "")
@@ -1972,7 +1969,7 @@
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000060939e16"
       (reference "C2") (unit 1) (value "10nF") (footprint "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm")
     )
-    (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-00005f157032"
+    (path "/00000000-0000-0000-0000-000061942543/093a7ea3-c57c-4bbd-8f85-f76dd25ecdef"
       (reference "C3") (unit 1) (value "100nF") (footprint "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000615d4c54"
@@ -2017,11 +2014,11 @@
     (path "/00000000-0000-0000-0000-000061a0b1ab/00000000-0000-0000-0000-00005f5271ab"
       (reference "C17") (unit 1) (value "10uF") (footprint "ao_tht:CP_Radial_D6.3mm_P2.50mm")
     )
+    (path "/00000000-0000-0000-0000-000061942543/8c09a0f7-3ec8-49f5-ad5b-5cda9e7460a8"
+      (reference "C18") (unit 1) (value "10nF") (footprint "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm")
+    )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-00006181739b"
       (reference "D1") (unit 1) (value "1N4148") (footprint "ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal")
-    )
-    (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000616604b5"
-      (reference "D2") (unit 1) (value "1N4732A") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061a0b1ab/00000000-0000-0000-0000-00005f776ff5"
       (reference "D3") (unit 1) (value "1N5817") (footprint "ao_tht:D_DO-41_SOD81_P10.16mm_Horizontal")
@@ -2153,7 +2150,7 @@
       (reference "R9") (unit 1) (value "10M") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000617a2ec0"
-      (reference "R10") (unit 1) (value "300k") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R10") (unit 1) (value "200k") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000060b528de"
       (reference "R11") (unit 1) (value "24k") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
@@ -2205,12 +2202,6 @@
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000060afd61e"
       (reference "R27") (unit 1) (value "100k") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000617de599"
-      (reference "R28") (unit 1) (value "8.2k") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000617deb3e"
-      (reference "R29") (unit 1) (value "1k") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000617dee1f"
       (reference "R30") (unit 1) (value "1k") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
@@ -2314,11 +2305,20 @@
     (path "/00000000-0000-0000-0000-0000619fd1d7/00000000-0000-0000-0000-0000617c2896"
       (reference "R63") (unit 1) (value "1k") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
+    (path "/00000000-0000-0000-0000-000061942543/8628be1c-a527-47b4-9f81-339c59c51c43"
+      (reference "R64") (unit 1) (value "470R") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-0000619704e4/4bff3aa5-c675-4fb9-a7ea-3fe964b9da00"
+      (reference "R?") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-0000619704e4/b8739552-f6e8-4363-b891-9e5c2fdb0f23"
+      (reference "R?") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000617a2ec6"
-      (reference "RV1") (unit 1) (value "100k") (footprint "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered")
+      (reference "RV1") (unit 1) (value "50k") (footprint "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000060b66115"
-      (reference "RV2") (unit 1) (value "10k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_standard")
+      (reference "RV2") (unit 1) (value "10k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_screw_centered")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-00006125db39"
       (reference "RV3") (unit 1) (value "100k") (footprint "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered")
@@ -2327,19 +2327,16 @@
       (reference "RV4") (unit 1) (value "100k") (footprint "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000610e03d6"
-      (reference "RV5") (unit 1) (value "20k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_standard")
+      (reference "RV5") (unit 1) (value "20k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_screw_centered")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000610e24f2"
-      (reference "RV6") (unit 1) (value "100k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_standard")
-    )
-    (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000617df171"
-      (reference "RV7") (unit 1) (value "10k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_standard")
+      (reference "RV6") (unit 1) (value "100k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_screw_centered")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-00006187e4cd"
-      (reference "RV8") (unit 1) (value "50k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_standard")
+      (reference "RV8") (unit 1) (value "50k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_screw_centered")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-00006187e4b8"
-      (reference "RV9") (unit 1) (value "50k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_standard")
+      (reference "RV9") (unit 1) (value "50k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_screw_centered")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-00006154c867"
       (reference "RV10") (unit 1) (value "100k") (footprint "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered")
@@ -2348,19 +2345,16 @@
       (reference "RV11") (unit 1) (value "100k") (footprint "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-00006187e4aa"
-      (reference "RV12") (unit 1) (value "5k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_standard")
+      (reference "RV12") (unit 1) (value "5k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_screw_centered")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000615edc47"
-      (reference "RV13") (unit 1) (value "50k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_standard")
+      (reference "RV13") (unit 1) (value "50k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_screw_centered")
     )
     (path "/00000000-0000-0000-0000-0000619704e4/00000000-0000-0000-0000-000060ac1298"
       (reference "SW1") (unit 1) (value "SW_Rotary12") (footprint "ao_tht:Rotary_Switch")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000060939e10"
       (reference "SW2") (unit 1) (value "SW_SPDT_MSM") (footprint "ao_tht:SPDT-toggle-switch-1M-series")
-    )
-    (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000061a3d1eb"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.5x2.5mm")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000619b0673"
       (reference "TP2") (unit 1) (value "+12V") (footprint "ao_tht:TestPoint_THTPad_D1.5mm_Drill0.7mm")
@@ -2407,9 +2401,6 @@
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000615b00e8"
       (reference "U3") (unit 3) (value "TL072") (footprint "ao_tht:DIP-8_W7.62mm_Socket_LongPads")
     )
-    (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000061a3d1dc"
-      (reference "U4") (unit 1) (value "TL431LP") (footprint "Package_TO_SOT_THT:TO-92_Inline")
-    )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000061817387"
       (reference "U5") (unit 1) (value "L79L05_TO92") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
@@ -2427,6 +2418,9 @@
     )
     (path "/00000000-0000-0000-0000-0000619fd1d7/00000000-0000-0000-0000-000060b407d1"
       (reference "U6") (unit 5) (value "TL074") (footprint "ao_tht:DIP-14_W7.62mm_Socket_LongPads")
+    )
+    (path "/00000000-0000-0000-0000-000061942543/91dbb78e-73b0-4eb5-be4e-0f2528a22fe2"
+      (reference "U?") (unit 1) (value "LM4040LP-10") (footprint "ao_tht:TO-92_Inline_Wide")
     )
   )
 )

@@ -381,10 +381,11 @@
         "microvia_drill": 0.1,
         "name": "Ground",
         "nets": [
+          "/Octave and sync switches/0V",
           "GND",
           "GND1"
         ],
-        "pcb_color": "rgb(132, 132, 132)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(132, 132, 132)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -410,7 +411,7 @@
           "/Jacks, power, etc/+12V_IN",
           "/Jacks, power, etc/-12V_IN"
         ],
-        "pcb_color": "rgb(221, 133, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(221, 133, 0)",
         "track_width": 0.75,
         "via_diameter": 0.8,
@@ -487,7 +488,7 @@
     ],
     [
       "00000000-0000-0000-0000-0000619704e4",
-      "Octave switch"
+      "Octave and sync switches"
     ],
     [
       "00000000-0000-0000-0000-0000619fd1d7",

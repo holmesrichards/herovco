@@ -121,7 +121,8 @@
       },
       "track_widths": [
         0.0,
-        0.25
+        0.25,
+        0.75
       ],
       "via_dimensions": [
         {
@@ -385,7 +386,7 @@
           "GND",
           "GND1"
         ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(132, 132, 132)",
         "schematic_color": "rgb(132, 132, 132)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -411,7 +412,7 @@
           "/Jacks, power, etc/+12V_IN",
           "/Jacks, power, etc/-12V_IN"
         ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(221, 133, 0)",
         "schematic_color": "rgb(221, 133, 0)",
         "track_width": 0.75,
         "via_diameter": 0.8,

@@ -21,6 +21,50 @@
      id="defs2">
     <inkscape:path-effect
        effect="bspline"
+       id="path-effect20490"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect19031"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect19025"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect18873"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
        id="path-effect5067"
        is_visible="true"
        lpeversion="1"
@@ -320,19 +364,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.84999999"
-     inkscape:cx="453.52942"
-     inkscape:cy="475.88236"
+     inkscape:zoom="0.425"
+     inkscape:cx="-150.58824"
+     inkscape:cy="462.35294"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer11"
+     inkscape:current-layer="layer5"
      showgrid="false"
      units="in"
-     inkscape:window-width="1516"
+     inkscape:window-width="1447"
      inkscape:window-height="1012"
      inkscape:window-x="46"
      inkscape:window-y="1"
      inkscape:window-maximized="0"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
      inkscape:snap-midpoints="true"
      inkscape:snap-others="true"
@@ -440,7 +484,7 @@
        id="guide2280"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="4.9212601,5.3149605"
+       position="1.8897638,5.7086615"
        orientation="0,1"
        id="guide2282"
        inkscape:locked="false" />
@@ -1164,13 +1208,13 @@
        style="display:inline;opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.0208333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Behind panel 1"
-     style="display:inline">
+     style="display:none">
     <path
        style="display:inline;opacity:0.838;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.03125;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 3.543306,1.7086603 2.2440955,5e-7 V 6.6692913 H 3.8188977 V 5.7244094 H 2.0866142 l -4e-7,-2.5984252 H 3.5433071 V 1.7086608"
@@ -1185,6 +1229,16 @@
      id="layer5"
      inkscape:label="Behind panel"
      style="display:inline">
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:#ffe6d5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0208333;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.993004;-inkscape-stroke:none;stop-color:#000000"
+       id="rect20652"
+       width="1.188189"
+       height="0.77992123"
+       x="2.3586583"
+       y="4.9013777"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png"
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191" />
     <path
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m -7.2007858,1.4370141 h 0.622047 v 0.6220475 h -0.456693 l -0.165354,-0.1574803 z"
@@ -1345,149 +1399,169 @@
        d="m 2.1496079,6.7519746 h 0.622047 V 7.3740221 H 2.3149619 L 2.1496079,7.2165418 Z"
        id="path2479"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle2481"
        cx="2.4606314"
        cy="7.0630007"
        r="0.21653543"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2531"
        d="m 2.1496079,7.7362182 h 0.622047 V 8.3582657 H 2.3149619 L 2.1496079,8.2007854 Z"
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.21653543"
        cy="8.0472441"
        cx="2.4606314"
        id="circle2533"
        style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 3.1338584,7.7362182 h 0.622047 V 8.3582657 H 3.2992124 L 3.1338584,8.2007854 Z"
        id="path2036"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle2038"
        cx="3.4448819"
        cy="8.0472441"
        r="0.21653543"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2060"
        d="m 4.1181103,7.7362182 h 0.622047 V 8.3582657 H 4.2834643 L 4.1181103,8.2007854 Z"
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.21653543"
        cy="8.0472441"
        cx="4.4291339"
        id="circle2062"
        style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 5.1023622,7.7362182 h 0.622047 V 8.3582657 H 5.2677162 L 5.1023622,8.2007854 Z"
        id="path2074"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle2076"
        cx="5.4133859"
        cy="8.0472441"
        r="0.21653543"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2088"
        d="m 3.1338584,6.7519662 h 0.622047 V 7.3740137 H 3.2992124 L 3.1338584,7.2165334 Z"
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.21653543"
        cy="7.0629921"
        cx="3.4448819"
        id="circle2090"
        style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 4.1181103,6.7519662 h 0.622047 V 7.3740137 H 4.2834643 L 4.1181103,7.2165334 Z"
        id="path2092"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle2094"
        cx="4.4291339"
        cy="7.0629921"
        r="0.21653543"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2096"
        d="m 5.1023622,6.7519662 h 0.622047 V 7.3740137 H 5.2677162 L 5.1023622,7.2165334 Z"
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.21653543"
        cy="7.0629921"
        cx="5.4133859"
        id="circle2098"
        style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2131"
        d="m 2.1496064,5.7677164 h 0.622047 V 6.3897639 H 2.3149604 L 2.1496064,6.2322836 Z"
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.21653543"
        cy="6.0787401"
        cx="2.4606299"
        id="circle2133"
        style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.51181102"
        cy="2.5431418"
        cx="2.9527559"
        id="circle2145"
        style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <g
        transform="translate(8.8582678,-1.4566927)"
        id="g2161"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189">
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <circle
          cy="5.5669289"
          cx="-5.9055119"
@@ -1504,8 +1578,9 @@
     <g
        id="g2177"
        transform="translate(10.826772,-3.0314956)"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189">
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <circle
          r="0.31496063"
          style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1522,8 +1597,9 @@
     <g
        transform="translate(10.826772,-1.8503936)"
        id="g2193"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189">
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <circle
          cy="5.5669289"
          cx="-5.9055119"
@@ -1540,8 +1616,9 @@
     <g
        id="g2209"
        transform="translate(10.826771,-0.6692911)"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189">
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <circle
          r="0.31496063"
          style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1554,25 +1631,6 @@
          cx="-5.9055119"
          id="circle2207"
          style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
-    <g
-       transform="translate(6.4594501,3.0132762)"
-       id="g2225"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189">
-      <rect
-         style="opacity:1;vector-effect:none;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect2221"
-         width="0.27007875"
-         height="0.5"
-         x="-4.1338596"
-         y="2.1023629" />
-      <circle
-         style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="circle2223"
-         cx="-3.9988203"
-         cy="2.3523629"
-         r="0.13503937" />
     </g>
     <g
        id="g2274"
@@ -1597,10 +1655,11 @@
          style="opacity:0.838;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.01;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <g
-       transform="translate(16.12017,3.0234499)"
+       transform="translate(16.121837,3.6140021)"
        id="g2358"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189">
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <rect
          style="opacity:1;vector-effect:none;fill:#916f6f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect2352"
@@ -1622,9 +1681,10 @@
     </g>
     <g
        id="g2372"
-       transform="translate(16.12017,3.4171506)"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189">
+       transform="translate(16.121837,4.0077028)"
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <rect
          y="0.53590727"
          x="-10.789578"
@@ -1645,10 +1705,11 @@
          style="opacity:0.838;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.01;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <g
-       transform="translate(16.12017,3.8108514)"
+       transform="translate(16.121837,4.4014036)"
        id="g2386"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189">
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <rect
          style="opacity:1;vector-effect:none;fill:#916f6f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect2380"
@@ -1670,9 +1731,10 @@
     </g>
     <g
        id="g2400"
-       transform="translate(16.12017,1.8423478)"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189">
+       transform="translate(16.121837,2.4329)"
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <rect
          y="0.53590727"
          x="-10.789578"
@@ -1693,10 +1755,11 @@
          style="opacity:0.838;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.01;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <g
-       transform="translate(16.12017,2.2360485)"
+       transform="translate(16.121837,2.8266007)"
        id="g2408"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189">
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <rect
          style="opacity:1;vector-effect:none;fill:#916f6f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect2402"
@@ -1718,9 +1781,10 @@
     </g>
     <g
        id="g2416"
-       transform="translate(16.12017,2.6297493)"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189">
+       transform="translate(16.121837,3.2203015)"
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <rect
          y="0.53590727"
          x="-10.789578"
@@ -1741,10 +1805,11 @@
          style="opacity:0.838;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.01;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <g
-       transform="translate(16.111994,1.4486476)"
+       transform="translate(16.113661,2.0391998)"
        id="g1660"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189">
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <rect
          style="opacity:1;vector-effect:none;fill:#916f6f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect1654"
@@ -1767,8 +1832,9 @@
     <g
        id="g5035"
        transform="translate(10.826771,0.51181122)"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189">
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <circle
          r="0.31496063"
          style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1787,22 +1853,66 @@
        id="path5043"
        d="m 3.1338541,5.767715 h 0.622047 V 6.3897625 H 3.2992081 L 3.1338541,6.2322822 Z"
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.21653543"
        cy="6.0787406"
        cx="3.4448776"
        id="circle5045"
        style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189" />
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
+    <g
+       id="g19653"
+       style="display:inline"
+       transform="translate(-12.51222,2.0887882)"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png"
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191">
+      <rect
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#c8b7b7;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.0208333;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.993004;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="rect1977"
+         width="1.188189"
+         height="0.55000001"
+         x="14.870878"
+         y="2.9275503" />
+      <path
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#c8b7b7;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.0208333;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="path2099"
+         sodipodi:type="arc"
+         sodipodi:cx="14.870882"
+         sodipodi:cy="3.2025514"
+         sodipodi:rx="0.23385818"
+         sodipodi:ry="0.23385818"
+         sodipodi:start="1.5707963"
+         sodipodi:end="4.712389"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="m 14.870882,3.4364095 a 0.23385818,0.23385818 0 0 1 -0.202527,-0.116929 0.23385818,0.23385818 0 0 1 0,-0.2338582 0.23385818,0.23385818 0 0 1 0.202527,-0.1169291" />
+      <path
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#c8b7b7;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.0208333;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="path2103"
+         sodipodi:type="arc"
+         sodipodi:cx="-16.059067"
+         sodipodi:cy="3.2025514"
+         sodipodi:rx="0.23385818"
+         sodipodi:ry="0.23385818"
+         sodipodi:start="1.5707963"
+         sodipodi:end="4.712389"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="m -16.059067,3.4364095 a 0.23385818,0.23385818 0 0 1 -0.202527,-0.116929 0.23385818,0.23385818 0 0 1 0,-0.2338582 0.23385818,0.23385818 0 0 1 0.202527,-0.1169291"
+         transform="scale(-1,1)" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer14"
      inkscape:label="Art"
-     style="display:inline">
+     style="display:none">
     <rect
        y="1.1574808"
        x="1.9685031"
@@ -1813,20 +1923,6 @@
        inkscape:export-xdpi="999.99945"
        inkscape:export-ydpi="999.99945"
        inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_art.png" />
-    <text
-       inkscape:export-ydpi="999.99945"
-       inkscape:export-xdpi="999.99945"
-       id="text904"
-       y="5.4223704"
-       x="2.7952757"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.138889px;line-height:0;font-family:'Noto Sans Display';-inkscape-font-specification:'Noto Sans Display, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       xml:space="preserve"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_art.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.138889px;font-family:'Copasetic NF';-inkscape-font-specification:'Copasetic NF, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.0104167"
-         y="5.4223704"
-         x="2.7952757"
-         id="tspan902"
-         sodipodi:role="line">OFF</tspan></text>
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
@@ -1898,17 +1994,7 @@
      inkscape:groupmode="layer"
      id="layer16"
      inkscape:label="Labels"
-     style="display:inline">
-    <rect
-       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00707674;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect2770"
-       width="0.43307099"
-       height="0.23622033"
-       x="2.7165365"
-       y="4.7007875"
-       inkscape:export-xdpi="999.99945"
-       inkscape:export-ydpi="999.99945"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_art.png" />
+     style="display:none">
     <flowRoot
        transform="matrix(0.01041667,0,0,0.01041667,-2.4632552e-6,0.590545)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:0;font-family:'Noto Sans Display';-inkscape-font-specification:'Noto Sans Display, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -3412,16 +3498,16 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.138889px;line-height:0;font-family:'Noto Sans Display';-inkscape-font-specification:'Noto Sans Display, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       x="2.4606299"
-       y="5.1732283"
+       x="2.5590553"
+       y="5.5669293"
        id="text2742"
        inkscape:export-xdpi="999.99945"
        inkscape:export-ydpi="999.99945"
        inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_art.png"><tspan
          sodipodi:role="line"
          id="tspan2740"
-         x="2.4606299"
-         y="5.1732283"
+         x="2.5590553"
+         y="5.5669293"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.138889px;font-family:'Copasetic NF';-inkscape-font-specification:'Copasetic NF, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.0104167">HARD</tspan></text>
     <circle
        inkscape:export-ydpi="999.99945"
@@ -3696,38 +3782,18 @@
        cy="6.0787406"
        r="0.27559054"
        inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_art.png" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.03125;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 2.4606277,6.0787439 c 0,0 2.2e-6,-0.7086652 2.2e-6,-0.7086652"
-       id="path5065"
-       inkscape:path-effect="#path-effect5067"
-       inkscape:original-d="m 2.4606277,6.0787439 2.2e-6,-0.7086652"
-       sodipodi:nodetypes="cc"
-       inkscape:export-xdpi="999.99945"
-       inkscape:export-ydpi="999.99945"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_art.png" />
-    <rect
-       y="5.5669289"
-       x="2.2834647"
-       height="0.15748055"
-       width="0.35433057"
-       id="rect2784"
-       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00707674;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="999.99945"
-       inkscape:export-ydpi="999.99945"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_art.png" />
     <text
        inkscape:export-ydpi="999.99945"
        inkscape:export-xdpi="999.99945"
        id="text2738"
-       y="5.6850395"
-       x="2.4533153"
+       y="5.5798512"
+       x="3.3464568"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.138889px;line-height:0;font-family:'Noto Sans Display';-inkscape-font-specification:'Noto Sans Display, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        xml:space="preserve"
        inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_art.png"><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.138889px;font-family:'Copasetic NF';-inkscape-font-specification:'Copasetic NF, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.0104167"
-         y="5.6850395"
-         x="2.4533153"
+         y="5.5798512"
+         x="3.3464568"
          id="tspan2736"
          sodipodi:role="line">SOFT</tspan></text>
     <path
@@ -4121,20 +4187,20 @@
          x="-5.0944877"
          id="tspan2581"
          sodipodi:role="line">SIN SYMM</tspan></text>
-    <circle
-       r="0.17716536"
-       style="display:inline;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle3536-9"
-       cx="2.4606299"
-       cy="5.3700786"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_art.png"
+    <text
+       inkscape:export-ydpi="999.99945"
        inkscape:export-xdpi="999.99945"
-       inkscape:export-ydpi="999.99945" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer6"
-     inkscape:label="Labels 1">
+       id="text904"
+       y="5.5669293"
+       x="2.952755"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.138889px;line-height:0;font-family:'Noto Sans Display';-inkscape-font-specification:'Noto Sans Display, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;display:inline;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_art.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.138889px;font-family:'Copasetic NF';-inkscape-font-specification:'Copasetic NF, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.0104167"
+         y="5.5669293"
+         x="2.952755"
+         id="tspan902"
+         sodipodi:role="line">OFF</tspan></text>
     <text
        id="text1687-2"
        y="3.2686291"
@@ -4165,6 +4231,12 @@
          x="2.5849752"
          y="3.2703495"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.241088px;font-family:'Copasetic NF';-inkscape-font-specification:'Copasetic NF, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.0104245">0</tspan></text>
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.03125;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="m 2.4606307,6.078744 c 0,0 0.4921262,-0.4330729 0.4921262,-0.4330729"
+       id="path20488"
+       inkscape:path-effect="#path-effect20490"
+       inkscape:original-d="M 2.4606307,6.078744 2.9527569,5.6456711" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -4174,7 +4246,7 @@
     <g
        id="g3835"
        transform="translate(11.811027,-0.59055776)"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191">
       <circle
@@ -4197,7 +4269,7 @@
     <g
        id="g3844"
        transform="translate(11.811023,0.59054466)"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191">
       <circle
@@ -4220,7 +4292,7 @@
     <g
        id="g3827"
        transform="translate(11.811023,-1.7716598)"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191">
       <circle
@@ -4243,7 +4315,7 @@
     <g
        id="g3819"
        transform="translate(9.8425215,-0.19685658)"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191">
       <circle
@@ -4269,7 +4341,7 @@
        transform="translate(8.3343378,8.480309)"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png">
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <circle
          transform="scale(-1,1)"
          r="0.062992252"
@@ -4298,7 +4370,7 @@
        id="g9871"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png">
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <circle
          style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle9865"
@@ -4327,7 +4399,7 @@
        id="g9855"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png">
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <circle
          style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle9849"
@@ -4356,7 +4428,7 @@
        transform="translate(4.7440947,0.8425149)"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png">
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png">
       <circle
          transform="scale(-1,1)"
          r="0.062992252"
@@ -4694,7 +4766,7 @@
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2501"
@@ -4702,7 +4774,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2503"
@@ -4710,7 +4782,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle2551"
@@ -4719,7 +4791,7 @@
        r="0.19685039"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 2.4606269,7.9488241 V 8.1456746"
@@ -4727,7 +4799,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 2.5590519,8.0472493 h -0.19685"
@@ -4735,7 +4807,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        cy="0.37007904"
        cx="-6.7421227"
@@ -4753,31 +4825,6 @@
        d="m -6.7027519,0.3700799 h -0.07874"
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <circle
-       cy="5.3700786"
-       cx="2.4606299"
-       id="circle2304"
-       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       r="0.13779527"
-       inkscape:export-xdpi="1000.0191"
-       inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path2306"
-       d="M 2.4606253,5.2716542 V 5.4685047"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="1000.0191"
-       inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path2308"
-       d="m 2.5590503,5.3700794 h -0.19685"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="1000.0191"
-       inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
-    <circle
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle2310"
        cx="2.4606314"
@@ -4785,7 +4832,7 @@
        r="0.19685039"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 2.4606269,5.9803168 V 6.1771673"
@@ -4793,7 +4840,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 2.5590519,6.078742 h -0.19685"
@@ -4801,7 +4848,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.19685039"
        cy="7.0629916"
@@ -4810,7 +4857,7 @@
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2318"
@@ -4818,7 +4865,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2320"
@@ -4826,7 +4873,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle2322"
@@ -4835,7 +4882,7 @@
        r="0.19685039"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 4.4291338,6.9645669 V 7.1614174"
@@ -4843,7 +4890,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 4.5275588,7.0629921 h -0.19685"
@@ -4851,7 +4898,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.19685039"
        cy="7.0629916"
@@ -4860,7 +4907,7 @@
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2330"
@@ -4868,7 +4915,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2332"
@@ -4876,7 +4923,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle2334"
@@ -4885,7 +4932,7 @@
        r="0.19685039"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 5.4133814,7.9488194 V 8.1456699"
@@ -4893,7 +4940,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 5.5118064,8.0472446 h -0.19685"
@@ -4901,7 +4948,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.19685039"
        cy="8.0472441"
@@ -4910,7 +4957,7 @@
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2342"
@@ -4918,7 +4965,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2344"
@@ -4926,7 +4973,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle2346"
@@ -4935,7 +4982,7 @@
        r="0.19685039"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 3.4448819,7.9488194 V 8.1456699"
@@ -4943,7 +4990,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 3.5433069,8.0472446 h -0.19685"
@@ -4951,7 +4998,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.049212597"
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -4960,7 +5007,7 @@
        cy="3.9133847"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 5.6692874,3.8740145 v 0.07874"
@@ -4968,7 +5015,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 5.7086614,3.9133856 h -0.07874"
@@ -4976,7 +5023,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        cy="4.3070855"
        cx="5.669291"
@@ -4985,7 +5032,7 @@
        r="0.049212597"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2376"
@@ -4993,7 +5040,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2378"
@@ -5001,7 +5048,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.049212597"
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -5010,7 +5057,7 @@
        cy="4.7007866"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 5.6692874,4.661416 v 0.07874"
@@ -5018,7 +5065,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 5.7086614,4.7007871 h -0.07874"
@@ -5026,7 +5073,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        cy="2.7322826"
        cx="5.6692905"
@@ -5035,7 +5082,7 @@
        r="0.049212597"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2420"
@@ -5043,7 +5090,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2422"
@@ -5051,7 +5098,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.049212597"
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -5060,7 +5107,7 @@
        cy="3.1259835"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 5.6692874,3.0866131 v 0.07874"
@@ -5068,7 +5115,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 5.7086614,3.1259842 h -0.07874"
@@ -5076,7 +5123,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        cy="3.5196843"
        cx="5.6692905"
@@ -5085,7 +5132,7 @@
        r="0.049212597"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2432"
@@ -5093,7 +5140,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path2434"
@@ -5101,7 +5148,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.098425195"
        style="opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -5110,7 +5157,7 @@
        cy="6.0800681"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 4.9212596,6.0406973 v 0.07874"
@@ -5118,7 +5165,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 4.9606298,6.0787401 h -0.07874"
@@ -5126,7 +5173,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.19685039"
        cy="6.0787401"
@@ -5135,7 +5182,7 @@
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path5051"
@@ -5143,7 +5190,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        inkscape:connector-curvature="0"
        id="path5053"
@@ -5151,7 +5198,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <circle
        r="0.049212597"
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -5160,7 +5207,7 @@
        cy="5.0944872"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 5.6692874,5.0551168 v 0.07874"
@@ -5168,7 +5215,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 5.7086614,5.0944879 h -0.07874"
@@ -5176,11 +5223,11 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <g
        id="g3852"
        transform="translate(11.811026,1.7729743)"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191">
       <circle
@@ -5208,7 +5255,7 @@
        r="0.19685039"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 2.9527503,2.4370083 V 2.6338588"
@@ -5216,7 +5263,7 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 3.0511753,2.5354335 h -0.19685"
@@ -5224,37 +5271,64 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="1000.0191"
        inkscape:export-ydpi="1000.0191"
-       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_holes.png" />
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png" />
+    <rect
+       style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0208333;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.993004;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect15223"
+       width="0.7901575"
+       height="0.21692914"
+       x="2.5576742"
+       y="5.1828742"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png"
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191" />
+    <circle
+       style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0208333;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="path2231"
+       cx="2.2498004"
+       cy="5.2913384"
+       r="0.070078738"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png"
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191" />
+    <circle
+       style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0208333;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="circle2483"
+       cx="3.6557052"
+       cy="5.2913384"
+       r="0.070078738"
+       inkscape:export-filename="/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/VCO/Hero VCO/Images/herovco_panel_behind.png"
+       inkscape:export-xdpi="1000.0191"
+       inkscape:export-ydpi="1000.0191" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer13"
      inkscape:label="Alignment"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:none">
     <path
-       style="opacity:0.83800001;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.02083333;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:0.838;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0208333;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 1.1811028,5.0944898 H 1.5748036"
        id="path1437"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="300.03741"
        inkscape:export-ydpi="300.03741" />
     <path
-       style="opacity:0.83800001;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.02083334;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:0.838;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0208333;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 3.3464577,5.0944898 h 0.393701"
        id="path1439"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="300.03741"
        inkscape:export-ydpi="300.03741" />
     <path
-       style="opacity:0.83800001;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.02083334;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:0.838;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0208333;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 2.4606307,0.7637797 V 0.37007879"
        id="path1441"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="300.03741"
        inkscape:export-ydpi="300.03741" />
     <path
-       style="opacity:0.83800001;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.02083334;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:0.838;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0208333;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 2.4606307,9.4251999 V 9.8189007"
        id="path1443"
        inkscape:connector-curvature="0"
@@ -5265,7 +5339,7 @@
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="Panel Hardware"
-     style="display:inline">
+     style="display:none">
     <g
        id="g3230-5"
        style="display:inline"
@@ -6175,32 +6249,6 @@
          style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.0312499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <g
-       style="display:inline"
-       id="g2233"
-       transform="matrix(1.000002,0,0,1.000002,0.88582346,-0.71309134)"
-       inkscape:export-xdpi="101.33189"
-       inkscape:export-ydpi="101.33189">
-      <circle
-         r="0.15748031"
-         cy="6.0787182"
-         cx="1.5748031"
-         id="circle2227"
-         style="opacity:1;vector-effect:none;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <circle
-         r="0.11811024"
-         style="opacity:1;vector-effect:none;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="circle2229"
-         cx="1.5748031"
-         cy="6.0787182" />
-      <rect
-         y="5.8563037"
-         x="1.5427476"
-         height="0.22685447"
-         width="0.064111046"
-         id="rect2231"
-         style="opacity:1;vector-effect:none;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.0104167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
-    <g
        transform="matrix(1.000002,0,0,1.000002,3.9996691,0.10854584)"
        style="display:inline"
        id="g5063"
@@ -6360,6 +6408,111 @@
          id="path5167"
          d="M 2.3622056,6.4724214 V 6.6692718"
          style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.0312499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g19091"
+       transform="translate(-12.532983,1.6832677)">
+      <rect
+         style="font-variation-settings:normal;opacity:1;fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0208268;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.993004;stop-color:#000000;stop-opacity:1"
+         id="rect15531"
+         width="0.30708662"
+         height="0.21692914"
+         x="15.090657"
+         y="3.4996061" />
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0393701;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         d="m 15.244201,3.4996061 c 0,0 0,0.2169292 0,0.2169292"
+         id="path18871"
+         inkscape:path-effect="#path-effect18873"
+         inkscape:original-d="M 15.244201,3.4996061 V 3.7165353" />
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0393701;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         d="m 15.327533,3.4996061 c 0,0 0,0.2169292 0,0.2169292"
+         id="path19021"
+         inkscape:path-effect="#path-effect19025"
+         inkscape:original-d="M 15.327533,3.4996061 V 3.7165353" />
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0393701;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         d="m 15.160869,3.4996061 c 0,0 0,0.2169292 0,0.2169292"
+         id="path19027"
+         inkscape:path-effect="#path-effect19031"
+         inkscape:original-d="M 15.160869,3.4996061 V 3.7165353" />
+    </g>
+    <g
+       id="g19648"
+       transform="translate(-10.273454,2.1724771)"
+       style="display:inline">
+      <circle
+         style="font-variation-settings:normal;opacity:1;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0393701;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="circle19642"
+         cx="13.929159"
+         cy="3.1188612"
+         r="0.098425195" />
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0393701;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="path19644"
+         sodipodi:type="arc"
+         sodipodi:cx="13.929159"
+         sodipodi:cy="3.1188612"
+         sodipodi:rx="0.098425195"
+         sodipodi:ry="0.098425195"
+         sodipodi:start="0"
+         sodipodi:end="2.8797933"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="m 14.027584,3.1188612 a 0.09842519,0.09842519 0 0 1 -0.08558,0.097583 0.09842519,0.09842519 0 0 1 -0.107918,-0.072109" />
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0393701;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="path19646"
+         sodipodi:type="arc"
+         sodipodi:cx="-13.929159"
+         sodipodi:cy="-3.1188612"
+         sodipodi:rx="0.098425195"
+         sodipodi:ry="0.098425195"
+         sodipodi:start="0"
+         sodipodi:end="2.8797933"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="m -13.830734,-3.1188612 a 0.09842519,0.09842519 0 0 1 -0.08558,0.097583 0.09842519,0.09842519 0 0 1 -0.107919,-0.072109"
+         transform="scale(-1)" />
+    </g>
+    <g
+       id="g19640"
+       transform="translate(-11.687426,2.1724783)"
+       style="display:inline">
+      <circle
+         style="font-variation-settings:normal;opacity:1;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0393701;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="path19197"
+         cx="13.929159"
+         cy="3.1188612"
+         r="0.098425195" />
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0393701;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="circle19309"
+         sodipodi:type="arc"
+         sodipodi:cx="13.929159"
+         sodipodi:cy="3.1188612"
+         sodipodi:rx="0.098425195"
+         sodipodi:ry="0.098425195"
+         sodipodi:start="0"
+         sodipodi:end="2.8797933"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="m 14.027584,3.1188612 a 0.09842519,0.09842519 0 0 1 -0.08558,0.097583 0.09842519,0.09842519 0 0 1 -0.107918,-0.072109" />
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0393701;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         id="path19537"
+         sodipodi:type="arc"
+         sodipodi:cx="-13.929159"
+         sodipodi:cy="-3.1188612"
+         sodipodi:rx="0.098425195"
+         sodipodi:ry="0.098425195"
+         sodipodi:start="0"
+         sodipodi:end="2.8797933"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="m -13.830734,-3.1188612 a 0.09842519,0.09842519 0 0 1 -0.08558,0.097583 0.09842519,0.09842519 0 0 1 -0.107919,-0.072109"
+         transform="scale(-1)" />
     </g>
   </g>
   <g

@@ -1,0 +1,131 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,6.0.1-79c1e3a40b~116~ubuntu20.04.1*
+G04 #@! TF.CreationDate,2022-01-29T17:03:47-05:00*
+G04 #@! TF.ProjectId,herovco_switch,6865726f-7663-46f5-9f73-77697463682e,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Copper,L1,Top*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 6.0.1-79c1e3a40b~116~ubuntu20.04.1) date 2022-01-29 17:03:47*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD10RoundRect,0.250001X-0.799999X-0.799999X0.799999X-0.799999X0.799999X0.799999X-0.799999X0.799999X0*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD11C,2.100000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,WasherPad*
+%ADD12C,1.600000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD13R,1.600000X1.600000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD14C,1.600000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
+%ADD15C,0.250000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.P,J13,1,Pin_1*
+G04 #@! TO.N,Board_0-/Octave and sync switches/SYNCA_P*
+X153228200Y-92325400D03*
+G04 #@! TD*
+D11*
+G04 #@! TO.P,J14,1,Pin_1*
+G04 #@! TO.N,Board_0-/Octave and sync switches/SOFT_SYNCA_P*
+X153228200Y-103755400D03*
+G04 #@! TD*
+G04 #@! TO.P,J16,1,Pin_1*
+G04 #@! TO.N,Board_0-/Octave and sync switches/HARD_SYNCA_P*
+X143068200Y-92325400D03*
+G04 #@! TD*
+G04 #@! TO.P,J15,1,Pin_1*
+G04 #@! TO.N,Board_0-/Octave and sync switches/SOFT_SYNC_OFF_P*
+X143068200Y-103755400D03*
+G04 #@! TD*
+D12*
+G04 #@! TO.P,SW2,*
+G04 #@! TO.N,*
+X156438200Y-100820400D03*
+X140238200Y-95220400D03*
+D13*
+G04 #@! TO.P,SW2,1,1*
+G04 #@! TO.N,Board_0-/Octave and sync switches/HARD_SYNCA_P*
+X144338200Y-96770400D03*
+D14*
+G04 #@! TO.P,SW2,2,2*
+G04 #@! TO.N,Board_0-/Octave and sync switches/SYNCA_P*
+X149338200Y-96770400D03*
+G04 #@! TO.P,SW2,3,3*
+G04 #@! TO.N,Board_0-unconnected-(SW2-Pad3)*
+X151838200Y-96770400D03*
+G04 #@! TO.P,SW2,4,4*
+G04 #@! TO.N,Board_0-/Octave and sync switches/SOFT_SYNCA_P*
+X154338200Y-96770400D03*
+G04 #@! TO.P,SW2,5,5*
+G04 #@! TO.N,Board_0-/Octave and sync switches/SOFT_SYNC_OFF_P*
+X144338200Y-99270400D03*
+G04 #@! TO.P,SW2,6,6*
+G04 #@! TO.N,Board_0-/Octave and sync switches/SOFT_SYNCA_P*
+X149338200Y-99270400D03*
+G04 #@! TO.P,SW2,7,7*
+G04 #@! TO.N,Board_0-/Octave and sync switches/SOFT_SYNC_OFF_P*
+X151838200Y-99270400D03*
+G04 #@! TO.P,SW2,8,8*
+G04 #@! TO.N,Board_0-unconnected-(SW2-Pad8)*
+X154338200Y-99270400D03*
+G04 #@! TD*
+D15*
+G04 #@! TO.N,Board_0-/Octave and sync switches/HARD_SYNCA_P*
+X143068200Y-92325400D02*
+X144338200Y-93595400D01*
+X144338200Y-93595400D02*
+X144338200Y-96770400D01*
+G04 #@! TO.N,Board_0-/Octave and sync switches/SOFT_SYNCA_P*
+X153152000Y-97956600D02*
+X154338200Y-96770400D01*
+X153152000Y-97956600D02*
+X153152000Y-103679200D01*
+X150652000Y-97956600D02*
+X153152000Y-97956600D01*
+X149338200Y-99270400D02*
+X150652000Y-97956600D01*
+G04 #@! TO.N,Board_0-/Octave and sync switches/SOFT_SYNC_OFF_P*
+X143068200Y-103755400D02*
+X144338200Y-102485400D01*
+X150585600Y-100523000D02*
+X151838200Y-99270400D01*
+X145590800Y-100523000D02*
+X150585600Y-100523000D01*
+X144338200Y-99270400D02*
+X145590800Y-100523000D01*
+X144338200Y-102485400D02*
+X144338200Y-99270400D01*
+G04 #@! TO.N,Board_0-/Octave and sync switches/SYNCA_P*
+X153228200Y-92880400D02*
+X149338200Y-96770400D01*
+G04 #@! TD*
+M02*

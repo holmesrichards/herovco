@@ -1,0 +1,25 @@
+Drill report for herovco_panel.kicad_pcb
+Created on Sat Jan 29 15:48:48 2022
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'herovco_panel.drl' contains
+    plated through holes:
+    =============================================================
+    T1  3.200mm  0.1260"  (4 holes)  (with 4 slots)
+    T2  7.000mm  0.2756"  (5 holes)
+    T3  10.000mm  0.3937"  (11 holes)
+
+    Total plated holes count 20
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T4  2.500mm  0.0984"  (4 holes)
+
+    Total unplated holes count 4

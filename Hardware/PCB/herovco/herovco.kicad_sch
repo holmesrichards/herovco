@@ -2449,34 +2449,34 @@
       (reference "R31") (unit 1) (value "10k") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000619704e4/4bff3aa5-c675-4fb9-a7ea-3fe964b9da00"
-      (reference "R32") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R32") (unit 1) (value "100k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000619704e4/b8739552-f6e8-4363-b891-9e5c2fdb0f23"
-      (reference "R33") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R33") (unit 1) (value "100k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000619704e4/00000000-0000-0000-0000-000060ac12c4"
-      (reference "R34") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R34") (unit 1) (value "100k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000619704e4/00000000-0000-0000-0000-000061655593"
-      (reference "R35") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R35") (unit 1) (value "100k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000619704e4/00000000-0000-0000-0000-000061655952"
-      (reference "R36") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R36") (unit 1) (value "100k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000619704e4/00000000-0000-0000-0000-000061655c11"
-      (reference "R37") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R37") (unit 1) (value "100k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000619704e4/00000000-0000-0000-0000-000061655f36"
-      (reference "R38") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R38") (unit 1) (value "100k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000619704e4/00000000-0000-0000-0000-00006165615d"
-      (reference "R39") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R39") (unit 1) (value "100k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000619704e4/00000000-0000-0000-0000-000061656492"
-      (reference "R40") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R40") (unit 1) (value "100k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000619704e4/00000000-0000-0000-0000-000061898c80"
-      (reference "R41") (unit 1) (value "10k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R41") (unit 1) (value "100k 1/8W") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000619fd1d7/00000000-0000-0000-0000-0000615fb0de"
       (reference "R42") (unit 1) (value "30k") (footprint "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")

@@ -1345,7 +1345,7 @@
   )
 
   (symbol (lib_id "ao_symbols:3_pin_Molex_connector") (at 137.16 123.19 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom yes) (on_board no)
     (uuid 00000000-0000-0000-0000-000061a5ea38)
     (property "Reference" "J12" (id 0) (at 137.16 115.57 0))
     (property "Value" "3_pin_Molex_connector" (id 1) (at 140.97 118.11 0))

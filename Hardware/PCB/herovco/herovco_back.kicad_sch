@@ -1143,10 +1143,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 545a4e77-977c-402e-b99c-d1155a4ca13c)
   )
-  (text "SINE\nTRIMMERS" (at 27.94 107.95 0)
-    (effects (font (size 3.81 3.81)) (justify left bottom))
-    (uuid 92609e3c-51ce-41db-aa18-16e9d5c3e654)
-  )
   (text "Kassutronics used 100k feedback resistors and\nsimilarly large values for voltage divider resistors. \nAS3340 datasheet calls for a 51k pulldown \non pin 4, so I reduced the voltage divider \nresistances by a factor ~ (51k/(180k+100k)). \nOp amp resistances were reduced by a factor \nof 10. Then stabilization caps were increased \nmore to make 1/(2πRC) ~ 50kHz."
     (at 181.61 156.21 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

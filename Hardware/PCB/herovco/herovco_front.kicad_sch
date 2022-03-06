@@ -3880,7 +3880,7 @@
     (uuid 00000000-0000-0000-0000-000061817387)
     (property "Reference" "U6" (id 0) (at 241.3 47.1932 0))
     (property "Value" "L79L05_TO92" (id 1) (at 241.3 49.5046 0))
-    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline" (id 2) (at 241.3 48.26 0)
+    (property "Footprint" "ao_tht:TO-92_Inline_Wide" (id 2) (at 241.3 48.26 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "http://www.farnell.com/datasheets/1827870.pdf" (id 3) (at 241.3 53.34 0)

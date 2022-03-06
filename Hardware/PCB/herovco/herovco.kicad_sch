@@ -2686,7 +2686,7 @@
       (reference "U5") (unit 1) (value "LM4040BIZ-5") (footprint "ao_tht:TO-92_Inline_Wide")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-000061817387"
-      (reference "U6") (unit 1) (value "L79L05_TO92") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "U6") (unit 1) (value "L79L05_TO92") (footprint "ao_tht:TO-92_Inline_Wide")
     )
     (path "/00000000-0000-0000-0000-0000619fd1d7/00000000-0000-0000-0000-000062fc82dc"
       (reference "U7") (unit 1) (value "TL074") (footprint "ao_tht:DIP-14_W7.62mm_Socket_LongPads")

@@ -2341,37 +2341,37 @@
       (reference "J17") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061a0b1ab/00000000-0000-0000-0000-00005f51c6b5"
-      (reference "J18") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN")
+      (reference "J18") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN_slots")
     )
     (path "/00000000-0000-0000-0000-000061a0b1ab/00000000-0000-0000-0000-00005f51c6c4"
-      (reference "J19") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN")
+      (reference "J19") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN_slots")
     )
     (path "/00000000-0000-0000-0000-000061a0b1ab/00000000-0000-0000-0000-00005f51c6d3"
-      (reference "J20") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN")
+      (reference "J20") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN_slots")
     )
     (path "/00000000-0000-0000-0000-000061a0b1ab/00000000-0000-0000-0000-00005f51c6e2"
-      (reference "J21") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN")
+      (reference "J21") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN_slots")
     )
     (path "/00000000-0000-0000-0000-000061a0b1ab/00000000-0000-0000-0000-00005f51c6f1"
-      (reference "J22") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN")
+      (reference "J22") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN_slots")
     )
     (path "/00000000-0000-0000-0000-000061a0b1ab/00000000-0000-0000-0000-00005f682bb2"
       (reference "J23") (unit 1) (value "Synth_power_2x5") (footprint "ao_tht:Power_Header")
     )
     (path "/00000000-0000-0000-0000-000061a0b1ab/00000000-0000-0000-0000-00005f50439c"
-      (reference "J24") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN")
+      (reference "J24") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN_slots")
     )
     (path "/00000000-0000-0000-0000-000061a0b1ab/00000000-0000-0000-0000-00005f5068d3"
-      (reference "J25") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN")
+      (reference "J25") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN_slots")
     )
     (path "/00000000-0000-0000-0000-000061a0b1ab/00000000-0000-0000-0000-00005f507367"
-      (reference "J26") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN")
+      (reference "J26") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN_slots")
     )
     (path "/00000000-0000-0000-0000-000061a0b1ab/00000000-0000-0000-0000-00005f5084a6"
-      (reference "J27") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN")
+      (reference "J27") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN_slots")
     )
     (path "/00000000-0000-0000-0000-000061a0b1ab/00000000-0000-0000-0000-000060902f15"
-      (reference "J28") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN")
+      (reference "J28") (unit 1) (value "AudioJack2") (footprint "ao_tht:Jack_6.35mm_PJ_629HAN_slots")
     )
     (path "/00000000-0000-0000-0000-0000619fd1d7/00000000-0000-0000-0000-00006162715e"
       (reference "Q1") (unit 1) (value "2N3904") (footprint "ao_tht:TO-92_Inline_Wide")

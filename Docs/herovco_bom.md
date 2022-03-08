@@ -39,7 +39,7 @@ Generated from schematic by Eeschema 6.0.2-378541a8eb~116~ubuntu20.04.1
 | R23, R24, R65, R66, R67 | 5 | 1k | Resistor |  |  | Tayda |  |
 | R25 | 1 | 240k | Resistor |  |  | Tayda |  |
 | R30, R49, R50 | 3 | 20k | Resistor |  |  | Tayda |  |
-| R32\*, R33\*, R34\*, R35\*, R36\*, R37\*, R38\*, R39\*, R40\*, R41\* | 10 | 100k 1/8W | Resistor |  |  | Tayda |  |
+| R32\*, R33\*, R34\*, R35\*, R36\*, R37\*, R38\*, R39\*, R40\*, R41\* | 10 | 10k 1/8W | Resistor |  |  | Tayda |  |
 | R42 | 1 | 30k | Resistor |  |  | Tayda |  |
 | R43, R48 | 2 | 2.2k | Resistor |  |  | Tayda |  |
 | R45 | 1 | 390R | Resistor |  |  | Tayda |  |
@@ -61,4 +61,4 @@ Generated from schematic by Eeschema 6.0.2-378541a8eb~116~ubuntu20.04.1
 | U6 | 1 | L79L05_TO92 | Negative 100mA -30V Linear Regulator, Fixed Output -5V, TO-92 |  |  |  |  |
     
 
-\* R4, R5, R6, R10 should be matched to within 0.1k. R9, R12 should be matched to within 0.01 k. R32–R41 should be matched to within 0.1k. These are specified as 1/8W only because the smaller size fits nicely between the rotary switch pins. 1/4W is fine, just more ungainly.
+\* R4, R5, R6, R10 should be matched to within 0.1k. R9, R12 should be matched to within 0.01 k. R32–R41 should be matched to within 0.01k. These are specified as 1/8W only because the smaller size fits nicely between the rotary switch pins. 1/4W is fine, just more ungainly.

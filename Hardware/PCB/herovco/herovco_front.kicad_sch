@@ -2337,8 +2337,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 496a83bf-6923-4df5-830a-78d1a12cb78e)
   )
-  (text "For VCC=12V, PWM_IN value for 100% PW is typically 4.0 V, maximum 4.3 V.\nWith PWMIN=0, PULSE_WIDTH ±12 V becomes ∓5 V at op amp output.\nWith PULSE_WIDTH=0, PWM_IN ±5 V becomes ∓5 V at op amp output.\nEither way LINK_OUT_PW becomes ±5 V. (Larger range if both CVs are nonzero.)\nAt top of trimmer V is 5.5 to 0 V. Adjust trimmer to get correct upper limit.\n"
-    (at 147.32 162.56 0)
+  (text "For VCC=12V, PWM_IN value for 100% PW is typically 4.0 V, maximum 4.3 V.\nWith PWMIN=0, PULSE_WIDTH ±12 V becomes ∓5 V at op amp output.\nWith PULSE_WIDTH=0, PWM_IN ±5 V becomes ∓5 V at op amp output.\nEither way LINK_OUT_PW becomes ±5 V. (Larger range if both CVs are nonzero.)\nAt top of trimmer V is 5.5 to 0 V. Adjust trimmer to get correct upper limit.\nNote increased CV gives decreased width of high value."
+    (at 143.51 163.83 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4b534cd1-c414-4029-9164-e46766faf60e)
   )

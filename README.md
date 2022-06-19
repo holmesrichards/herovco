@@ -50,6 +50,7 @@ See build notes for mitigations. These issues have been corrected in the design 
 ## Photos
 
 ![](Images/herovco.jpg)
+![](Images/herovco_back.jpg)
 
 ## Documentation
 

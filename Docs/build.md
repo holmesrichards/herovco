@@ -9,6 +9,9 @@ The first PCB run (v0.91) had some minor issues, easily worked around:
 - Slide switch footprint is incorrect. Electrically it is fine but the two holes for the mounting pins are placed wrong. I just cut the mounting pins off the switch and relied on the terminals to hold it in place.
 - Resistors R2, R19, R20, and R30, located between the trimmer footprints on the front board on the same side as the other non-pot components, make it a little awkward to solder those trimmers later. You can move those resistors to the other side of the PCB to solve that. (In later versions the silkscreen shows these on the pots side of the board.)
 
+## Which chip
+
+The design specifies and assumes the Alfa AS3340A VCO chip, an improvement to the AS3340, although the AS3340 or Curtis CEM3340 probably would work. I have not tested either extensively. The CEM datasheet says the pulse output should have a 10k pulldown, versus 51k for the AS3340(A), though reportedly anything in that range works acceptably for either (see Sam Battle's LMNC 1222 schematic). If using CEM and you want to stick to the datasheet you could try changing R53 from 33k to 6.2k and R55 from 18k to 3.6k.
 
 ## Resistor matching
 

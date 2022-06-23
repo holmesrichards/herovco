@@ -58,6 +58,7 @@ See build notes for mitigations. These issues have been corrected in the design 
 * PCB layout: [front](Docs/herovco_layout_front.pdf), [back](Docs/herovco_layout_back.pdf)
 * [BOM](Docs/herovco_bom.md)
 * [Build notes](Docs/build.md)
+* [How it works](Docs/howitworks.md)
 * [Blog post](https://analogoutputblog.wordpress.com/2022/06/20/hero-and-sidekick/)
 
 ## GitHub repository

@@ -2620,10 +2620,10 @@
       (reference "RV4") (unit 1) (value "100k") (footprint "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000610e03d6"
-      (reference "RV5") (unit 1) (value "20k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_screw_centered")
+      (reference "RV5") (unit 1) (value "10k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_screw_centered")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-0000610e24f2"
-      (reference "RV6") (unit 1) (value "20k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_screw_centered")
+      (reference "RV6") (unit 1) (value "10k") (footprint "ao_tht:Potentiometer_Bourns_3296W_Vertical_screw_centered")
     )
     (path "/00000000-0000-0000-0000-000061942543/00000000-0000-0000-0000-00006154c867"
       (reference "RV7") (unit 1) (value "100k") (footprint "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_centered")

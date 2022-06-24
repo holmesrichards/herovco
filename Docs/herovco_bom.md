@@ -48,8 +48,7 @@ Generated from schematic by Eeschema 6.0.5-a6ca702e91~116~ubuntu20.04.1
 | R53 | 1 | 33k | Resistor |  |  | Tayda |  |
 | R59, R60, R61 | 3 | 9.1k | Resistor |  |  | Tayda |  |
 | RV1, RV3, RV4, RV7, RV8 | 5 | 100k | Board mount linear potentiometer |  |  | Tayda | A-1848 or A-5513 |
-| RV2 | 1 | 10k | 3296W trimmer potentiometer |  |  | Tayda | A-586 |
-| RV5, RV6 | 2 | 20k | 3296W trimmer potentiometer |  |  | Tayda | A-592 |
+| RV2, RV5, RV6 | 3 | 10k | 3296W trimmer potentiometer |  |  | Tayda | A-586 |
 | RV9, RV10, RV11 | 3 | 50k | 3296W trimmer potentiometer |  |  | Tayda | A-598 |
 | RV12 | 1 | 5k | 3296W trimmer potentiometer |  |  | Tayda | A-597 |
 | SW1 | 1 | SW_Rotary12 | rotary switch with 12 positions |  |  | Tayda | A-1893 |
